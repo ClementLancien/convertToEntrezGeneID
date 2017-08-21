@@ -1,0 +1,11 @@
+db.GI_transcript.aggregate([{"$group" : { "_id": {"BDID":"$BDID","GeneID":"$GeneID"},"uniqueIds":{"$addToSet":"$_id"},"count":{"$sum":1}}},{"$match":{"count":{"$gt":1}}}],{allowDiskUse :true})
+
+
+
+
+db.GeneInfo.aggregate([{"$group" : { "_id": {"GeneID":"$GeneID"},"uniqueIds":{"$addToSet":"$_id"},"count":{"$sum":1}}},{"$match":{"count":{"$gt":1}}}],{allowDiskUse :true})
+
+
+
+
+

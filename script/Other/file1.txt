@@ -1,0 +1,1357 @@
+(G4120A) Reannotated 020504 GPL1307 Mus musculus Agilent Mouse Development Oligo Microarray  
+human (AMADID 011412) GPL4475 Homo sapiens MPIIB custom  
+microarray quad 5000 GPL1521 Homo sapiens cDNA  
+yeast ORF 3265-4161 GPL4303 Saccharomyces cerevisiae ISB  
+KW20 array 2236 GPL3870 Haemophilus influenzae Rd KW20 Nimblegen Haemophilus influenzae Rd  
+vannamei microarray 2005 GPL3817 Litopenaeus vannamei L  
+heart microarray 2005 GPL3748 Mus musculus BMFZ Mouse  
+Feb 17 2003 GPL966 Oncorhynchus mykiss Salmonid 3600 -  
+Time Course 2003 GPL3061 Rattus norvegicus MCW Rattus norvegicus 2K Array  
+Time Course 2002 GPL3076 Rattus norvegicus MCW Rattus norvegicus 2K Array  
+(Arabidopsis Pathoarray) 464_001 GPL3638 Arabidopsis thaliana The miniarray  
+CGH Array 300 GPL3709 Homo sapiens Vysis GenoSensor  
+0 (lot 83,85,87) GPL6006 Saccharomyces cerevisiae Hitachisoft Hypergene Yeast Chip Ver.  
+5K - 65nt GPL1397 Rattus norvegicus Compugen Rat  
+AFGC Shauna 58 GPL1278 Arabidopsis thaliana Arabidopsis 15k  
+SWEGENE H_v2.1.1 55K GPL5345 Homo sapiens  
+sativa Rice 44K GPL5101 Oryza  
+sapiens Stanford 44k GPL2094 Homo  
+sapiens CHUGAI 41K GPL962 Homo  
+cDNA array 40-60K GPL2734 Mus musculus Spotted RIKEN  
+Homo sapiens 36k_arrayCGH8 GPL5114 Homo sapiens MPIMG  
+SMRT array 32k GPL2043 Homo sapiens BCCRC Lam  
+0 (lot 29,30,31) GPL5994 Saccharomyces cerevisiae Hitachisoft Hypergene Yeast Chip Ver.  
+oligo array 27K GPL5357 Mus musculus MWG Biotech MEEBO Long  
+sp. RHA1 22K) GPL3918 Rhodococcus jostii RHA1 MERH03-S1-0002 (Rhodococcus  
+Mouse Compugen 22k GPL1832 Mus musculus Ramaciotti Centre for Gene Function Analysis  
+Operon v2 21k) GPL3877 Homo sapiens PRHU05-S1-0006 (PC Human  
+0 (lot 21) GPL5992 Saccharomyces cerevisiae Hitachisoft Hypergene Yeast Chip Ver.  
+NIA Mouse 20k GPL3899 Mus musculus Vandy  
+VMSR Mus 20K GPL3771 Mus musculus  
+II, and 20K GPL1449 Homo sapiens GE Codelink Human Uniset I,  
+cDNA array 20-40K GPL2733 Mus musculus Spotted RIKEN  
+UHN SS-Human 19Kv7 GPL2829 Homo sapiens  
+Spot Human 19Kv6 GPL5872 Homo sapiens Ontario Cancer Insititute Single  
+Human Compugen 19K GPL3348 Homo sapiens SRC  
+series (Operon 19K) GPL2038 Mus musculus PBRC Mouse Oligo_M6+  
+Spot Human 19K4 GPL567 Homo sapiens UHN Microarray Centre - Single  
+Lausanne Mouse 17K GPL4371 Mus musculus UNI  
+NIA Mouse 17K_B GPL782 Mus musculus  
+NIA Mouse 17K_A GPL738 Mus musculus  
+Compugen Zebrafish 16K GPL3365 Danio rerio  
+UMC Yeast 16k1.2 GPL3246 Saccharomyces cerevisiae  
+GMRCL Human 15K GPL5354 Homo sapiens  
+Drosophila melanogaster 15K GPL5112 Drosophila melanogaster MLRG/DrosoIndac  
+OMRF zebrafish 15K GPL4481 Danio rerio  
+MoGene10stv1_Mm_REFSEQ version 14] GPL13455 Mus musculus [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [alternative CDF: Brainarray  
+FHCRC chicken 13K GPL2863 Gallus gallus  
+22k Print 13 GPL3463 Homo sapiens OMRF Microarray Core Facility Human  
+[Brainarray Version 12] GPL11209 Homo sapiens [HuGene10stv1_Hs_ENSG] Affymetrix GeneChip Human Gene 1.0 ST Array  
+[Brainarray Version 12] GPL10526 Homo sapiens [HG-U133_Plus_2] Affymetrix GeneChip Human Genome HG-U133 Plus 2 Array  
+Mouse4302_Mm_ENTREZG.cdf version 12.0.0) GPL9746 Mus musculus Affymetrix GeneChip Mouse Genome 430 2.0 Array (CDF:  
+Homo sapiens 11K_VJF-ARRAY GPL3282  
+Homo sapiens 10k_Print3 GPL167  
+Homo sapiens 10k_print2 GPL169  
+Homo sapiens 10k_print1 GPL168  
+Human Incyte 10K GPL2911 Homo sapiens Center for Functional Analysis of Human Genome  
+Rat Uniset 10K GPL1820 Rattus norvegicus  
+Hs133P_Hs_ENTREZG version 10) GPL9828 Homo sapiens [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array [CDF: Brainarray  
+[Brainarray Version 9] GPL6526 Mus musculus [Mouse4302_Mm_UG] Affymetrix GeneChip Mouse Genome 430 2.0 Array  
+Human Print 9/30/03 GPL1872 Homo sapiens OMRF Microarray Core Facility  
+array (Operon) 9.10.2002v2 GPL1226 Mus musculus Mouse 13.4K long oligonucleotide  
+GeneChip Arabidopsis 8k GPL2598 Arabidopsis thaliana Affymetrix  
+Incyte GEM1 8k GPL1511 Mus musculus  
+array print 8 GPL3664 Bacillus subtilis Bacillus subtilis whole genome  
+IMAGE GEM1 8.734K GPL3571 Mus musculus custom mouse  
+cDNA chip 7.5k GPL490 Homo sapiens GeneTrack® Human  
+taurus BOTL3 7_18_03 GPL363 Bos  
+v2.0 update 07.05.07 GPL5478 Oncorhynchus mykiss OSUrbt Oncorhynchus mykiss 1.6K  
+RPCI Mouse 6.5K GPL4714 Mus musculus  
+E. coli 6.5K GPL4698 Escherichia coli NIAID Ecab --  
+UHN Yeast 6.4kv6 GPL4567 Saccharomyces cerevisiae  
+UHN Yeast 6.4kv6 GPL2910 Saccharomyces cerevisiae  
+UHN Yeast 6.4kv4 GPL3245 Saccharomyces cerevisiae  
+UHN Yeast 6.4kv2 GPL3243 Saccharomyces cerevisiae  
+ORF, Version 6.4k GPL4641 Saccharomyces cerevisiae University Health Services (Toronto) Yeast  
+MG1363 amplicon 5K GPL5048 Lactococcus lactis subsp. cremoris MG1363 University of Groningen Lactococcus lactis  
+Homo sapiens 5K GPL170  
+5 of 5 GPL547 Homo sapiens Rosetta (Merck) Splicing Experiment, Chip  
+4 of 5 GPL546 Homo sapiens Rosetta (Merck) Splicing Experiment, Chip  
+3 of 5 GPL545 Homo sapiens Rosetta (Merck) Splicing Experiment, Chip  
+2 of 5 GPL544 Homo sapiens Rosetta (Merck) Splicing Experiment, Chip  
+1 of 5 GPL543 Homo sapiens Rosetta (Merck) Splicing Experiment, Chip  
+CGH-SANGER 3K 5 GPL3893 Homo sapiens  
+(Y6.4K), version 4 GPL4462 Saccharomyces cerevisiae Saccharomyces cerevisiae 6.4K array  
+array version 4 GPL3838 Solanum tuberosum Potato 10k cDNA  
+Commercial Oligo 3/Resident GPL1963 Mus musculus  
+platform version 3 GPL5173 Homo sapiens Bead-based microRNA profiling  
+Pain microarray 3 GPL4918 Rattus norvegicus  
+Pathogenic chip 3 GPL4692 Coxiella burnetii [RMLchip3a520351] Affymetrix RML Custom  
+CGH-SANGER 3K 3 GPL3889 Homo sapiens  
+Array Version 3 GPL2810 Arabidopsis thaliana Meyerowitz Lab Arabidopsis Operon  
+array version 3 GPL1902 Solanum tuberosum Potato 10k cDNA  
+Human Print 3 GPL1087 Homo sapiens OMRF Microarray Core Facility  
+UCSF HumArray 3.1 GPL4421 Homo sapiens  
+Array Version 2 GPL6257 Bacillus subtilis University of Amsterdam Bacillus subtilis 168 9.2K  
+Array Version 2 GPL5762 Arabidopsis thaliana Meyerowitz Lab Arabidopsis Operon  
+set, format 2 GPL5735 Mus musculus HGMP NIA 15K  
+Microglia Part 2 GPL562 Homo sapiens Abeta-activated  
+(1 of 2) GPL5457 Mus musculus NIA 15 K set arrays, printed by HGMP, Hinxton, UK. Slide 1-20  
+print layout 2 GPL5445 Homo sapiens Operon Human V2;  
+20K version 2 GPL5065 Mus musculus VMSR Mus  
+array version 2 GPL5056 Homo sapiens MHP Human Chromosome 1 tile path CGH  
+Pain microarray 2 GPL4917 Rattus norvegicus  
+microarray Platform 2 GPL4657 Pinus taeda Pinus taeda 5K cDNA  
+Microarray Version 2 GPL4585 Gallus gallus Chicken Immune Sytem-Specific  
+MWG version 2 GPL4049 Mus musculus Mouse oligo array from  
+palustris GeneChip 2 GPL3954 Rhodopseudomonas palustris Affymetrix Rhodopseudomonas  
+CGH-CHROM14 2K 2 GPL3894 Homo sapiens  
+CGH-SANGER 3K 2 GPL3888 Homo sapiens  
+microarray version 2 GPL3437 Mus musculus RIKEN Mouse Neues  
+CATMA version 2 GPL3357 Arabidopsis thaliana  
+oligos platform 2 GPL3153 Saccharomyces cerevisiae mwwlab yeast 70mer  
+Microarray Version 2 GPL2986 Homo sapiens ABI Human Genome Survey  
+16K version 2 GPL2716 Osmerus mordax GRASP  
+Array Version 2 GPL193 Homo sapiens Sigma Genosys Panorama Human Cytokine Gene  
+array version 2 GPL1901 Solanum tuberosum Potato 10k cDNA  
+Array UMB 2 GPL1423 Homo sapiens Meltzer  
+analysis (Layout 2). GPL1389 Mus musculus Mice microarray for muscular dystrophy  
+I, part 2 GPL10 Homo sapiens Human Unigene  
+meningitidis 053442 2.5K GPL5011 Neisseria meningitidis Neisseria  
+Homo sapiens 2.5K GPL4242 Homo sapiens UCSF  
+S. pneumoniae 2.3K GPL4001 Streptococcus pneumoniae University of London Bacterial Microarray Group at St George's  
+Mouse OligoLibrary 2.0 GPL3361 Mus musculus Compugen  
+set, version 2.0 GPL3108 Mus musculus Duke University Microarray Facility Operon Mouse Oligo  
+Human Array 2.0 GPL2011 Homo sapiens  
+Chip Ver. 2.0 GPL1945 Saccharomyces cerevisiae Hitachisoft Hypergene Yeast  
+oligo Gal 02.gal GPL958 Rattus norvegicus RAT  
+I, part 1 GPL9 Homo sapiens Human Unigene  
+array version 1 GPL965 Synechocystis sp. PCC 6803 Synechocysis sp. PCC6803 full genome  
+Microarray Version 1 GPL6511 Homo sapiens ABI Human Genome Survey  
+Microglia Part 1 GPL561 Homo sapiens Abeta-activated  
+print format 1 GPL5530 Mus musculus Cardiff Array Facility print of the NIA 15K set,  
+print layout 1 GPL5444 Homo sapiens Operon Human V2;  
+Arizona Aphid/Buchnera 1 GPL5347 Buchnera aphidicola  
+human ver 1 GPL506 Homo sapiens Sanger  
+array version 1 GPL5055 Homo sapiens MHP Human Chromosome 1 tile path CGH  
+Copies, Version 1 GPL4688 Pyrococcus furiosus DSM 3638 UGA - BMB - Adams Lab, P. furiosus, 2192 ORFs x 3  
+v2.0 Array 1 GPL3992 Homo sapiens Functional ID  
+CGH-CHROM14 2K 1 GPL3892 Homo sapiens  
+U74C Version 1 GPL34 Mus musculus Affymetrix GeneChip Murine Genome  
+U74B Version 1 GPL33 Mus musculus Affymetrix GeneChip Murine Genome  
+Set RZPD 1 GPL284 Homo sapiens Human UniGene  
+macroarray, version 1 GPL2811 Listeria monocytogenes Listeria monocytogenes (EGDe)  
+oligio array 1 GPL2510 Mus musculus Rosetta/Merck (C57BL/6J X C3H/HeJ)F2 on ApoE null backgrounds 75K  
+Pathogenic chip 1 GPL2129 Borreliella burgdorferi Affymetrix RML Custom  
+13.6k Oncochip 1 GPL1998 Homo sapiens CNIO H. sapiens  
+SetI Part 1 GPL1740 Homo sapiens HUMAN UNIGENE  
+array Mk 1 GPL1706 Spermophilus lateralis Spermophilus lateralis  
+Microarray Version 1 GPL1426 Homo sapiens ABI Human Genome Survey  
+analysis (Layout 1). GPL1388 Mus musculus Mice microarray for muscular dystrophy  
+Array Version 1 GPL1077 Arabidopsis thaliana Meyerowitz Lab Arabidopsis Operon  
+Album Arrays 1-6 GPL1794 Homo sapiens Incyte Human Gene  
+array, spots 1-19200 GPL3349 Homo sapiens CMF/NKI produced Human 18K cDNA  
+UCSF HUMAN 1.14 GPL3789 Homo sapiens  
+sapiens HumArray 1.14 GPL28 Homo  
+19k ver 1.0 GPL4868 Homo sapiens AMC-MAD Homo sapiens  
+array version 1.0 GPL4859 Eisenia fetida Earthworm 4K cDNA  
+Microarray version 1.0 GPL3609 Tursiops truncatus Tursiops truncatus cDNA  
+array version 1.0 GPL3265 Gallus gallus Chicken cDNA DDMET 1700  
+whipplei UR_TWT_version 1.0 GPL3210 Tropheryma  
+array version 1.0 GPL2814 Ictalurus punctatus Nimblegen channel catfish 382K oligo  
+Human Array 1.0 GPL2677 Homo sapiens  
+Mussel MytArray 1.0 GPL1799 Mytilus galloprovincialis  
+Mouse MuscleArray 1.0 GPL1523 Mus musculus  
+fish version 1.0 GPL1212 Oncorhynchus mykiss salmonid  
+Maize Unigene 1-02-01 GPL2984 Zea mays  
+6K Ver. 1.0.1 GPL5047 Escherichia coli MSU E. coli  
+Drosophila melanogaster 01_Drosophila_16K_Universitat_Barcelona GPL3797  
+2.0 (lot 01-37) GPL6057 Saccharomyces cerevisiae Hitachisoft Hypergene Yeast Chip Ver.  
+crescentus printing Z GPL2749 Caulobacter vibrioides Stanford Caulobacter  
+Danio rerio Zf_16.5K_oligo_COMP_v3Apx GPL2715  
+crescentus printing Y GPL2748 Caulobacter vibrioides Stanford Caulobacter  
+Saccharomyces cerevisiae yeast_v1_2.2 GPL67  
+Saccharomyces cerevisiae yeast_3_v1 GPL66  
+Saccharomyces cerevisiae yeast_384_F_v1.0 GPL65  
+Saccharomyces cerevisiae yeast32canada GPL920  
+SubD Array Ye6100subD GPL166 Saccharomyces cerevisiae Affymetrix GeneChip Yeast Genome 6K  
+SubC Array Ye6100subC GPL165 Saccharomyces cerevisiae Affymetrix GeneChip Yeast Genome 6K  
+SubB Array Ye6100subB GPL164 Saccharomyces cerevisiae Affymetrix GeneChip Yeast Genome 6K  
+Saccharomyces cerevisiae YB3 GPL1838  
+Saccharomyces cerevisiae yB2 GPL1837  
+Saccharomyces cerevisiae yB12 GPL1839  
+Saccharomyces cerevisiae y9 GPL64  
+Saccharomyces cerevisiae y80-Paul GPL61  
+Saccharomyces cerevisiae y802 GPL62  
+Saccharomyces cerevisiae y744 GPL59  
+Saccharomyces cerevisiae y6k_6400 GPL57  
+6.4K Array (Y6.4K) GPL3458 Saccharomyces cerevisiae University Health Network Yeast  
+Saccharomyces cerevisiae y16 GPL56  
+Saccharomyces cerevisiae y15 GPL55  
+Saccharomyces cerevisiae y14 GPL54  
+Saccharomyces cerevisiae y13 GPL53  
+Saccharomyces cerevisiae y12 GPL52  
+Saccharomyces cerevisiae y11 GPL51  
+Mus musculus VT1_JAX1_Oligo_02 GPL1299  
+19K oligo vSAE4 GPL2902 Homo sapiens VUMC MACF human  
+made from VMSR GPL1957 Mus musculus NIA mouse 15K  
+GPL3429 Viruses Viro3  
+(Feature Number version) GPL922 Mus musculus Agilent-011472 Mouse Development Oligo Microarray G4120A  
+(Feature Number version) GPL892 Oryza sativa Japonica Group Agilent-012106 Rice Oligo Microarray G4138A  
+(Feature Number version) GPL891 Mus musculus Agilent-011978 Mouse Microarray G4121A  
+(Feature Number version) GPL890 Rattus norvegicus Agilent-011868 Rat Oligo Microarray G4130A  
+(Feature Number version) GPL889 Magnaporthe grisea Agilent-011842 Magnaporthe grisea Oligo Microarray G4137A  
+(Feature Number version) GPL888 Arabidopsis thaliana Agilent-011839 Arabidopsis 2 Oligo Microarray G4136A  
+(Feature Number version) GPL887 Homo sapiens Agilent-012097 Human 1A Microarray (V2) G4110B  
+(Probe name version) GPL8852 Oryza sativa Agilent-015241 Rice Gene Expression 4x44K Microarray  
+(Feature Number version) GPL884 Saccharomyces cerevisiae Agilent-011447 Yeast Oligo Microarray G4140A  
+(Probe Name version) GPL7272 Caenorhabditis elegans Agilent-012795 C. elegans Oligo Microarray G2518A Option 002  
+(Probe Name version) GPL7202 Mus musculus Agilent-014868 Whole Mouse Genome Microarray 4x44K G4122F  
+beadchip [Array_Address_Id version] GPL6481 Mus musculus Illumina mouse-6 v1.1 expression  
+(Probe Name version) GPL6480 Homo sapiens Agilent-014850 Whole Human Genome Microarray 4x44K G4112F  
+[transcript (gene) version] GPL6247 Rattus norvegicus [RaGene-1_0-st] Affymetrix Rat Gene 1.0 ST Array  
+[transcript (gene) version] GPL6246 Mus musculus [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array  
+[transcript (gene) version] GPL6244 Homo sapiens [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array  
+- alternative version GPL6087 Homo sapiens Agilent-012097 Human 1A Microarray (V2) G4110B  
+array (condensed version) GPL5822 Streptococcus pyogenes Streptococcus pyogenes M1, M3, M18 GAS 2.3k  
+(Feature Number version) GPL4135 Rattus norvegicus Agilent-014879 Whole Rat Genome Microarray 4x44K G4131F  
+(Feature Number version) GPL4134 Mus musculus Agilent-014868 Whole Mouse Genome Microarray 4x44K G4122F  
+(Feature Number version) GPL4133 Homo sapiens Agilent-014850 Whole Human Genome Microarray 4x44K G4112F  
+(Feature Number version) GPL4129 Mus musculus Agilent-014717 Mouse Promoter ChIP-on-Chip Set 244K, Microarray 2 of 2 (G4490A)  
+(Feature Number version) GPL4128 Mus musculus Agilent-014716 Mouse Promoter ChIP-on-Chip Set 244K, Microarray 1 of 2 (G4490A)  
+(Feature Number version) GPL4125 Homo sapiens Agilent-014707 Human Promoter ChIP-on-Chip Set 244K, Microarray 2 of 2 G4489A  
+(Feature Number version) GPL4124 Homo sapiens Agilent-014706 Human Promoter ChIP-on-Chip Set 244K, Microarray 1 of 2 G4489A  
+(Feature Number version) GPL4092 Mus musculus Agilent-014695 Mouse Genome CGH Microarray 244A (G4415A)  
+(Feature number version) GPL4091 Homo sapiens Agilent-014693 Human Genome CGH Microarray 244A  
+(Feature Number version) GPL2883 Saccharomyces cerevisiae Agilent-013384 Yeast Oligo Microarray (V2) G4140B  
+(Feature Number version) GPL2882 Rattus norvegicus Agilent-013328 Rat Oligo Microarray (V2) G4130B  
+(Feature Number version) GPL2881 Mus musculus Agilent-013326 Mouse Oligo Microarray (V2) G4121B  
+(Feature number version) GPL2879 Homo sapiens Agilent-013282 Human Genome CGH Microarray 44B  
+(Feature Number version) GPL2877 Rattus norvegicus Agilent-013162 Whole Rat Genome Microarray G4131A  
+(Feature Number version) GPL2875 Caenorhabditis elegans Agilent-012795 C. elegans Oligo Microarray G2518A Option 002  
+(Feature number version) GPL2873 Homo sapiens Agilent-012750 Human Genome CGH Microarray 44A  
+(Feature Number version) GPL2872 Mus musculus Agilent-012694 Whole Mouse Genome G4122A  
+(Feature Number version) GPL2871 Arabidopsis thaliana Agilent-012600 Arabidopsis 3 Oligo Microarray (4142A  
+- alternate version GPL2864 Bos taurus UIUC Cattle 7,872-element cDNA  
+(Feature Number version) GPL1708 Homo sapiens Agilent-012391 Whole Human Genome Oligo Microarray G4112A  
+1 Chip Version GPL1292 Mus musculus Hitachisoft AceGene Mouse Oligo Chip 30k  
+1 Chip Version GPL1291 Homo sapiens Hitachisoft AceGene Human Oligo Chip 30K  
+[transcript (gene) version] GPL11533 Mus musculus [MoGene-1_1-st] Affymetrix Mouse Gene 1.1 ST Array  
+[transcript (gene) version] GPL11532 Homo sapiens [HuGene-1_1-st] Affymetrix Human Gene 1.1 ST Array  
+(Feature Number version) GPL11280 Rattus norvegicus Agilent-024196 Whole Rat Genome Microarray 4x44K  
+20K array version2 GPL4636 Mus musculus GSF/IEG mouse  
+Human 20K ver4.1 GPL1928 Homo sapiens CodeLink  
+MAGEX 401 ver1 GPL4801 Xenopus laevis ViagenX  
+XenRanaMAGEX 434 ver1 GPL4800 Xenopus laevis UVicHelbing  
+oligo microarray ver1 GPL477 Oryza sativa RICE  
+cDNA array ver.1 GPL3710 Daphnia magna Daphnia magna DGC  
+Glyco-gene Array ver1 GPL3465 Homo sapiens RIKEN Frontier Human 1K  
+cDNA microarray ver.1 GPL3181 Arabidopsis thaliana Narusaka Lab. Arabidopsis 1.2K Full-length  
+TakaraBio CyanoCHIP ver1.4-ver1.6 GPL4017 Synechocystis sp. PCC 6803  
+Homo sapiens VDX_Homo_sapiens_Breast_2 GPL2939  
+Vibrio cholerae VC-oligos GPL3052  
+Vibrio cholerae VCholerae_A GPL2742  
+cDNA Array v8 GPL4766 Homo sapiens FHCRC Human Prostate PEDB  
+microRNA array v8.0 GPL1899 Homo sapiens Human-mouse  
+Human 19K v7 GPL3639 Homo sapiens UHNMAC  
+EST microarray v7 GPL3515 Homo sapiens UHN-Toronto 19K single spotted Human  
+Splicing/Expression Chip v6 GPL1410 Saccharomyces cerevisiae Yeast  
+Splicing Chip v5.1 GPL1408 Saccharomyces cerevisiae Yeast  
+melanogaster 15K v5.0 GPL5983 Drosophila melanogaster INDAC Drosophila  
+Splicing Chip v5.0 GPL1370 Saccharomyces cerevisiae Yeast  
+pneumoniae TIGR4/R6 v4 GPL4681 Streptococcus pneumoniae Streptococcus  
+cDNA Array v4 GPL3834 Homo sapiens FHCRC Human Prostate PEDB  
+6K BAC v45 GPL2843 Homo sapiens VUMC MACF human  
+30K oligo v44 GPL2827 Homo sapiens VUMC MACF human  
+Splicing Chip v4.1 GPL1407 Saccharomyces cerevisiae Yeast  
+Splicing Chip v4.0 GPL108 Saccharomyces cerevisiae Yeast  
+Valencia yeast v3 GPL3763 Saccharomyces cerevisiae  
+30K oligo v36 GPL2834 Homo sapiens VUMC MACF human  
+19K oligo v33 GPL3255 Homo sapiens VUMC MACF human  
+Rat array v3.2 GPL5051 Rattus norvegicus TJU-DBI  
+30K oligo v31 GPL2826 Homo sapiens VUMC MACF human  
+Human 4.5k v30 GPL2992 Homo sapiens QIMR  
+Rat Chip v3.0 GPL1344 Rattus norvegicus NIEHS  
+Splicing Chip v3.0 GPL105 Saccharomyces cerevisiae Yeast  
+Valencia yeast v2 GPL772 Saccharomyces cerevisiae  
+smegmatis 30K v2 GPL4686 Mycobacterium smegmatis HatfullPitt Mycobacterium  
+K Blasto3773 v2 GPL4516 Blastocladiella emersonii USP Blastocladiella emersonii 4.6  
+22k Microarray v2 GPL4336 Drosophila melanogaster Okazaki Fly  
+22k Micorarray v2 GPL3936 Xenopus laevis Carnegie Xenopus laevis  
+cerevisiae ORFarray v2 GPL3756 Saccharomyces cerevisiae UCSF Madhani S.  
+sapiens Oncochip v.2 GPL2767 Homo  
+cruzi - v.2 GPL1484 Trypanosoma cruzi cDNA microarray Trymanosoma  
+Human 25k v2.2.1 GPL1749 Homo sapiens Rosetta (Merck)  
+Oligo Set v2.1 GPL5121 Homo sapiens DKFZ/Operon Human 11K  
+5K BAC v21 GPL3443 Homo sapiens VUMC MACF human  
+Oligo Set v2.1 GPL3367 Homo sapiens DKFZ/Operon Human  
+v1.0 and v2.1 GPL2859 Mus musculus Adelaide Microarray Facility CompuGen OligoLibrary Mouse 22k Hybrid of  
+sapiens 21K V2.1.2 GPL4104 Homo sapiens Tufts Homo  
+V_0 (Operon V2.0) GPL6647 Homo sapiens Micro-CRIBI Human Oligo Array  
+Hildenborough 7K v2.0 GPL5214 Desulfovibrio vulgaris str. Hildenborough VIMSS Desulfovibrio vulgaris  
+9a5c Biochip v.2.0 GPL4683 Xylella fastidiosa Xylella fastidiosa  
+Fly 7K v2.0 GPL4285 Drosophila melanogaster FHCRC  
+Survey Microarray v2.0 GPL3307 Homo sapiens ABI Human Genome  
+Takara CyanoChip v.2.0 GPL3214 Synechocystis sp. PCC 6803  
+Human Oncochip v2.0 GPL2621 Homo sapiens CNIO  
+Array (Operon V2.0) GPL2136 Homo sapiens Micro-CRIBI Human Oligo  
+mykiss 1.6K v2.0 GPL2096 Oncorhynchus mykiss OSUrbt Oncorhynchus  
+Chicken 13K v2.0 GPL1836 Gallus gallus FHCRC  
+Long Oligo, V1 GPL985 Mus musculus Operon  
+Mouse Ref-6 V1 GPL6333 Mus musculus Illumina  
+Arcobacter butzleri V1 GPL5726 Arcobacter butzleri USDA-ARS PSMRU  
+pertussis Oligoarray v.1 GPL5378 Bordetella pertussis Finnish Bordetella  
+MitoArray 6k v1 GPL5150 Homo sapiens UDMP Homo sapiens  
+TIGR4/R6 Array v1 GPL5053 Streptococcus pneumoniae University of London Streptococcus pneumoniae  
+3360 spots, v1 GPL4580 Acyrthosiphon pisum Pea aphid cDNA array, INRA Rennes,  
+mouse 12K v1 GPL4540 Mus musculus NCI/Staudt  
+cDNA microarray (v1) GPL4526 Taeniopygia guttata Zebra finch brain  
+Exeter 16K V1 GPL4375 Danio rerio Danio rerio  
+cDNA Array v1 GPL4045 Mus musculus FHCRC Mouse Prostate MPEDB  
+ChIP-on-chip array v1 GPL4029 Clostridium acetobutylicum ATCC 824 C. acetobutylicum ATCC824 22K  
+19.2K cDNA v1 GPL3962 Bos taurus UMC ASRC S140 Bos taurus  
+mansoni microarray v1 GPL3929 Schistosoma mansoni Schistosoma  
+salivary gland v.1 GPL3741 Amblyomma americanum OSU Tick  
+19k array v1 GPL3501 Homo sapiens UMCU Human  
+Pilot Study V1 GPL3090 Homo sapiens Sanger  
+pestis 8.4k v.1 GPL2807 Yersinia pestis WUSTL Yersinia  
+brasiliensis microarray v1 GPL2780 Paracoccidioides brasiliensis Paracoccidioides  
+arrays, Klebes/Kornberg v1 GPL2581 Drosophila melanogaster Drosophila Incyte  
+lactis IL1403 (v1) GPL2545 Lactococcus lactis subsp. lactis Il1403 Lactococcus  
+Rat array v1 GPL2000 Rattus norvegicus TJU-DBI  
+Rat Ref-12 v1 GPL10239 Rattus norvegicus Illumina  
+5K BAC v16 GPL3442 Homo sapiens VUMC MACF human  
+human 15K v13 GPL3278 Homo sapiens NCI/Staudt  
+Takara CyanoChip v.1.2 GPL3095 Synechocystis sp. PCC 6803  
+Promotor Array, v11 GPL864 Homo sapiens Human  
+35K Genechip v1.1 GPL3423 Homo sapiens Stanford Denko EOS Human  
+Yeast Amplicon v1.1 GPL1914 Saccharomyces cerevisiae FHCRC  
+PSU Operon V1.1 GPL1830 Mus musculus  
+Array (Operon v1.1) GPL13209 Mus musculus Micor-CRIBI Mouse 13K Oligo  
+taurus URH-TALL_Bovine_Operon V1.1_1 GPL4594 Bos  
+Chlamydomonas reinhardtii v1.0 GPL963 Chlamydomonas reinhardtii  
+chrysogenum 14k v1.0 GPL6225 Penicillium chrysogenum DSM PENa520255F Penicillium  
+70mer Array V1.0 GPL5137 Mus musculus MEEBO Mus musculus Oligo  
+oligo array v1.0 GPL4938 Bruguiera gymnorhiza MM Burma mangrove 12K  
+albicans 6K v1.0 GPL4758 Candida albicans WUCGS Candida  
+For GBE50 v1.0 GPL4294 Rattus norvegicus SBC Rat cDNA Microarray  
+Human 19K v1.0 GPL4274 Homo sapiens NHICU  
+gamma array v1.0 GPL3926 Pyrococcus furiosus Pfu  
+Sugarcane 2208 v1.0 GPL3799 Saccharum officinarum SUCAST  
+RT 150 v.1.0 GPL3713 Oncorhynchus mykiss UWVJLAB  
+ZEBRAFINCH 18K v1.0 GPL3621 Taeniopygia guttata NIH-DUKE  
+melanogaster DGC v1.0 GPL356 Drosophila  
+jannaschii 7K v1.0 GPL3565 Methanocaldococcus jannaschii UCB Methanocaldococcus  
+19k array v1.0 GPL3504 Homo sapiens CAG Human  
+MAP Oligo v1.0 GPL3433 Mycobacterium avium subsp. paratuberculosis NADC  
+yeast 14062 v1.0 GPL3412 Saccharomyces cerevisiae Li UCSF  
+Maize 21K v1.0 GPL3099 Zea mays Agilent  
+Array 37.5K v1.0 GPL3050 Homo sapiens Human Unigene3.1 cDNA  
+lib 18ET v1.0 GPL3005 Bos taurus LAFUGA Cattle subtr  
+lib 18KO v1.0 GPL2792 Bos taurus LAFUGA Cattle subtr  
+lib 18KB v1.0 GPL2788 Bos taurus LAFUGA Cattle subtr  
+Human ToxChip v1.0 GPL2710 Homo sapiens NIEHS  
+Rat Chip v1.0 GPL219 Rattus norvegicus NIEHS  
+Drosophila LifeArray v1.0 GPL20 Drosophila melanogaster Incyte  
+Oligo Array v1.0 GPL1911 Arabidopsis thaliana FHCRC Arabidopsis  
+Fly 12K v1.0 GPL1908 Drosophila melanogaster FHCRC  
+Yeast Amplicon v1.0 GPL1895 Saccharomyces cerevisiae FHCRC  
+Human 18K v1.0 GPL1863 Homo sapiens FHCRC  
+Oligo Set V1.0 GPL1829 Oryza sativa Rice Genome  
+Yeast Chip v1.0 GPL1474 Saccharomyces cerevisiae NIEHS  
+array - v01 GPL2042 Homo sapiens Human cDNA  
+Mus musculus UW_CEA_Mouse_MU_HD2_011022 GPL777  
+Mus musculus UW_CEA_Mouse_MU_HD1_011022 GPL776  
+Homo sapiens UWCEA_HumanHD2 GPL3967  
+Homo sapiens UWCEA_HumanHD1 GPL3966  
+Mus musculus UvA_MAD-mouse-22K-vs2.0 GPL11012  
+[mpiUstilagoa] MPI UstilagoA GPL3681 Ustilago maydis  
+Mus musculus UPMC_PACCM_MOUSE_20K_14 GPL5145  
+version 3/4, upgrade GPL2920 Homo sapiens DKFZ Homo sapiens 6k-array,  
+Homo sapiens UP_5Ka GPL230  
+Saccharomyces cerevisiae UofToronto-yeastORF-6.4k6 GPL3469  
+Saccharomyces cerevisiae UofToronto-yeastORF-6.4k4 GPL3464  
+Bos taurus UofG_Mallard_Bovine_Immune-endocrine_v2.0 GPL5172  
+set, Washington University GPL1893 Mus musculus Sigma mouse oligo  
+ZmDB Array Unigene-1-01-07 GPL499 Zea mays  
+ZmDB Array Unigene-1-01-01 GPL498 Zea mays  
+6k array (uncondensed) GPL4031 Streptococcus mutans UA159 Helmholtz Centre Streptococcus mutans UA159  
+Saccharomyces cerevisiae UHN_yeast_6.4kv6 GPL4625  
+Saccharomyces cerevisiae UHN_yeast_6.4kv4 GPL5823  
+Mus musculus UCSF_mouse_900_v1.0 GPL2644  
+Mus musculus UCSF_mouse_288_v1.0 GPL2676  
+Mus musculus UCSF_mouse_1344_v1.1 GPL2642  
+Mus musculus UCSF_mouse_1056_v1.0 GPL2643  
+Mus musculus UCSF-MMC-Fantom GPL1884  
+Homo sapiens UCSF_HumArray GPL3632  
+Homo sapiens UCSF_HumArray GPL2024  
+Escherichia coli UCSF_Gross_Ecoli_v18.txt GPL3500  
+Escherichia coli UCSF_Gross_Ecoli_v12.txt GPL2928  
+Mouse 9K UCLA GPL69 Mus musculus  
+petroleiphilum PM1 UCD/LLNL_PM1_Array GPL6022 Methylibium  
+printed in triplicate) GPL4896 Homo sapiens UCSF-CCC Homo sapiens 2.5K HumArray2.0 (2464 BAC clones each  
+Genome Embryogenesis Timecourse GPL4455 Drosophila melanogaster Yale Drosophila melanogaster 14K Whole  
+Mus musculus TESS039 GPL1356  
+Mycobacterium tuberculosis TB-1 GPL2787  
+Human MAQC (TAQ) GPL4097 Homo sapiens TaqMan  
+Homo sapiens TAGC_H.Sapiens_9K_20041223 GPL4512  
+14K Integrated Systems GPL1731 Gallus gallus DEL-MAR  
+6803 Agilent-021974 Syn_PCC6803_transcriptome GPL8567 Synechocystis sp. PCC  
+a cnidarian/dinoflagellate symbiosis GPL3286 Anthopleura elegantissima Transcriptome analysis of  
+Homo sapiens SWEGENE_BAC_32K_Full GPL4723  
+Homo sapiens SVC GPL180  
+Homo sapiens SVB GPL3306  
+Homo sapiens SVA GPL179  
+Saccharum officinarum SUCAST1920v3 GPL1376  
+Saccharum officinarum SUCAST1920v2 GPL1375  
+Salmonella enterica STv5_MMCC GPL1305  
+Salmonella typhimurium STv5B_MMCC_Locus_Tags GPL4871  
+Salmonella enterica STv2_MMCC GPL224  
+Microarray (muscle study) GPL6042 Homo sapiens AGRF Human 8K cDNA  
+for toxgenomics study GPL550 Homo sapiens UNC compugen oligo array  
+oligo microarray_CD133-Prominin Study GPL3924 Mus musculus Mouse 23K  
+Sus scrofa Spotting_muscle_21OCT03 GPL2731  
+muscle (all spots) GPL4712 Mus musculus Schneider MF lab mini microarray of mouse skeletal  
+(1MB interval spacing) GPL5672 Homo sapiens UPenn Homo sapiens 6K BAC array  
+Mus musculus SMCmou8400A GPL1230  
+Mus musculus SMCmou6600Av2 GPL1232  
+Mus musculus SMCmou6600Av1 GPL1231  
+Research 5808-spot slide_version3 GPL3898 Homo sapiens Institute of Cancer  
+cDNA microarray (Slide4A) GPL4710 Nicotiana tabacum RIKEN 16K tobacco  
+cDNA microarray (Slide3A) GPL4709 Nicotiana tabacum RIKEN 16K tobacco  
+Homo sapiens SHZ GPL178  
+Homo sapiens SHV GPL182  
+Homo sapiens SHS GPL181  
+Homo sapiens SHGS GPL5620  
+Homo sapiens SHGK GPL4541  
+Homo sapiens SHGB GPL3386  
+Homo sapiens SHFM GPL3999  
+Homo sapiens SHFK GPL1833  
+Homo sapiens SHFD GPL1709  
+Homo sapiens SHFB GPL2555  
+Homo sapiens SHFB GPL1711  
+Homo sapiens SHFA GPL1831  
+Homo sapiens SHEU GPL3020  
+Homo sapiens SHES GPL3019  
+Homo sapiens SHEM GPL1715  
+Homo sapiens SHEG GPL2002  
+Homo sapiens SHEE GPL3018  
+Homo sapiens SHDZ GPL3528  
+Homo sapiens SHDS GPL3017  
+Homo sapiens SHDP GPL3341  
+Homo sapiens SHDP GPL1826  
+Homo sapiens SHDK GPL1448  
+Homo sapiens SHDJ GPL3355  
+Homo sapiens SHDJ GPL319  
+Homo sapiens SHDF GPL1843  
+Homo sapiens SHDB GPL2779  
+Homo sapiens SHCZ GPL318  
+Homo sapiens SHCX GPL2001  
+Homo sapiens SHCP GPL2790  
+Homo sapiens SHCO GPL317  
+Homo sapiens SHCN GPL1824  
+Homo sapiens SHCG GPL2696  
+Homo sapiens SHCF GPL3305  
+Homo sapiens SHBX GPL1282  
+Homo sapiens SHBW GPL1823  
+Homo sapiens SHBR GPL1283  
+Homo sapiens SHBG GPL2118  
+Homo sapiens SHBF GPL2117  
+Homo sapiens SHBE GPL3039  
+Homo sapiens SHBD GPL2116  
+Homo sapiens SHBB GPL2695  
+Homo sapiens SHBA GPL1825  
+Homo sapiens SHAT GPL2670  
+Homo sapiens SHAI2 GPL183  
+Homo sapiens SHAD2 GPL177  
+long oligo set_V1.0 GPL4720 Arabidopsis thaliana HortResearch_Arabidopsis_27K_Operon  
+Human 36K (sets1-8) GPL4747 Homo sapiens YN  
+Genome Oligo Set GPL4799 Medicago truncatula Medicago truncatula 16K  
+array (HEEBO-7 set) GPL4611 Homo sapiens Illumina Human 49K Oligo  
+Operon 17K set GPL359 Mus musculus Mouse oligo array using  
+Genome Oligo Set GPL1971 Medicago truncatula Medicago truncatula  
+XM microarray set GPL1537 Mus musculus Mouse  
+Mb clone set GPL1506 Homo sapiens CGH array LUMC, 1  
+Mouse cDNA set GPL1342 Mus musculus 2nd 7.5K of NIA-NIH 15K  
+Mouse cDNA set GPL1341 Mus musculus 1st 7.5K of NIA-NIH 15K  
+6k rat set1 GPL3607 Rattus norvegicus PIQOR  
+MO2 printing series GPL5371 Mus musculus AECOM 32K MOUSE OLIGONUCLEOTIDE ARRAY,  
+6M-8M print series GPL362 Mus musculus AECOM 9K mouse array;  
+Saccharomyces cerevisiae Segal_3 GPL289  
+Saccharomyces cerevisiae Segal_2 GPL288  
+Saccharomyces cerevisiae Segal_1 GPL287  
+array Aneuploidy Screening GPL3091 Homo sapiens KUL Human 4k BAC  
+Streptomyces coelicolor ScoKao_02-04-29 GPL4472  
+Streptomyces coelicolor Scoelicolor_UMN_Def_v1.0 GPL4908  
+Saccharomyces cerevisiae SC3456a520015F GPL1280  
+Buck Institute_Homo sapiens_25K_verC GPL5216 Homo sapiens  
+sapiens UNMC_Homo sapiens_10K_chipB GPL5376 Homo  
+sapiens UNMC_Homo Sapiens_10K_chipA GPL5377 Homo  
+for Day1 samples GPL4052 Homo sapiens cDNA microarray Van Andel Institute  
+Zea mays SAM3.0 GPL3538  
+Zea mays SAM2.0 GPL2572  
+Zea mays SAM1.1 GPL2613  
+Zea mays SAM1.1a GPL3333  
+Zea mays SAM1.0 GPL2557  
+Sparus aurata SA-DEV-VS1 GPL1516  
+investigated using RT-PCR GPL1793 Oncorhynchus mykiss Rainbow trout sex differentiation cascade-related genes  
+GF200 for RPE GPL1488 Homo sapiens ResGen  
+Mus musculus RNG-MRC_MM25k_NICE GPL1476  
+Homo sapiens RNG-MRC_HU25k_EVRY GPL1946  
+parvum 1.2K RIPCM_UParvum_582 GPL4020 Ureaplasma parvum RIPCM Ureaplasma  
+Saccharomyces cerevisiae rikDacFC6 GPL347  
+Bacillus anthracis Revised_Bacillus_anthracis_array GPL370  
+Homo sapiens ResGenHs15K_DIO GPL3014  
+sapiens GF200 (ResGen) GPL312 Homo  
+musculus GF400 Resgen GPL1285 Mus  
+sapiens Muscle _Related_cDNA_Array GPL781 Homo  
+Array - rel4 GPL4487 Mus musculus Van Andel Institute Mouse 15K cDNA  
+array (coding regions) GPL4622 Entamoeba histolytica Entamoeba histolytica E_his-1a520285F  
+norvegicus rzpd rat GPL2580 Rattus  
+Rattus norvegicus RAT_6K_OligoArray GPL968  
+quadricarinatus IOLR_Cherax quadricarinatus_4.8K_v1.0 GPL4786 Cherax  
+Human MAQC (QGN) GPL4098 Homo sapiens Panomics  
+Saccharomyces cerevisiae PSU_Yeast6000_V2 GPL1220  
+Saccharomyces cerevisiae PSU_Yeast6000_V1 GPL739  
+Saccharomyces cerevisiae PSU_IntergenicYeast_V1 GPL760  
+Invitrogen Yeast Protoarray GPL3234 Saccharomyces cerevisiae  
+Breast Tumor Profiles GPL2567 Homo sapiens Rosetta (Merck) GEL  
+RAE230A PM probes GPL3240 Rattus norvegicus Affymetrix GeneChip Rat Expression Set 230 Array  
+Caenorhabditis elegans printU GPL2569 Caenorhabditis elegans  
+18kA cDNA Prints101-108 GPL3015 Glycine max Keck Glycine max  
+array (X Printing) GPL1076 Caulobacter vibrioides Caulobacter oligo  
+subtilis WGD11 platform GPL3950 Bacillus subtilis Bacillus  
+Rheumatoid Arthritis platform GPL367 Homo sapiens  
+subtilis WDG12 platform GPL3671 Bacillus subtilis Bacillus  
+subtilis WDG13 platform GPL3668 Bacillus subtilis Bacillus  
+subtilis bso6 platform GPL3663 Bacillus subtilis Bacillus  
+subtilis WDG16 platform GPL3655 Bacillus subtilis Bacillus  
+subtilis WGD14 platform GPL3645 Bacillus subtilis Bacillus  
+ORF-only cDNA platform GPL3588 Saccharomyces cerevisiae UT Austin Iyer yeast 6.4k  
+EGD-e microarray platform GPL3074 Listeria monocytogenes  
+Mouse-1 Array Platform GPL2026 Mus musculus Codelink Uniset  
+cerevisiae DOT4/UBP10 platform GPL1879 Saccharomyces  
+cerevisiae SAN1 platform GPL1797 Saccharomyces  
+Homo sapiens platform_2004-11-09_Human_60mer_1in2 GPL5694  
+PM Array Plate GPL13158 Homo sapiens [HT_HG-U133_Plus_PM] Affymetrix HT HG-U133+  
+PM Array Plate GPL11180 Mus musculus [HT_MG-430_PM] Affymetrix HT MG-430  
+Tiling Array (PCR-based) GPL5125 Saccharomyces cerevisiae Lieb Lab at UNC-CH_Yeast Whole-genome and Chr III  
+Whole-genome Array (PCR-based) GPL3700 Saccharomyces cerevisiae Lieb Lab at UNC-CH_Yeast  
+Methanococcus maripaludis PCR-array GPL2509 Methanococcus maripaludis  
+Human 30k P4 GPL2570 Homo sapiens MBPL  
+Human 30k P3 GPL2575 Homo sapiens MBPL  
+Malaria Oligo p19 GPL3983 Saccharomyces cerevisiae  
+CfMNPV select ORFs GPL3719 Choristoneura fumiferana MNPV Yang et. al. Oligoarray of  
+cerevisiae 15K ORF_INT_UNC_CKL5 GPL4279 Saccharomyces cerevisiae UNC Saccharomyces  
+cerevisiae 18K ORF_INT_UNC_B GPL4278 Saccharomyces cerevisiae UNC Saccharomyces  
+Saccharomyces cerevisiae ORF_intergenic_v1.0 GPL49  
+Saccharomyces cerevisiae ORF_intergenic_J GPL4183  
+Human MAQC (OPN) GPL4188 Homo sapiens Operon  
+cerevisiae GenoToul/Biopuces operon_yeast22x22 GPL3250 Saccharomyces  
+oligonucleotide array (Operon) GPL1006 Mus musculus Mouse 13.4K long  
+two- and one-color) GPL4219 Homo sapiens TeleChem ArrayIt Human Microarrays for MAQC (H25K and H25K1 ,  
+two- and one-color) GPL4187 Homo sapiens CapitalBio Operon Human MAQC (BIO and BIO1,  
+Yeast 70mer oligos GPL1859 Saccharomyces cerevisiae  
+2.0 mouse oligonucleotide GPL2623 Mus musculus Qiagen/Operon version  
+array sigmagenosys oligolibrary GPL1942 Mus musculus Mouse oligo  
+(Development 60-mer Oligo) GPL870 Mus musculus NIA Mouse 22K Microarray v1.0  
+Genome 60-mer Oligo) GPL4358 Mus musculus NIA Mouse 44K Microarray v2.2 (Whole  
+v1.0 (60-mer Oligo) GPL2901 Xenopus laevis Carnegie Xenopus Laevis 22K Microarray  
+Compugen 22K Oligo GPL2584 Mus musculus FJL Mouse  
+Genome 60-mer Oligo) GPL2552 Mus musculus NIA Mouse 44K Microarray v2.1 (Whole  
+(Development-Toxicology 60-mer Oligo) GPL2550 Mus musculus NIA Mouse 44K Microarray v1.0  
+(Development 60-mer Oligo) GPL2549 Mus musculus NIA Mouse 22K Microarray v2.0  
+Compugen 22K oligo GPL1873 Mus musculus Mouse  
+NCI/LMT Mm_FCRF_CGEN oligo GPL1536 Mus musculus  
+18K HUM OLIGO GPL1412 Homo sapiens PBRC_GCF  
+Human Transporter OligoChip GPL1213 Homo sapiens  
+metallireducens 70mer oligo-array GPL4028 Geobacter metallireducens GS-15 ORNL-ESD Geobacter  
+13.2K 70-mer oligoarray GPL2853 Bos taurus UIUC Bos taurus  
+sapiens OHU16K (old) GPL3606 Homo  
+Arabidopsis thaliana OAR27K GPL988  
+Saccharomyces cerevisiae NY1 GPL3415  
+array (human) NuGO_Hs1a520180 GPL7020 Homo sapiens NuGO  
+array 2-4Mb NoGap GPL5015 Homo sapiens Human BAC  
+Rattus norvegicus NMC_Rat_5k_cDNA_Ser2 GPL264  
+Drosophila melanogaster NimbleGen/UW-Madison_Drosophila_whole_genome_v1 GPL4573  
+Saccharomyces cerevisiae Nimblegen-S.cerevisiae-expression-24mer GPL2547  
+Mus musculus NIH/NIA_mouse_17k GPL4006  
+Mus musculus NIA_Mouse_7.4K_cDNA GPL1961  
+Mus musculus NIA_Mouse_15K_Array GPL236  
+Mus musculus NIA15K GPL977  
+Homo sapiens nhgri_qiagenv3_cgh GPL5046  
+Mus musculus NHGRI_Mouse20k_cDNA_P1_18 GPL4642  
+Homo sapiens NHGRI_Human_8K GPL7  
+Mus musculus NGS_mouse_immuno GPL208  
+for studying Neuroblastoma) GPL4894 Homo sapiens Penn/CHOP Homo sapiens 4.5K (BAC array  
+Homo sapiens NCI_UniGEM2_HCC GPL257  
+L. acidophilus NCFM GPL1401 Lactobacillus acidophilus Whole Genome Array  
+cDNA chip NCCS GPL2009 Homo sapiens 18k  
+cDNA chip NCCS GPL2008 Homo sapiens 13k  
+cerevisiae 13K MWGSc6Kv2 GPL4873 Saccharomyces cerevisiae Ramaciotti Centre Saccharomyces  
+Mus musculus mwg-10k-7 GPL4987  
+Mus musculus mwg-10k-6 GPL4986  
+Mus musculus mwg-10k-5 GPL4985  
+Mus musculus mwg-10k-3 GPL4984  
+Mus musculus mwg-10k-2 GPL4983  
+Mus musculus mwg-10k-1 GPL4981  
+Trichophyton rubrum MVGE_TRI_RUB1 GPL3816  
+musculus array, Mver1.1.1 GPL2813 Mus musculus Sanger Institute M.  
+MJArray Mus Musculus GPL765 Mus musculus  
+tuberculosis microarray Mtbb GPL1343 Mycobacterium tuberculosis NIAID Mycobacterium  
+NIAID - Mtaa GPL280 Mycobacterium tuberculosis  
+NIAID - Mta[a,b,c] GPL1396 Mycobacterium tuberculosis  
+Arabidopsis thaliana MSU-4_01-02 GPL1382  
+Arabidopsis thaliana MSU-1 GPL13  
+Mus musculus MPIP24K GPL7467  
+Mycobacterium tuberculosis MPIIB_Mtb_V2 GPL5095  
+Chlamydophila pneumoniae MPG_é_C.pneumoniae_allfeatures GPL4824  
+Custom MPIIB Mouse GPL1868 Mus musculus Agilent  
+Mus musculus MouseGEM203caf GPL3239  
+Rosetta/Merck PatternID Mouse_25k_v1.1 GPL1717 Mus musculus  
+of L. monocytogenes GPL4418 Listeria monocytogenes Interference of components of the PEP:phosphotransferase system (PTS) with PrfA  
+Array [CDF: MoGene10stv1_Mm_ENTREZG_13] GPL11078 Mus musculus [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST  
+Mus musculus mod GPL4368  
+Expresschip Mouse MO3 GPL3734 Mus musculus Mergen  
+Mus musculus MMRRC GPL1480  
+musculus 35.9K Mm-NIMH36Kb GPL4357 Mus musculus NIMH Mus  
+musculus NCI/ATC Mm-MEEBO GPL4200 Mus  
+Mus musculus MML GPL2727  
+Mus musculus MMK GPL3506  
+Mus musculus Mm-FDA-OperonV2 GPL3539  
+Mus musculus Mm_FCRF_UniGEM2 GPL5339  
+musculus NCI/LMT Mm_FCRF_UniGEM2 GPL1529 Mus  
+Array [CDF: Mm_ENTREZG_9] GPL5766 Mus musculus Affymetrix GeneChip Mouse Genome 430 2.0  
+Array [CDF: Mm_ENTREZG_8] GPL5008 Mus musculus Affymetrix GeneChip Mouse Genome 430 2.0  
+Array [CDF: Mm_ENTREZG_11.0.1] GPL8492 Mus musculus Affymetrix Mouse Genome 430 2.0  
+Array [CDF: Mm_ENTREZG_10] GPL7546 Mus musculus Affymetrix GeneChip Mouse Genome 430 2.0  
+Array [CDF: Mm430_Mm_REFSEQ_8] GPL5759 Mus musculus Affymetrix GeneChip Mouse Genome 430 2.0  
+Drosophila melanogaster MLRG_Droso_15K_V1.1 GPL4275  
+UNC custom Microarrays GPL1390 Homo sapiens Agilent Human 1A Oligo  
+Splicing Oligo Microarray GPL5370 Mus musculus Agilent Custom Mouse 44K Alternative  
+oligonucleotide DNA microarray GPL5329 Escherichia coli E. coli O157 Sakai  
+1 cDNA Microarray GPL503 Homo sapiens Agilent Human  
+Rat Oligo Microarray GPL479 Rattus norvegicus NGEL 2.12  
+UA159 Affymetrix Microarray GPL4769 Streptococcus mutans Streptococcus mutans  
+norvegicus Pain microarray GPL4733 Rattus  
+25k v1.9 microarray GPL4696 Mus musculus Rosetta/Merck Mouse  
+Bovine immune-endocrine microarray GPL4473 Bos taurus GUELPH  
+Splice Variant Microarray GPL4390 Homo sapiens Human Phosphodiesterase  
+44k 1.1 microarray GPL4372 Homo sapiens Rosetta/Merck Human  
+Whole Genome Microarray GPL4347 Saccharomyces cerevisiae CEA Saccharomyces cerevisiae 13k  
+cDNA spotted microarray GPL409 Mus musculus  
+22K Oligo Microarray GPL3919 Mus musculus NGEL Mouse  
+Halobacterium Spotted Microarray GPL3739 Halobacterium sp. NRC-1 ISB  
+Mouse 6.1k Microarray GPL3695 Mus musculus NTU_CGM_MCF  
+Array 1 microarray GPL3631 Rattus norvegicus Rosetta/Merck Rat 50k v2.1  
+Array 1 microarray GPL3562 Mus musculus Rosetta/Merck Mouse TOE 75k  
+18K cDNA microarray GPL3558 Homo sapiens NKI-AVL Homo sapiens  
+Master Unigene Microarray GPL3553 Zea mays Galbraith Lab Maize  
+DNA oligonucleotide microarray GPL3505 Leishmania major Leishmania major whole-genome 60-mer  
+4290 ORFs Microarray GPL3503 Escherichia coli Khodursky Lab E. coli B  
+Genome ChIP-on-chip Microarray GPL3499 Saccharomyces cerevisiae Agilent Yeast Whole  
+8k cDNA microarray GPL3457 Homo sapiens Buck Institute Human  
+Mm Oligo Microarray GPL3440 Mus musculus GIS 22k Compugen  
+cDNA spotted microarray GPL3408 Homo sapiens NKI/CMF Human 18k  
+60mer Oligonucleotide Microarray GPL3360 Neospora caninum Neospora  
+46K cDNA microarray GPL3279 Homo sapiens Iyer Lab Human  
+NBFGC cDNA microarray GPL325 Bos taurus  
+sapiens miRNA microarray GPL3238 Homo  
+genome DNA microarray GPL3072 Magnetospirillum magneticum AMB-1 TUAT Magnetospirillum magneticum AMB-1 5K whole  
+Genome Survey Microarray GPL2996 Rattus norvegicus ABI Rat  
+Genome Survey Microarray GPL2995 Mus musculus ABI Mouse  
+11K Oligo Microarray GPL2987 Mus musculus Macrogen MAC Mouse  
+YaleNIA15k cDNA microarray GPL2828 Mus musculus  
+cDNA spotted microarray GPL2763 Saccharomyces cerevisiae S. cerevisiae  
+whole genome microarray GPL2697 Rhodopseudomonas palustris Rhodopseudomonas palustris  
+taurus BMAM microarray GPL245 Bos  
+25k v1.2 microarray GPL2050 Rattus norvegicus Rosetta/Merck Rat  
+melanogaster BDGP microarray GPL2039 Drosophila  
+25k v2.2.1 microarray GPL2029 Homo sapiens Rosetta/Merck Human  
+mKIAA oligonucleotide microarray GPL1964 Mus musculus  
+spotted cDNA microarray GPL1864 Saccharomyces cerevisiae Yeast  
+Splicing Oligo Microarray GPL1738 Mus musculus Agilent Custom Mouse Alternative  
+70-mer Oligonucleotide Microarray GPL1535 Saccharomyces cerevisiae Custom Yeast Genomic  
+cerevisiae S.cerevisiae microarray GPL1458 Saccharomyces  
+Custom cDNA Microarray GPL1301 Homo sapiens NHGRI  
+human oligonucleotide microarray GPL1223 Homo sapiens Arcturus 22k  
+taeda cDNA microarray GPL1014 Pinus taeda Pinus  
+5K cDNA microarray GPL1002 Rattus norvegicus Rat  
+in subcongenic mice GPL4479 Mus musculus Identification of positional candidate genes for body weight and adiposity  
+Gene Chip (MIC-1) GPL5428 Mus musculus NIA Microarray Mouse Immune  
+Human 672 Metachip GPL3730 Homo sapiens NTU_CGM_MCF  
+array (70 mers) GPL3922 Candida glabrata Candida glabrata whole genome oligonucleotide  
+melanogaster DGRC-D. melanogaster-DGRC1-15552-v4 GPL3829 Drosophila  
+GPL1834 Viruses MegaViroP1-P7  
+GPL366 Viruses MegaViroP1  
+Mus musculus McMahon_Mouse_44K_Neural GPL4245  
+Stanford Zea mays GPL12 Zea mays  
+max NCSU_Glycine max_5.7K GPL5810 Glycine  
+(GEX) Human MAQC GPL4198 Homo sapiens Gene Express StaRT-PCR  
+Operon Human MAQC GPL4186 Homo sapiens NMC (Norwegian Microarray Consortium)  
+printing) Human MAQC GPL4185 Homo sapiens NCI Operon (second  
+Operon Human MAQC GPL4108 Homo sapiens NCI  
+Array (v2 mapping) GPL4814 Homo sapiens Affymetrix Human Exon 1.0 ST  
+Transcriptome GST Macroarray GPL513 Arabidopsis thaliana Nuclear Chloroplast  
+4.6K cDNA macroarray GPL4887 Populus trichocarpa x Populus deltoides Populus  
+NIA 15k M15_k3 GPL3109 Mus musculus University Health Network Mouse  
+sapiens 15K lymphochip GPL4880 Homo sapiens Calame/IVT Homo  
+Mus musculus lung_development_Nmyc_mouse GPL4477  
+our ID LPAG1 GPL4318 Lactobacillus plantarum WCFS1 WCFS Lactobacillus plantarum 11K 60-mer array, Version 1,  
+Ver. 1-1 (Lot55) GPL6030 Saccharomyces cerevisiae Hitachisoft Hypergene Yeast Chip  
+Ver. 1-1 (Lot01-05) GPL6026 Saccharomyces cerevisiae Hitachisoft Hypergene Yeast Chip  
+Homarus americanus Lobster2 GPL3232  
+Homarus americanus Lobster1 GPL3231  
+Candida albicans LLHoyer_Calbicans_6k_v1.0 GPL5147  
+musculus] signature list GPL1010 Mus musculus MPSS [DpnII: Mus  
+Oryza sativa LIMA_SlideB GPL1774  
+Oryza sativa LIMA_SlideA GPL1773  
+mouse Retinal library) GPL323 Mus musculus Ret13K (BMAP  
+verticillioides subtraction libraries GPL790 Gibberella moniliformis Array of ESTs from F.  
+Mus musculus LGTCmuOLIs2 GPL1770  
+Mus musculus LGTCmuOLIs1 GPL485  
+part II LGTC GPL784 Homo sapiens Human oligo array  
+part I LGTC GPL783 Homo sapiens Human oligo array  
+set II LGTC GPL2127 Mus musculus Sigma Mouse oligo  
+set I LGTC GPL2125 Mus musculus Sigma Mouse oligo  
+Homo sapiens LC-8 GPL176  
+Homo sapiens LC-7b GPL175  
+Homo sapiens LC-4b GPL174  
+Homo sapiens LC-44 GPL5447  
+Homo sapiens LC-36 GPL2614  
+Homo sapiens LC-27 GPL3293  
+Homo sapiens LC-23 GPL3113  
+Homo sapiens LC-18 GPL3084  
+Homo sapiens LC-17 GPL271  
+Homo sapiens LC-13 GPL2824  
+of Pennsylvania/Nathanson Lab_HomoSapiens_ChromosomeRegion_Virtual GPL5338 Homo sapiens University  
+array, Hartl Lab GPL5092 Saccharomyces cerevisiae Bauer Center for Genomics Research_Saccharomyces cerevisiae 70mer  
+array (Ye lab) GPL3832 Solanum lycopersicum tomato cDNA  
+University, Cavalieri Lab GPL2682 Saccharomyces cerevisiae Yeast ORF array Bauer Center for Genomics Research Harvard  
+array 11k (L040B) GPL3424 Schizosaccharomyces pombe Eurogentec AG S. pombe ORF  
+sapiens Human KUGI14K GPL1090 Homo  
+IGR+ORF array (K080D) GPL2599 Schizosaccharomyces pombe Eurogentec S. pombe  
+Escherichia coli JCL_Ecoli_1 GPL5113  
+al. 2004 J.Bact.) GPL2708 Xylella fastidiosa Xylella USP microarray v2 (Koide et  
+C.elegans 22.5K jan04 GPL5367 Caenorhabditis elegans GSC  
+Homo sapiens JAKE GPL1479  
+Homo sapiens ISREC-HU10Kb GPL247  
+Escherichia coli ISMapping_Platform_2 GPL2114  
+Saccharomyces cerevisiae isb1 GPL507  
+Homo sapiens IQUSP_Human_intronic_4k_v2.0 GPL3985  
+Ips pini Ips_pini-midgut.3 GPL575  
+Ips pini Ips_pini-midgut.1 GPL551  
+Saccharomyces cerevisiae intergenic_v1.0 GPL50  
+Trust Sanger Institute GPL334 Homo sapiens Human 10K - Wellcome  
+collection/Ontario Cancer Institute GPL1751 Mus musculus NIH 15k clone  
+Drosophila melanogaster INDAC_CAM_FL002 GPL5135  
+Mus musculus IncyteMouseGEM1 GPL1406  
+aegypti hemocyte II GPL2982 Aedes aegypti Aedes  
+pombe 10K IGR+ORF GPL2789 Schizosaccharomyces pombe KI Schizosaccharomyces  
+aegypti hemocyte I GPL2994 Aedes aegypti Aedes  
+nylon arrays I GPL210 Saccharum sp. Sugarcane  
+nylon arrays I GPL1329 Saccharum officinarum complex Sugarcane ESTs  
+BeadChip (Target ID) GPL4865 Mus musculus Sentrix MouseRef-8 Expression  
+Saccharomyces cerevisiae IBMMPMC_Scerevisiae_12.8k_EGT_G250E GPL3775  
+Saccharomyces cerevisiae IBMMPMC_Scerevisiae_12.8k_EGT_D290C GPL3774  
+IGR+ORF array (I240c) GPL2606 Schizosaccharomyces pombe Eurogentec S. pombe  
+Oligo array (HV3) GPL4608 Homo sapiens Qiagen Human V3 35K  
+sapiens SWEGENE H_v2.1.1_27k GPL5886 Homo  
+2.0 microarray [HuRSTA-2a520709] GPL10379 Homo sapiens Rosetta/Merck Human RSTA Custom Affymetrix  
+Expression Assays (human) GPL2845 Homo sapiens Applied Biosystems TaqMan Gene  
+Res Gen Human GPL262 Homo sapiens  
+sapiens HCI human GPL222 Homo  
+GenePlorer™ TwinChip™ Human-8K GPL1818 Homo sapiens  
+Homo sapiens HUMAN_21K_OligoArray_2 GPL1225  
+Homo sapiens HUMAN_21K_OligoArray_1 GPL981  
+12 [CDF: HuGene10stv1_Hs_REFSEQ] GPL10666 Homo sapiens Affymetrix Human Gene ST 1.0 Custom RefSeq CDF version  
+ST Array [hugene10stv1hsentrezg] GPL14010 Homo sapiens [HuGene-1_0-st] Affymetrix Human Gene 1.0  
+sapiens 19K Hu19Kv8 GPL4387 Homo sapiens UHNMAC Homo  
+sapiens NCI/ATC Hs-UniGEM2 GPL1262 Homo  
+sapiens NCI/ATC Hs-OperonV3 GPL3779 Homo  
+sapiens 21K Hs-OperonV2 GPL4882 Homo sapiens NMC Homo  
+sapiens NCI/ATC Hs-OperonV2 GPL1528 Homo  
+NuGO_Hs1a520180 [CDF: Hs_ENTREZG_10] GPL7144 Homo sapiens NuGO array (human)  
+sapiens CCDTM Hs_CCDTM17.5k GPL3895 Homo  
+Human 20K Hs6 GPL2013 Homo sapiens Chinnaiyan  
+Human 20K Hs3 GPL2012 Homo sapiens Chinnaiyan  
+Array [CDF: Hs133P_Hs_UG_8.cdf] GPL8715 Homo sapiens Affymetrix Human Genome U133 Plus 2.0  
+Array [CDF: Hs133Av2_Hs_REFSEQ_8] GPL5356 Homo sapiens Affymetrix GeneChip Human Genome U133A 2.0  
+HG-U133A [CDF: Hs133A_Hs_UG_3] GPL4557 Homo sapiens Affymetrix GeneChip Human Genome U133 Array Set  
+Helicobacter pylori HP_002 GPL15  
+by HGMP, Hinxton GPL5458 Mus musculus HGMP NIA 15 K, slide 21-40 (2 of 2). Printed  
+Desulfovibrio vulgaris Hildenborough GPL3529 Desulfovibrio vulgaris str. Hildenborough VIMSS  
+Homo sapiens HHV8/KSHVvo1 GPL1386  
+and DCM hearts GPL1707 Homo sapiens Array for the Classification of CAD  
+Saccharomyces cerevisiae GUTHRIE_YEAST_SPLICINGARRAY_v20060215a GPL5756  
+Saccharomyces cerevisiae GUTHRIE_YEAST_SPLICINGARRAY_v20040216a GPL5052  
+array (Version: GP_Y6.4k1_v2) GPL1336 Saccharomyces cerevisiae Ontario Cancer Institute full-genome S. cerevisiae ORF  
+( 2 ) GPL6014 Homo sapiens HumanRef-8 v2 Expression BeadChip  
+Mus musculus GNF1M GPL1073  
+Homo sapiens GNF1H GPL1074  
+Glycine max Gm-r1070 GPL229  
+spotted in GIS GPL4452 Homo sapiens Human 19K Compugen Array  
+cDNA MicroArray ghA GPL3035 Gossypium hirsutum Cotton Ovule  
+Prunus persica GFNChile_Peach_0.9K_v1.0 GPL4889  
+Release II (GF201) GPL3696 Homo sapiens GeneFilter Human Microarray  
+Release I (GF200) GPL3694 Homo sapiens GeneFilter Human Microarray  
+B. subtilis_full genome_PCR_ver.5 GPL1353 Bacillus subtilis  
+Drosophila full genome GPL70 Drosophila melanogaster Affymetrix roDROMEGAa  
+norvegicus NMDA-induced genes GPL1997 Rattus  
+Chlamydomonas organellar genes GPL1395 Chlamydomonas reinhardtii  
+cerevisiae Yeast genes GPL1383 Saccharomyces  
+GLI2 target genes GPL1260 Homo sapiens GLI1 and  
+cerevisiae GF100 GeneFilters GPL205 Saccharomyces  
+LymphDx 2.7k GeneChip GPL3706 Homo sapiens Human  
+CornChip0 8.5K GeneChip GPL3618 Zea mays Maize  
+Scripps Malaria GeneChip GPL1892 Plasmodium falciparum  
+sphaeroides 2.4.1 GeneChip GPL162 Rhodobacter sphaeroides 2.4.1 [uwyRhodo1a] Rhodobacter  
+Glyco v4 GeneChip GPL11097 Homo sapiens [Glyco_v4_Hs] Custom Affymetrix  
+V 2.0 (GEM-5112) GPL970 Homo sapiens Incyte Human UniGEM  
+Incyte Mm GEM1 GPL1512 Mus musculus Mammary 6k and  
+Mus musculus GE-Amersham-CodeLink-10K GPL3760  
+Arabidopsis thaliana GBC_FOAR03_0001 GPL1713  
+Aspergillus flavus GAP_TIGR_I GPL2122  
+Aspergillus flavus GAP_M_II GPL1393  
+Aspergillus flavus GAP_M_I GPL225  
+TIGR4/R6 v5 GAF GPL4784 Streptococcus pneumoniae Streptococcus pneumoniae  
+Microarray 4x44K (G4493A) GPL4131 Saccharomyces cerevisiae Agilent-014810 Yeast Whole Genome ChIP-on-Chip  
+of 2 G4481A GPL4090 Homo sapiens Agilent-013903 Human Proximal Promoter ChIP-on-Chip Set, Microarray 2  
+of 2 G4481A GPL4089 Homo sapiens Agilent-013902 Human Proximal Promoter ChIP-on-Chip Set, Microarray 1  
+Microarray 44A G4414A GPL2884 Mus musculus Agilent-013490 Mouse Genome CGH  
+1A Microarray G4110A GPL885 Homo sapiens Agilent-011521 Human  
+cerevisiae yeast_ag fungicides_npuru GPL1877 Saccharomyces  
+Fundulus heteroclitus Fundulus_192gene_metabolic_array GPL1224  
+to tissue function GPL2672 Bos taurus Gene expression profiling of 19 cattle tissues reveals unique patterns related  
+strain UA159 [FULL_FEATURE_LAYOUT] GPL4340 Streptococcus mutans JCVI PFGRC Streptococcus mutans 10K v2.1 array designed primarily based on  
+strain N315 [FULL_FEATURE_LAYOUT] GPL4324 Staphylococcus aureus JCVI PFGRC Staphylococcus aureus 22K v4.1 array designed primarily based on  
+pseudomallei K96243 Full_Burkholderia_pseudomallei_Genome GPL4078 Burkholderia  
+melanogaster MJArray Fly GPL1404 Drosophila  
+melanogaster Heidelberg FlyArray GPL517 Drosophila  
+annotation and filtering GPL3294 Homo sapiens Agilent Human 1 cDNA with custom  
+GF211 Microarray Filter GPL538 Homo sapiens Research Genetics (Invitrogen) -  
+(positions from file) GPL4861 Homo sapiens Swegene Human 27K RAP  
+Saccharomyces cerevisiae FH_yeast_cDNA GPL118  
+coli ConwayLab_Ecoli_6041 features_v1 GPL4995 Escherichia  
+custom 8k features GPL1814 Homo sapiens Agilent,  
+array [CDF: FATMITO1a520158F] GPL9392 Homo sapiens Affymetrix human mitochondrial  
+CardioChip heart failure GPL2041 Homo sapiens  
+Muscle Gene Expression GPL3473 Bos taurus Bos Taurus Expression Array for Smooth  
+Blood donor experiment GPL564 Homo sapiens Rosetta (Merck)  
+Bioarray, layout EXP5280X2-648 GPL5426 Rattus norvegicus GE Healthcare/Amersham Biosciences CodeLink™ UniSet Rat I  
+Bioarray, layout EXP5280X2-613 GPL5425 Rattus norvegicus GE Healthcare/Amersham Biosciences CodeLink UniSet Rat I  
+Bioarray, layout EXP5280X2-584 GPL5424 Rattus norvegicus GE Healthcare/Amersham Biosciences CodeLink UniSet Rat I  
+Subtraction Hybridization ESTs GPL566 Emericella nidulans Negative  
+Human MAQC (EPP) GPL4096 Homo sapiens Eppendorf DualChip  
+Mus musculus EOSS002A GPL24  
+Caenorhabditis elegans elegans_Cprint_YMD GPL3861  
+Entamoeba histolytica EHD_FINAL GPL2662  
+human 10K E GPL2746 Homo sapiens  
+cDNA chip (eGenomix) GPL1885 Homo sapiens Human 7.5K  
+Escherichia coli EcoliMG1655v1.0 GPL1436  
+Escherichia coli ecoli_8.0 GPL18  
+Escherichia coli ecoli_4.3 GPL17  
+Escherichia coli ecoli_3.0 GPL16  
+Aspergillus nidulans DTU/CMB_Aspergillusnidulans_9371_v1.0 GPL3604  
+Mouse Embryo (DTME) GPL560 Mus musculus Developmental Toxicity of the  
+Drosophila melanogaster DrosophilaWhiteLabNov2001 GPL228  
+Drosophila melanogaster DrosophilaWhiteLabJuly2001 GPL227  
+Drosophila melanogaster Drosophila_Life_Cycle GPL218  
+Drosophila melanogaster DmelWhiteLab2003Oct23_r40 GPL1785  
+Drosophila melanogaster DmelWhiteLab2003Oct20_r40 GPL1784  
+Drosophila melanogaster DmelWhiteLab2003Jul30_r40 GPL1783  
+Drosophila melanogaster DmelWhiteLab2003Dec03_r40 GPL1782  
+Drosophila melanogaster DmelWhiteLab2003Dec01_r40 GPL1781  
+Drosophila melanogaster DmelWhiteLab2002Jul29_r40 GPL1779  
+Drosophila melanogaster DmelWhiteLab2001Aug22_r40 GPL1776  
+Drosophila melanogaster Dmel.testis.1.0 GPL5  
+Drosophila melanogaster Dmel_arrayplatform GPL248  
+Dugesia japonica Dj600-chip GPL4000 Dugesia japonica University of Pisa  
+Microarray, 16K design GPL1926 Homo sapiens Cardiac Allograft Rejection Detection  
+Microarray, 24K designB GPL1927 Homo sapiens Cardiac Allograft Rejection Detection  
+Microarray, 24K designA GPL1923 Homo sapiens Cardiac Allograft Rejection Detection  
+chip primary data GPL1756 Emericella nidulans Emericella nidulans EST-based  
+chip normalized data GPL1752 Aspergillus nidulans Emericella nidulans EST-based  
+Daphnia magna DaphniaArray GPL2888  
+ORF array (D080C) GPL2739 Schizosaccharomyces pombe Eurogentec S. pombe  
+Wall Chip cwchv02 GPL1433 Saccharomyces cerevisiae Cell  
+NIA 15K Custom GPL1104 Mus musculus Mouse  
+2.7K aCGH custom-array GPL4618 Escherichia coli Agilent Escherichia coli  
+Homo sapiens CRUKDMF_6K-gw_v1.0.0 GPL3906  
+Homo sapiens CRUKDMF_22Kminus6K_v1.1.0 GPL2596  
+Homo sapiens CRUKDMF_15K_v1.1.0 GPL2595  
+CERH genomics core GPL5025 Mus musculus Codelink Mouse Whole genome array platform for TAMU  
+Oligonucleotide Array (Compugen) GPL3721 Danio rerio Zebrafish  
+marine micobial communities GPL6012 uncultured crenarchaeote 4B7 A genome proxy array for profiling  
+Mammalian Genome Collection GPL1211 Homo sapiens NIA MGC,  
+Homo sapiens CNRS_UMR_7637/EA3508_Human_HSA21_v1 GPL4593  
+Microarray (2 cm) GPL372 Zea mays ZmDB 606-Immature Ear  
+- public clones GPL371 Homo sapiens Incyte Gene Album Arrays 1-6  
+QtsA cDNA clones GPL206 Macaca fascicularis  
+Campylobacter jejuni CJ4 GPL2782  
+Campylobacter jejuni CJ1 GPL2791  
+Yeast_ALL DNA chip GPL4069 Saccharomyces cerevisiae  
+MOUSE 9K CHIP GPL369 Mus musculus AECOM  
+200 22q11Ds chip GPL3634 Mus musculus Tor Vergata Mus musculus  
+2002 affymetrix chip) GPL3575 Plasmodium falciparum SrcMalaria (Scripps/GNF  
+Human TReg Chip GPL3110 Homo sapiens  
+58K oligonucleotide chip GPL2761 Homo sapiens Human  
+Custom-Made Muscle Chip GPL246 Homo sapiens Affymetrix GeneChip  
+Endothelial Cell Chip GPL217 Homo sapiens  
+8k cDNA chip GPL2048 Homo sapiens PeterMac  
+6240 cDNA Chip GPL1921 Rattus norvegicus Rat  
+Mouse 27K Chip GPL1862 Mus musculus AECOM  
+Mouse miRNA chip GPL1437 Mus musculus  
+Gallus gallus Chicken_Neuroendocrine_System_5K GPL1744  
+(G4100A) [layout C] GPL5689 Homo sapiens Agilent Human 1 cDNA Microarray  
+30K Subset C GPL1295 Homo sapiens Hitachisoft AceGene Human Oligo Chip  
+4K CGH (CGH_SANGER_4K_1) GPL4939 Homo sapiens Sanger Homo sapiens  
+cDNA Microarray, CGEP/Cornell GPL788 Solanum lycopersicum Tomato  
+Mus musculus CGEN:Mm010706 GPL3304  
+Caenorhabditis elegans ce_rosetta GPL14  
+of Saccharomyces cerevisiae GPL5398 Saccharomyces cerevisiae Complementary DNA arrays produced with PCR fragments of 6116 ORFs  
+Mus musculus Cerebellargenexp GPL8  
+Homo sapiens Celltrans_5808_Osman_3xplt6 GPL4505  
+M-1 CCD cells GPL2134 Mus musculus Dexamethasone-regulated genes in  
+Caenorhabditis elegans C_elegans_GHIstanfordprint_YMD2.gal.txt GPL446  
+Caenorhabditis elegans C_elegans_Aprint_YMD GPL539  
+Homo sapiens CEA_SGF:ALE GPL1106  
+Mus musculus CEA_SGF:AKH GPL3439  
+Saccharomyces cerevisiae CEA_SGF:AIW GPL1531  
+Mus musculus CEA_SGF:AHX GPL1063  
+Mus musculus CEA_SGF:AFU GPL1091  
+Mus musculus CEA_SGF:ACI GPL1094  
+Dog heart cDNA GPL974 Canis lupus familiaris  
+Pinus taeda cDNA GPL4039 Pinus taeda  
+human 500-1 cDNA GPL3916 Homo sapiens Hopital Lariboisiere Lab-Arraytor  
+20k full-length cDNA GPL256 Mus musculus Riken  
+Cattle 7,872-element cDNA GPL2108 Bos taurus  
+02-01 amplified cDNA GPL1930 Homo sapiens Homo sapiens 4.8K  
+Human 3.8k cDNA GPL1727 Homo sapiens  
+Pinus taeda cDNA GPL1508 Pinus taeda  
+Mouse 13.8k cDNA GPL1345 Mus musculus UTSW  
+sapiens Barbry cDNA GPL1241 Homo  
+Drosophila melanogaster CDMC_Drosophila_7k3 GPL1473  
+Drosophila melanogaster CDMC_Drosophila_7k2 GPL311  
+Drosophila melanogaster CDMC_Drosophila_12k2 GPL3598  
+Drosophila melanogaster CDMC_Drosophila_12k1 GPL1467  
+microarray Custom CDF GPL9734 Mus musculus Rosetta/Merck Mouse 38.4K RSTA Custom Affymetrix 1.0  
+Gene ID CDF] GPL4866 Homo sapiens Affymetrix GeneChip Human Genome U133 Plus 2.0 Array [MBNI v6 Entrez  
+Homo sapiens CCC-NB5000-Chip-version1 GPL1875  
+Homo sapiens CCC-NB200-Chip-version1 GPL1874  
+24K (liver cancer) GPL2913 Homo sapiens Center for Functional Analysis of Human Genome Human KUGI  
+14K (stomach cancer) GPL2912 Homo sapiens Center for Functional Analysis of Human Genome Human KUGI  
+GeneMap Human CancerArray GPL1387 Homo sapiens  
+Campylobacter jejuni CampyChip3 GPL2681  
+Campylobacter jejuni CampyChip1.2 GPL352  
+tuberculosis 4.8K CAG_Mtb GPL4057 Mycobacterium tuberculosis PHRI-UMNDJ Mycobacterium  
+ORF array (C270F) GPL4675 Schizosaccharomyces pombe Eurogentec S. pombe  
+Bacteroides thetaiotaomicron bthetaa511044F GPL1821  
+Bos taurus BPL_array_NIAS GPL1221  
+Mus musculus BMAP_HGPD GPL1487  
+V 11_22_04 BMAP GPL4464 Mus musculus UMN Mouse 11K  
+Bos taurus BLI_array_NIAS GPL338  
+japonicum 8.5K (BJ_USDA110_Oligo_Array) GPL5341 Bradyrhizobium japonicum USDA Bradyrhizobium  
+Homo sapiens BioStarH-141s GPL4272  
+Whole Genome Bioarray) GPL5825 Mus musculus EMBL30807 (GE Healthcare/Amersham Mouse  
+Whole Genome Bioarray GPL4478 Rattus norvegicus GE Healthcare/Amersham Biosciences CodeLink™ Rat  
+Human I Bioarray GPL4204 Homo sapiens GE Healthcare/Amersham Biosciences CodeLink UniSet  
+Human I Bioarray GPL4191 Homo sapiens CodeLink UniSet  
+20K I Bioarray GPL4044 Homo sapiens CodeLink UniSet Human  
+Rat I Bioarray GPL368 Rattus norvegicus Amersham Biosciences CodeLink Uniset  
+Mouse 20K Bioarray GPL2998 Mus musculus CodeLink Uniset  
+Mouse I Bioarray GPL2909 Mus musculus CodeLink Uniset  
+Whole Genome Bioarray GPL2897 Mus musculus GE Healthcare/Amersham Biosciences CodeLink™ Mouse  
+Whole Genome Bioarray GPL2896 Rattus norvegicus GE Healthcare/Amersham Biosciences CodeLink™ Rat  
+Whole Genome Bioarray GPL2895 Homo sapiens GE Healthcare/Amersham Biosciences CodeLink Human  
+Human I Bioarray GPL2893 Homo sapiens GE Healthcare/Amersham Biosciences CodeLink™ UniSet  
+Mouse I Bioarray GPL2892 Mus musculus GE Healthcare/Amersham Biosciences CodeLink™ UniSet  
+20K I Bioarray GPL2891 Homo sapiens GE Healthcare/Amersham Biosciences CodeLink™ UniSet Human  
+Rat I Bioarray GPL2890 Rattus norvegicus GE Healthcare/Amersham Biosciences CodeLink™ UniSet  
+Rat I Bioarray GPL2774 Rattus norvegicus Amersham Biosciences CodeLink Uniset  
+Human I Bioarray GPL1739 Homo sapiens Amersham Biosciences CodeLink Uniset  
+20K I Bioarray GPL1524 Mus musculus Amersham CodeLink UniSet Mouse  
+20K I Bioarray GPL1313 Homo sapiens Amersham BioSciences CodeLinkTM Uniset Human  
+Mouse I Bioarray GPL1310 Mus musculus Amersham CodeLink UniSet  
+Mouse I Bioarray GPL1219 Mus musculus Amersham Biosciences CodeLink UniSet  
+II Version B-IG GPL3021 Zea mays ISU Maize 12k cDNA Generation  
+(G4100A) [layout B] GPL876 Homo sapiens Agilent Human 1 cDNA Microarray  
+(G4104A) [layout B] GPL872 Mus musculus Agilent Mouse cDNA Microarray  
+3 (Part B) GPL351 Homo sapiens UHN Microarray Centre - Human 19K  
+Array Print B GPL3218 Homo sapiens MRC Human Known Gene Oligo  
+II Version B GPL1996 Zea mays Maize cDNA Generation  
+30K Subset B GPL1294 Homo sapiens Hitachisoft AceGene Human Oligo Chip  
+Mouse 6x Beads-Chip GPL5402 Mus musculus Illumina  
+v1.5.0.34 expression beadchip GPL8031 Rattus norvegicus Illumina ratRef-12  
+V3.0 expression beadchip GPL6947 Homo sapiens Illumina HumanHT-12  
+v2.0 expression beadchip GPL6887 Mus musculus Illumina MouseWG-6  
+v2.0 expression beadchip GPL6885 Mus musculus Illumina MouseRef-8  
+v3.0 expression beadchip GPL6884 Homo sapiens Illumina HumanWG-6  
+v3.0 expression beadchip GPL6883 Homo sapiens Illumina HumanRef-8  
+v2.0 expression beadchip GPL6255 Homo sapiens Illumina humanRef-8  
+v1.1 expression beadchip GPL6105 Mus musculus Illumina mouse-6  
+v2.0 expression beadchip GPL6104 Homo sapiens Illumina humanRef-8  
+v1.1 expression beadchip GPL6103 Mus musculus Illumina mouseRef-8  
+v2.0 expression beadchip GPL6102 Homo sapiens Illumina human-6  
+v1.0 expression beadchip GPL6101 Rattus norvegicus Illumina ratRef-12  
+v1.0 expression beadchip GPL6100 Mus musculus Illumina mouseRef-8  
+v1.0 expression beadchip GPL6097 Homo sapiens Illumina human-6  
+sapiens custom BeadChip GPL5764 Homo sapiens Illumina Homo  
+v2 Expression BeadChip GPL5104 Homo sapiens Sentrix HumanRef-8  
+Mouse-6 Expression BeadChip GPL4234 Mus musculus Sentrix  
+Mouse-6 Expression BeadChip GPL4055 Mus musculus Sentrix  
+Sentrix® HumanRef-8RD BeadChip GPL2725 Homo sapiens  
+HumanRef-8 Expression BeadChip GPL2700 Homo sapiens Sentrix  
+Human-6 Expression BeadChip GPL2507 Homo sapiens Sentrix  
+V4.0 expression beadchip GPL10558 Homo sapiens Illumina HumanHT-12  
+Dictyostelium discoideum BCM-Shaulsky-7744-v1 GPL4181  
+Mus musculus Baylor/AZ_Mouse_Cytokine_Array GPL5758  
+Bacillus anthracis Bacillus_anthracis_CGH GPL266  
+sapiens 8k BAC-array GPL5452 Homo sapiens DKFZ Homo  
+IGR+ORF array (B190D) GPL2728 Schizosaccharomyces pombe Eurogentec S. pombe  
+tuberculosis 4.6k array_TB-Oligos GPL5714 Mycobacterium tuberculosis Mycobacterium  
+musculus GSF ArrayTAG GPL1216 Mus  
+Library Spotted Arrays GPL4840 Homo sapiens Compugen 19K Oligo  
+and 20K arrays GPL3436 Mus musculus General Electric/Amersham Biosciences Mouse CodeLink 10K  
+17K Mouse Arrays GPL285 Mus musculus MIT-Laboratory for Bioinformatics and Metabolic Engineering,  
+Panorama Gene Arrays GPL102 Escherichia coli E. coli  
+SC5314 6k array_ORF6 GPL4920 Candida albicans SC5314 Edgerton Lab Candida albicans  
+sapiens 14K array_Liverpool GPL1729 Homo sapiens INSERM Homo  
+sapiens 14K array_Liverpool2 GPL3064 Homo sapiens INSERM Homo  
+22.4K cDNA array_Hepatotoxicity GPL4389 Mus musculus NIA Mouse  
+35K SubB Array GPL99 Homo sapiens [Hu35KsubB] Affymetrix Human  
+6.5k genome-wide array GPL996 Homo sapiens CR-UK DMF Human  
+35K SubA Array GPL98 Homo sapiens [Hu35KsubA] Affymetrix Human  
+Genome U133B Array GPL97 Homo sapiens [HG-U133B] Affymetrix Human  
+v.2 Oligo Array GPL978 Homo sapiens UCSF 6Hs Human  
+Genome U133A Array GPL96 Homo sapiens [HG-U133A] Affymetrix Human  
+musculus M15K array GPL967 Mus  
+Genome U95E Array GPL95 Homo sapiens [HG_U95E] Affymetrix Human  
+Genome U95D Array GPL94 Homo sapiens [HG_U95D] Affymetrix Human  
+Genome U95C Array GPL93 Homo sapiens [HG_U95C] Affymetrix Human  
+Genome U95B Array GPL92 Homo sapiens [HG_U95B] Affymetrix Human  
+elegans_mod 19K array GPL924 Caenorhabditis elegans UCSF  
+Genome U95A Array GPL91 Homo sapiens [HG_U95A] Affymetrix Human  
+Genome S98 Array GPL90 Saccharomyces cerevisiae [YG_S98] Affymetrix Yeast  
+Toxicology U34 Array GPL89 Rattus norvegicus [RT_U34] Affymetrix Rat  
+Neurobiology U34 Array GPL88 Rattus norvegicus [RN_U34] Affymetrix Rat  
+Genome U34 Array GPL87 Rattus norvegicus [RG_U34C] Affymetrix Rat  
+Genome 430A Array GPL8759 Mus musculus [HT_MG-430A] Affymetrix HT Mouse  
+Genome U34 Array GPL86 Rattus norvegicus [RG_U34B] Affymetrix Rat  
+Cotton Genome Array GPL8672 Gossypium barbadense [Cotton] Affymetrix  
+Genome U34 Array GPL85 Rattus norvegicus [RG_U34A] Affymetrix Rat  
+Pseudomonas aeruginosa Array GPL84 Pseudomonas aeruginosa [Pae_G1a] Affymetrix  
+Version 2 Array GPL83 Mus musculus [MG_U74Cv2] Affymetrix Murine Genome U74  
+430A 2.0 Array GPL8321 Mus musculus [Mouse430A_2] Affymetrix Mouse Genome  
+Version 2 Array GPL8300 Homo sapiens [HG_U95Av2] Affymetrix Human Genome U95  
+Version 2 Array GPL82 Mus musculus [MG_U74Bv2] Affymetrix Murine Genome U74B  
+Gene Expression Array GPL8217 Homo sapiens Rosetta Human  
+Version 2 Array GPL81 Mus musculus [MG_U74Av2] Affymetrix Murine Genome U74A  
+Length HuGeneFL Array GPL80 Homo sapiens [Hu6800] Affymetrix Human Full  
+genomic tiling array GPL785 Arabidopsis thaliana Arabidopsis thaliana (ecotype Columbia) chromosome 4 knob  
+Rat ADME array GPL778 Rattus norvegicus  
+Human 50k array GPL771 Homo sapiens Rosetta (Merck)  
+11K SubB Array GPL76 Mus musculus [Mu11KsubB] Affymetrix Murine  
+11K SubA Array GPL75 Mus musculus [Mu11KsubA] Affymetrix Murine  
+Human Cancer Array GPL74 Homo sapiens [HC_G110] Affymetrix  
+42k oligo array GPL7430 Homo sapiens MCI Human HEEBOChip  
+coli Genome Array GPL73 Escherichia coli K-12 [Ecoli] Affymetrix E.  
+Oligo UNC_custom array GPL737 Homo sapiens Agilent Human 1A  
+Drosophila Genome Array GPL72 Drosophila melanogaster [DrosGenome1] Affymetrix  
+Arabidopsis Genome Array GPL71 Arabidopsis thaliana [AG] Affymetrix  
+6803 oligo array GPL7016 Synechocystis sp. PCC 6803 Synechocystis sp. PCC  
+6.7K cDNA array GPL6070 Myxococcus xanthus Myxococcus xanthus Microarray consortium  
+23k Oligo Array GPL5883 Caenorhabditis elegans WUSTL Caenorhabditis elegans Whole Genome  
+elegans2b 20K array GPL576 Caenorhabditis elegans UCSF  
+Medical Tv_0_0 array GPL5753 Mycobacterium tuberculosis Bacterial Microarray Group, St George’s Hospital  
+60-mer oligo array GPL5737 Homo sapiens Human 30K  
+16 CustomExpress Array GPL5722 Mus musculus Affymetrix Mus musculus 4K chromosome 11 and  
+U133A 2.0 Array GPL571 Homo sapiens [HG-U133A_2] Affymetrix Human Genome  
+8k BAC array GPL5713 Homo sapiens DKFZ Homo sapiens  
+Plus 2.0 Array GPL570 Homo sapiens [HG-U133_Plus_2] Affymetrix Human Genome U133  
+14K oligo array GPL5692 Danio rerio OU/OMRF Zebrafish  
+6k BAC array GPL5685 Homo sapiens DKFZ Homo sapiens array-CGH  
+Arabidopsis Genome Array GPL5485 Arabidopsis thaliana Monsanto Custom  
+rat cDNA array GPL542 Rattus norvegicus 3168  
+rat cDNA array GPL541 Rattus norvegicus 6240  
+44k custom array GPL5373 Homo sapiens Agilent Homo sapiens  
+8k cDNA array GPL5369 Mus musculus SMCmou8400A Mus musculus  
+coli K12 Array GPL534 Escherichia coli K-12 MWG E.  
+Rat Liver Array GPL529 Rattus norvegicus MWG  
+Mouse 15k array GPL519 Mus musculus UHN  
+Mouse B Array GPL515 Mus musculus Burnham  
+21K cDNA array GPL5117 Canis lupus familiaris UMC_VET Canis familiaris  
+2.0 spotted array GPL5064 Mus musculus Gladstone Core Operon Mouse V  
+Rat 5K Array GPL500 Rattus norvegicus MWG  
+gambiae GAMBER_AG Array GPL5001 Anopheles gambiae Anopheles  
+version 1 array GPL4996 Staphylococcus aureus TIGR Staphylococcus aureus  
+4K mRNA array GPL4902 Thermus thermophilus HB8 Riken Thermus thermophilus HB8  
+Rice cDNA array GPL4878 Oryza sativa de los Reyes Lab  
+situ Genome Array GPL483 Arabidopsis thaliana Agilent/Paradigm Arabidopsis 60mer in  
+printed oligonucleotide array GPL4783 Mus musculus Operon Mouse V3.0.1  
+printed oligonucleotide array GPL4782 Homo sapiens Operon Human V3.0.2  
+Channel Splice Array GPL4757 Homo sapiens Ion  
+Apoptosis Gene Array GPL474 Mus musculus Superarray - GEArray Q Series Mouse  
+Tomato Genome Array GPL4741 Solanum lycopersicum [Tomato] Affymetrix  
+Early Access Array GPL4685 Homo sapiens [U133AAofAv2] Affymetrix GeneChip HT-HG_U133A  
+sapiens Hu800 Array GPL4671 Homo sapiens Homo  
+Manihot esculenta array GPL4655 Manihot esculenta High density Euphorbia esula and  
+5.7K DNA array GPL4615 Homo sapiens Chr8 BACs  
+Soybean Genome Array GPL4592 Glycine max [Soybean] Affymetrix  
+gambiae AG_GAMBER array GPL4579 Anopheles gambiae Custom Anopheles  
+wing validation array GPL4568 Drosophila melanogaster NimbleGen/UW-Madison Drosophila  
+3.5k BAC array GPL4560 Homo sapiens Netherlands Cancer Institute human  
+intestinalis 22K Array GPL4556 Ciona intestinalis Agilent-011592 Custom Agilent Ciona  
+long oligo array GPL4528 Rattus norvegicus CapitalBio Rat 27k  
+long oligo array GPL4525 Homo sapiens Human 22K  
+tuberculosis Antisense Array GPL4519 Mycobacterium tuberculosis H37Rv [TB-All-Antisense] Affymetrix M.  
+Human 18K Array GPL44 Homo sapiens FHCRC  
+long oligo array GPL4419 Homo sapiens UCSF 7Hs version 2 human  
+photolithographic maskless array GPL4416 Saccharomyces cerevisiae NimbleGen Saccharomyces cerevisiae oligonucleotide  
+spotted cDNA array GPL4413 Cryphonectria parasitica Cryphonectria parasitica 4K  
+miRNA Oligonucleotide Array GPL4403 Homo sapiens FJL Human/Mouse  
+Human miRNA Array GPL4400 Homo sapiens Mature  
+IIP 43K array GPL4255 Homo sapiens NIH-NIEHS/Agilent Human Familial  
+melanogaster detoxification array GPL4239 Drosophila melanogaster D.  
+cerevisiae ORF array GPL422 Saccharomyces cerevisiae COGEME Saccharomyces  
+ORF 7k Array GPL4226 Saccharomyces cerevisiae UT Southwestern Saccharomyces cerevisiae Spotted  
+cerevisiae yOIH_R array GPL4075 Saccharomyces cerevisiae UNC-CH Lieb lab Saccharomyces  
+3k oligo array GPL4060 Homo sapiens MDL human  
+custom-made Affymetrix array GPL4047 Staphylococcus aureus Saur2a  
+60 mer array GPL4038 Caenorhabditis elegans C. elegans 22k  
+Maize Genome Array GPL4032 Zea mays [Maize] Affymetrix  
+LUMC BAC array GPL4012 Homo sapiens 3.7k full genome  
+Duplication BAC array GPL4010 Homo sapiens Eichler Segmental  
+Genome 1.0 Array GPL3979 Canis lupus familiaris [Canine] Affymetrix Canine  
+E.coli_Shigella 6.5K array GPL3925 Escherichia coli K-12 SLVG  
+Genome U133A Array GPL3921 Homo sapiens [HT_HG-U133A] Affymetrix HT Human  
+RAP UniGene188 array GPL3883 Homo sapiens Swegene Human 27K  
+melanogaster detoxification array GPL3874 Drosophila melanogaster Drosophila  
+Tiling 1.0FR Array GPL3847 Schizosaccharomyces pombe Affymetrix S. pombe  
+Cane Genome Array GPL3844 Saccharum officinarum [Sugar_Cane] Affymetrix Sugar  
+4.3K cDNA array GPL3842 Xanthomonas campestris pv. campestris XCC  
+melanogaster cDNA array GPL3833 Drosophila melanogaster YUSM (K. White) D.  
+Cotton LSL Array GPL3823 Gossypium hirsutum  
+Wheat Genome Array GPL3802 Triticum aestivum [wheat] Affymetrix  
+Rat Oligonucleotide Array GPL3801 Rattus norvegicus Operon  
+7.8K spotted array GPL3781 Drosophila melanogaster UCSF Drosophila melanogaster  
+Human 19.2k Array GPL3762 Homo sapiens AGRS  
+GeneChip Canine Array GPL374 Canis lupus familiaris ToxExpress  
+Genome 2.0 Array GPL3738 Canis lupus familiaris [Canine_2] Affymetrix Canine  
+Human 29k Array GPL3733 Homo sapiens HMC  
+GSF/IEG mouse array GPL3697 Mus musculus  
+35k oligo array GPL3676 Homo sapiens NKI-CMF Homo sapiens  
+oligo 10K array GPL3666 Mus musculus RIKILT mouse  
+and ovule array GPL3641 Gossypium hirsutum SIPPE Gossypium hirsutum 5K cDNA fiber  
+7kv2 cDNA Array GPL3637 Homo sapiens Canvac Human  
+LT2 5.8K array GPL3612 Salmonella enterica subsp. enterica serovar Typhimurium str. LT2 Institute of Food Research Salmonella typhimurium  
+sapiens 9k array GPL3566 Homo sapiens WRAIR Homo  
+10K cDNA Array GPL355 Homo sapiens Human  
+25K v1.9 Array GPL3542 Mus musculus Rosetta/Merck Mouse  
+Macaque Genome Array GPL3535 Macaca mulatta [Rhesus] Affymetrix Rhesus  
+Porcine Genome Array GPL3533 Sus scrofa [Porcine] Affymetrix  
+whole genome array GPL3517 Listeria monocytogenes Uni Wuerzburg Listeria monocytogenes 13.8K  
+DC3000 5.6K array GPL3496 Pseudomonas syringae pv. tomato str. DC3000 Pseudomonas syringae pv. tomato str.  
+10.5K Oligo Array GPL3461 Sus scrofa Duke Operon Porcine  
+Expression 230B Array GPL342 Rattus norvegicus [RAE230B] Affymetrix Rat  
+40K Human array GPL3427 Homo sapiens TIGR  
+Expression 230A Array GPL341 Rattus norvegicus [RAE230A] Affymetrix Rat  
+Expression 430B Array GPL340 Mus musculus [MOE430B] Affymetrix Mouse  
+110 19K array GPL3401 Bradyrhizobium diazoefficiens USDA 110 Affymetrix custom Bradyrhizobium japonicum strain USDA  
+Expression 430A Array GPL339 Mus musculus [MOE430A] Affymetrix Mouse  
+Brain Library array GPL336 Sus scrofa Porcine  
+v.2 Oligo Array GPL3359 Mus musculus UCSF 7Mm Mouse  
+Agilent 8.4K array GPL3358 Rattus norvegicus custom made  
+Rat Oligonucleotide Array GPL333 Rattus norvegicus Qiagen  
+v.2 Oligo Array GPL3331 Mus musculus UCSF 11Mm Mouse  
+v.2 Oligo Array GPL3330 Mus musculus UCSF GS Operon Mouse  
+Genome U74A Array GPL32 Mus musculus [MG_U74A] Affymetrix Murine  
+43k cDNA array GPL3295 Homo sapiens SHCD_Homo sapiens  
+oneidensis 11.5k array GPL3253 Shewanella oneidensis MR-1 ORNL Shewanella  
+v.2.0 Spotted Array GPL3223 Mus musculus Duke University Murine Operon  
+v.3.0 spotted Array GPL3222 Mus musculus Duke University Murine Operon  
+Ovine 20K Array GPL3216 Ovis aries Ovita  
+Chicken Genome Array GPL3213 Gallus gallus [Chicken] Affymetrix  
+Genome 2.0 Array GPL3154 Escherichia coli [E_coli_2] Affymetrix E. coli  
+long oligo array GPL313 Mus musculus Gladstone Mm_09042002 v2 mouse  
+musculus 7K array GPL3106 Mus musculus CNCR Mus  
+19K v7 array GPL3073 Homo sapiens UHN Human  
+2K Genome Array GPL3063 Enterobacteria phage T4 Integrated Genomics Bacteriophage T4  
+15K Custom Array GPL3004 Mus musculus NIA Mouse  
+truncatula 6K array GPL2930 Medicago truncatula Medicago  
+9.6k MA11 array GPL2921 Mus musculus Wistar Institute Mus musculus  
+9.6k MA10 array GPL2918 Mus musculus Wistar Institute Mus musculus  
+9.6k MA08 array GPL2917 Mus musculus Wistar Institute Mus musculus  
+Gene Oligo Array GPL2915 Mus musculus MRC Mouse Known  
+Gene Oligo Array GPL2914 Homo sapiens MRC Human Known  
+9.6k MA07 array GPL2900 Mus musculus Wistar Institute Mus musculus  
+D ORF array GPL2857 Schizosaccharomyces pombe KARC Schizosaccharomyces pombe 5K Ver.  
+crescentus 50mer array GPL2856 Caulobacter vibrioides Bauer Center for Genomics Research Caulobacter  
+E ORF array GPL2849 Schizosaccharomyces pombe KARC Schizosaccharomyces pombe 5K Ver.  
+9.5K cDNA array GPL2848 Myxococcus xanthus UC Davis Singer Myxococcus xanthus  
+long oligo array GPL274 Homo sapiens UCSF 4Hs version 2 human  
+long oligo array GPL273 Homo sapiens UCSF 3OPHs version 1 human  
+RIKEN cDNA array GPL2732 Mus musculus 20K  
+Human Oligo Array GPL2721 Homo sapiens RIKILT  
+intestine-spleen combined array GPL2719 Gallus gallus  
+long oligo array GPL2714 Homo sapiens Human 22K  
+v.2 Oligo Array GPL2660 Mus musculus UCSF 12Mm Mouse  
+Thellungiella EST array GPL2627 Thellungiella  
+ISB Yeast Array GPL2622 Saccharomyces cerevisiae  
+Compugen oligo array GPL2612 Mus musculus Mouse  
+Fiber-Specific cDNA Array GPL2610 Gossypium hirsutum Upland Cotton  
+cDNA Mouse Array GPL260 Mus musculus Caltech 16K  
+SSH library array GPL2585 Gossypium hirsutum OSU Upland cotton line Im216  
+Oligo Mouse Array GPL254 Mus musculus Caltech 16K  
+TMU 667 array GPL2531 Homo sapiens Novusgene type 3 Hematology/Oncology  
+Lab 9K Array GPL243 Arabidopsis thaliana Arabidopsis The Keck Resource  
+Lab 12K Array GPL242 Arabidopsis thaliana Arabidopsis The Keck Resource  
+MS1: M1K array GPL226 Mus musculus  
+cerevisiae ORF array GPL221 Saccharomyces cerevisiae Ontario Cancer Institute full-genome S.  
+cDNA ORF array GPL220 Saccharomyces cerevisiae Silver-Church Harvard S. cerevisiae  
+18K cDNA array GPL2130 Homo sapiens CMF/NKI produced Human  
+2.6K cDNA array GPL2128 Homo sapiens Human  
+Bovine Genome Array GPL2112 Bos taurus [Bovine] Affymetrix  
+4K cDNA array GPL2097 Homo sapiens Muscle-related  
+mouse cDNA array GPL2028 Mus musculus NIA 15K  
+Rice Genome Array GPL2025 Oryza sativa [Rice] Affymetrix  
+HG-Focus Target Array GPL201 Homo sapiens [HG-Focus] Affymetrix Human  
+elegans Genome Array GPL200 Caenorhabditis elegans [Celegans] Affymetrix C.  
+19K oligo array GPL2006 Homo sapiens Human  
+Antisense Genome Array GPL199 Escherichia coli K-12 [Ecoli_ASv2] Affymetrix E. coli  
+ATH1 Genome Array GPL198 Arabidopsis thaliana [ATH1-121501] Affymetrix Arabidopsis  
+human 8k array GPL1982 Homo sapiens ACRF microarray consortium  
+GLYCOv1 glycogene array GPL1981 Homo sapiens  
+cDNA Custom Array GPL1977 Homo sapiens NHGRI 12k  
+RenLab Hu6K array GPL1969 Homo sapiens LICR/UCSD  
+Standard Spotted Array GPL1955 Mus musculus TRC  
+Skeletal Muscle Array GPL1935 Homo sapiens Human  
+long oligonucleotide array GPL1932 Schizosaccharomyces pombe S. pombe 10K  
+coli Gene Array GPL189 Escherichia coli Sigma Genosys Panorama Escherichia  
+FlyChip003 cDNA Array GPL1898 Drosophila melanogaster  
+subtilis Gene Array GPL188 Bacillus subtilis Sigma Genosys Panorama Bacillus  
+and inflammation array GPL1883 Homo sapiens Infection  
+cytokine gene array GPL1866 Mus musculus Sigma Panorama Mouse  
+v.2 Oligo Array GPL1792 Mus musculus UCSF 10Mm Operon Mouse  
+Human Oligonucleotide Array GPL1790 Homo sapiens Agilent-TQ Cardiovascular  
+liver oligo array GPL1786 Rattus norvegicus Rat  
+Human 18K Array GPL1753 Homo sapiens FHCRC  
+Caco-2 in-house array GPL1736 Homo sapiens  
+Multi-species cDNA array GPL1714 Macaca mulatta  
+27k cDNA array GPL1698 Mus musculus AECOM Mouse  
+Double Intergenic Array GPL1689 Saccharomyces cerevisiae Struhl Lab Yeast  
+15k cDNA array GPL1674 Mus musculus Mouse  
+6K SubA Array GPL163 Saccharomyces cerevisiae [Ye6100SubA] Affymetrix Yeast Genome  
+2,600 cDNA array GPL1624 Sus scrofa PorkChip  
+human 21K array GPL1530 Homo sapiens RIKEN  
+M18 GAS Array GPL1482 Streptococcus pyogenes M1, M3,  
+PCR tiling array GPL1454 Homo sapiens RenLab ENCODE  
+Hopkins Tag Array GPL1444 Saccharomyces cerevisiae  
+Rat 2K Array GPL1425 Rattus norvegicus  
+GLYCOv2 glycogene array GPL1420 Homo sapiens  
+8Kx2 cDNA array GPL1415 Rattus norvegicus Rat  
+GSF mouse array GPL1413 Mus musculus  
+Oligo spotted array GPL1411 Homo sapiens UTSW Human 22k  
+long oligonucleotide array GPL1384 Homo sapiens DKFZ Operon 27k  
+230 2.0 Array GPL1355 Rattus norvegicus [Rat230_2] Affymetrix Rat Genome  
+Human X3P Array GPL1352 Homo sapiens [U133_X3P] Affymetrix  
+27K cDNA array GPL1350 Rattus norvegicus Rat  
+Barley Genome Array GPL1340 Hordeum vulgare [Barley1] Affymetrix  
+aureus Genome Array GPL1339 Staphylococcus aureus [S_aureus] Affymetrix S.  
+60mer Arabidopsis array GPL1323 Arabidopsis thaliana NimbleGen  
+Genome 2.0 Array GPL1322 Drosophila melanogaster [Drosophila_2] Affymetrix Drosophila  
+Plasmodium/Anopheles Genome Array GPL1321 Plasmodium falciparum [Plasmodium_Anopheles] Affymetrix  
+Zebrafish Genome Array GPL1319 Danio rerio [Zebrafish] Affymetrix  
+laevis Genome Array GPL1318 Xenopus laevis [Xenopus_laevis] Affymetrix Xenopus  
+NIEHS Yeast Array GPL1300 Saccharomyces cerevisiae  
+NCI cDNA array GPL1290 Homo sapiens  
+430 2.0 Array GPL1261 Mus musculus [Mouse430_2] Affymetrix Mouse Genome  
+cDNA ORF array GPL1229 Saccharomyces cerevisiae Hughes Lab Saccharomyces cerevisiae  
+embryo gene array GPL1209 Sus scrofa Porcine 1000  
+Affymetrix GeneChip Array GPL1198 Homo sapiens Protein Design Labs Hu03 Custom  
+Oligo V2+UNC_custom array GPL1197 Homo sapiens Agilent Human 1A  
+v.2 Oligo Array GPL1196 Mus musculus UCSF Gladstone 18K Mouse  
+Skeletal Muscle Array GPL1097 Mus musculus Mouse  
+v.2 Oligo Array GPL1089 Mus musculus UCSF 10Mm Mouse  
+Genome 2.0 Array GPL10756 Xenopus laevis [X_laevis_2] Affymetrix Xenopus laevis  
+Flower-specific cDNA Array GPL1069 Arabidopsis thaliana Meyerowitz Lab Arabidopsis  
+resolution BAC array GPL1048 Homo sapiens Chromosomal alteration study using high  
+35K SubD Array GPL101 Homo sapiens [Hu35KsubD] Affymetrix Human  
+35K SubC Array GPL100 Homo sapiens [Hu35KsubC] Affymetrix Human  
+yeast oligo array GPL1007 Saccharomyces cerevisiae 70 bp  
+sapiens 44K ArrayCGH4 GPL5000 Homo sapiens MPIMG Homo  
+coli UBEC Array3 GPL3051 Escherichia  
+spotted oligo array2 GPL4415 Bacillus subtilis subsp. subtilis str. 168 Bacillus subtilis 168  
+adipose cDNA array2 GPL4197 Bos taurus Bovine muscle and  
+coli UBEC Array2 GPL1246 Escherichia  
+adipose cDNA array1 GPL4196 Bos taurus Bovine muscle and  
+Homo sapiens ARCS_human_1040_tc2 GPL4203  
+Homo sapiens ARCS_human_1040_BCv5 GPL4192  
+Homo sapiens ARCS_human_1040_BCv3 GPL4190  
+Homo sapiens angiogenesis GPL555  
+DSV/DRR/SGF : ANG GPL4263 Homo sapiens CEA -  
+sapiens Agilent AMADID012719 GPL1735 Homo  
+sapiens Agilent AMADID012718 GPL1734 Homo  
+sapiens Agilent AMADID012717 GPL1733 Homo  
+lymphoblastic leukemia (ALL) GPL2016 Homo sapiens Diagnostic miniarray of childhood acute  
+MJ et al. GPL4414 Saccharomyces cerevisiae Lieb Lab at UNC-CH_Yeast Whole-genome Array (PCR-based)_for Buck  
+CK et al. GPL3704 Saccharomyces cerevisiae Lieb Lab at UNC-CH_Yeast Whole-genome Array (PCR-based)_for Lee  
+albicans Soll albicans GPL1519 Candida  
+Arabidopsis thaliana aIW10 GPL2051  
+Arabidopsis thaliana aIW09 GPL1948  
+Immunity Microarray (AIIM) GPL1461 Gallus gallus Avian Innate  
+(G4100A) [layout A] GPL875 Homo sapiens Agilent Human 1 cDNA Microarray  
+Human 40K A GPL5802 Homo sapiens  
+10k Array A GPL520 Homo sapiens MWG Human  
+UMGC-IRCNA 9k A GPL4819 Homo sapiens  
+3 (Part A) GPL350 Homo sapiens UHN Microarray Centre - Human 19K  
+30k Array A GPL292 Homo sapiens MWG Human  
+30K Subset A GPL1293 Homo sapiens Hitachisoft AceGene Human Oligo Chip  
+Homo sapiens Agilent_AS_Experiment GPL1704  
+Option 002 Agilent-013186 GPL4728 Homo sapiens Human Promoter -800+300 Set, Slide 2 of 2 G2514A  
+Option 002 Agilent-013185 GPL4727 Homo sapiens Human Promoter -800+300 Set, Slide 1 of 2 G2514A  
+Oncorhynchus mykiss AGENAE_TroutGeneric2_9216 GPL3650  
+clones, print AgB3 GPL5917 Homo sapiens Human 12K cDNA  
+GeneChip Array (Affymetrix) GPL4617 Nitrosomonas europaea Custom Nitrosomonas europaea  
+[Alternative CDF: affy9939alt] GPL9525 Mus musculus [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array  
+[Alternative CDF: affy9618alt] GPL9523 Mus musculus [Mouse430_2] Affymetrix GeneChip Mouse Genome 430 2.0 Array  
+[Alternative CDF: affy4248alt] GPL9526 Mus musculus Illumina MouseWG-6 v2.0 expression beadchip  
+on strain Af293 GPL6085 Aspergillus fumigatus TIGR PFGRC Aspergillus fumigatus v2 array designed primarily based  
+Homo sapiens AECOM-H3-H11 GPL1424  
+27K array (AECOM) GPL1205 Mus musculus Mouse  
+Chromosome 21 abnormalities GPL1003 Homo sapiens Human BAC to study  
+Homo sapiens AB-8 GPL173  
+Homo sapiens AB-14 GPL172  
+Homo sapiens AB-11 GPL171  
+strain FGSC A4 GPL5397 Emericella nidulans TIGR PFGRC Aspergillus nidulans version 1 array designed primarily based on  
+Human 3.0 A1 GPL3991 Homo sapiens  
+Microarray (Cat. #7911-1) GPL1331 Rattus norvegicus Atlas Rat 3.8 I  
+Microarray (Cat. #7906-1) GPL151 Mus musculus Atlas Plastic Mouse 5K  
+Array (Cat. #7900-1) GPL121 Homo sapiens Atlas Glass Human 1.0  
+Array (Cat. #7860-1) GPL156 Rattus norvegicus Atlas Rat Toxicology 1.2  
+II (Cat. #7857-1) GPL145 Mus musculus Atlas Mouse 1.2 Array  
+II (Cat. #7856-1) GPL154 Rattus norvegicus Atlas Rat 1.2 Array  
+Array (Cat. #7854-1) GPL153 Rattus norvegicus Atlas Rat 1.2  
+Array (Cat. #7853-1) GPL144 Mus musculus Atlas Mouse 1.2  
+II (Cat. #7852-1) GPL128 Homo sapiens Atlas Human 1.2 Array  
+Array (Cat. #7851-1) GPL131 Homo sapiens Atlas Human Cancer 1.2  
+Array (Cat. #7850-1) GPL127 Homo sapiens Atlas Human 1.2  
+Array (Cat. #7741-1) GPL207 Mus musculus Clontech Atlas Mouse cDNA Expression  
+Array (Cat. #7735-1) GPL155 Rattus norvegicus Atlas Rat Stress  
+Array (Cat. #7734-1) GPL549 Homo sapiens Atlas Human Cardiovascular  
+human S (626) GPL4725 Homo sapiens PIQORTM Immunology Microarray,  
+human S (616) GPL4726 Homo sapiens PIQORTM Immunology Microarray,  
+array print #4 GPL2818 Escherichia coli E. coli  
+array print #3 GPL2817 Escherichia coli E. coli  
+array print #2 GPL3665 Bacillus subtilis Bacillus subtilis oligonucleotide  
+array print #2 GPL2816 Escherichia coli E. coli  
+Poppy Array #2 GPL1327 Papaver somniferum Millgate  
+Oncochip 2 (27.648) GPL4338 Homo sapiens CNIO Homo sapiens  
+et al. (2004) GPL999 Saccharomyces cerevisiae Leber  
+Bioarray 10K (2004) GPL4053 Mus musculus GE Healthcare/Amersham Biosciences CodeLink UniSet Mouse I  
+et al. (2004) GPL1001 Saccharomyces cerevisiae Patil  
+Oligo array (2003) GPL4228 Homo sapiens UCSF Gladstone Genomics Core Human 21k  
+array print #1 GPL2815 Escherichia coli E. coli  
+heteroclitus array #1 GPL2535 Fundulus heteroclitus Fundulus  
+Cotton Array #1 GPL1970 Gossypium hirsutum  
+Homo sapiens 0.7k GPL5460 Homo sapiens Genomessage  
