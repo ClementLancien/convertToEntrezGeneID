@@ -12,7 +12,9 @@ import StringIO
 import urllib2
 import subprocess
 import ConfigParser
-
+import logging
+from logging.handlers import RotatingFileHandler
+import sys
 
 class Download():
 
@@ -35,7 +37,34 @@ class Download():
         self.trembl=config.get('DownloadRAW', 'gene2trembl')
         self.logFile = config.get('Error', 'logFile')
 
+
+        self.logger=None
+        self.formatter=None
+        self.file_handler=None
+
+        
         self.path_exist()
+        self.init_log()
+        
+    def init_log(self):
+        
+         # création de l'objet logger qui va nous servir à écrire dans les logs
+        self.logger = logging.getLogger()
+        # on met le niveau du logger à DEBUG, comme ça il écrit tout
+        self.logger.setLevel(logging.DEBUG)
+         
+        # création d'un formateur qui va ajouter le temps, le niveau
+        # de chaque message quand on écrira un message dans le log
+        self.formatter = logging.Formatter('%(asctime)s :: %(levelname)s :: %(message)s')
+        # création d'un handler qui va rediriger une écriture du log vers
+        # un fichier en mode 'append', avec 1 backup et une taille max de 1Mo
+        
+        self.file_handler = RotatingFileHandler(self.logFile, 'a', 1000000, 1)
+        # on lui met le niveau sur DEBUG, on lui dit qu'il doit utiliser le formateur
+        # créé précédement et on ajoute ce handler au logger
+        self.file_handler.setLevel(logging.DEBUG)
+        self.file_handler.setFormatter(self.formatter)
+        self.logger.addHandler(self.file_handler)
         
     def path_exist(self):
         """ Check if dir exist if not we create the path
@@ -73,99 +102,89 @@ class Download():
             
         if not os.path.isdir(self.trembl.rsplit('/',1)[0]):
             os.makedirs(self.trembl.rsplit('/', 1)[0])
-        
-    def writeError(self, message):
-        with open(self.logFile,'a') as log:
-            log.write(message+'\n')
             
     def getEnsembl(self):
-
+        #--append-output=" + self.logFile + "
         try:
 
-            subprocess.check_output(['bash','-c', "wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2ensembl.gz --append-output=" + self.logFile + " --output-document=" + self.ensembl])
+            subprocess.check_output(['bash','-c', "wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2ensembl.gz --output-document=" + self.ensembl + " &>/dev/null" ])
 
-        except subprocess.CalledProcessError as e:
-
-            self.writeError("download.py - getEnsembl - Error")
-            self.writeError(str(e))
+        except subprocess.CalledProcessError as error:
+            
+            self.logger.warning("Error - download.py - getEnsembl - Download File")
+            self.logger.warning(sys.exc_info())
+            self.logger.warning(error)
             return
 
         try:
 
             subprocess.check_output(['bash','-c', "gunzip -f " + self.ensembl])
 
-        except subprocess.CalledProcessError as e:
+        except subprocess.CalledProcessError as error:
             
-            self.writeError("download.py - getEnsembl - Error")
-            self.writeError(str(e))
-            return
+            self.logger.warning("Error - download.py - getAccession - Extract File")
+            self.logger.warning(sys.exc_info())
+            self.logger.warning(error)
 
     def getUnigene(self):
 
         try:
 
-            subprocess.check_output(['bash','-c', "wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2unigene --append-output=" + self.logFile + " --output-document=" + self.unigene])
+            subprocess.check_output(['bash','-c', "wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2unigene --output-document=" + self.unigene + " &>/dev/null" ])
 
-        except subprocess.CalledProcessError as e:
-
-            self.writeError("download.py - getUnigene - Error")
-            self.writeError(str(e))
-            return
-
-        try:
-
-            subprocess.check_output(['bash','-c', "gunzip -f " + self.unigene])
-
-        except subprocess.CalledProcessError as e:
+        except subprocess.CalledProcessError as error:
             
-            self.writeError("download.py - getUnigene - Error")
-            self.writeError(str(e))
-            return
+            self.logger.warning("Error - download.py - getUnigene - Download File")
+            self.logger.warning(sys.exc_info())
+            self.logger.warning(error)
 
     def getAccession(self):
         
         try:
 
-            subprocess.check_output(['bash','-c', "wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2accession.gz --append-output=" + self.logFile + " --output-document=" + self.accession]) 
+            subprocess.check_output(['bash','-c', "wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2accession.gz --output-document=" + self.accession + " &>/dev/null" ]) 
         
-        except subprocess.CalledProcessError as e:
-
-            self.writeError("download.py - getAccession - Error")
-            self.writeError(str(e))
+        except subprocess.CalledProcessError as error:
+            
+            self.logger.warning("Error - download.py - getAccession - Download File")
+            self.logger.warning(sys.exc_info())
+            self.logger.warning(error)
             return
             
         try:
 
             subprocess.check_output(['bash','-c', "gunzip -f " + self.accession])
             
-        except subprocess.CalledProcessError as e:
+        except subprocess.CalledProcessError as error:
             
-            self.writeError("download.py - getAccession - Error")
-            self.writeError(str(e))
-            return
+            self.logger.warning("Error - download.py - getAccession - Extract File")
+            self.logger.warning(sys.exc_info())
+            self.logger.warning(error)
 
     def getInfo(self):
 
         try:
 
-            subprocess.check_output(['bash','-c', "wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene_info.gz --append-output=" + self.logFile + " --output-document=" + self.info])
+            subprocess.check_output(['bash','-c', "wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene_info.gz --output-document=" + self.info + " &>/dev/null" ])
 
-        except subprocess.CalledProcessError as e:
-
-            self.writeError("download.py - getInfo - Error")
-            self.writeError(str(e))
+        except subprocess.CalledProcessError as error:
+            
+            self.logger.warning("Error - download.py - getInfo - Download File")
+            self.logger.warning(sys.exc_info())
+            self.logger.warning(error)
             return
 
         try:
             subprocess.check_output(['bash','-c', "gunzip -f " + self.info])
 
-        except subprocess.CalledProcessError as e:
+        except subprocess.CalledProcessError as error:
             
-            self.writeError("download.py - getInfo - Error")
-            self.writeError(str(e))
-            return
+            self.logger.warning("Error - download.py - getInfo - Extract File")
+            self.logger.warning(sys.exc_info())
+            self.logger.warning(error)
 
     def getGPL(self):
+        
         """This function allows you to connect to the NCBI FTP server"""
         
 
@@ -192,105 +211,110 @@ class Download():
 
         try:
 
-            subprocess.check_output(['bash','-c', "wget ftp://ftp.ncbi.nlm.nih.gov/pub/HomoloGene/current/homologene.data --append-output=" + self.logFile + " --output-document=" + self.homologene])
+            subprocess.check_output(['bash','-c', "wget ftp://ftp.ncbi.nlm.nih.gov/pub/HomoloGene/current/homologene.data --output-document=" + self.homologene + " &>/dev/null" ])
 
-        except subprocess.CalledProcessError as e:
-
-            self.writeError("download.py - getHomoloGene - Error")
-            self.writeError(str(e))
-            return
+        except subprocess.CalledProcessError as error:
+            
+            self.logger.warning("Error - download.py - getHomoloGene - Download File")
+            self.logger.warning(sys.exc_info())
+            self.logger.warning(error)
 
     def getVega(self):
 
         try:
 
-            subprocess.check_output(['bash','-c', "wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2vega.gz --append-output=" + self.logFile + " --output-document=" + self.vega])
+            subprocess.check_output(['bash','-c', "wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2vega.gz --output-document=" + self.vega + " &>/dev/null" ])
 
-        except subprocess.CalledProcessError as e:
-
-            self.writeError("download.py - getVega - Error")
-            self.writeError(str(e))
+        except subprocess.CalledProcessError as error:
+            
+            self.logger.warning("Error - download.py - getVega - Download File")
+            self.logger.warning(sys.exc_info())
+            self.logger.warning(error)
             return
 
         try:
 
-            subprocess.check_output(['bash','-c', "gunzip -f " + self.vega])
+            subprocess.check_output(['bash','-c', "gunzip -f " + self.vega + " &>/dev/null" ])
 
-        except subprocess.CalledProcessError as e:
+        except subprocess.CalledProcessError as error:
             
-            self.writeError("download.py - getVega - Error")
-            self.writeError(str(e))
-            return
+            self.logger.warning("Error - download.py - getVega - Extract File")
+            self.logger.warning(sys.exc_info())
+            self.logger.warning(error)
 
     def getHistory(self):
         """ gene2gene"""
 
         try:
 
-            subprocess.check_output(['bash','-c', "wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene_history.gz --append-output=" + self.logFile + " --output-document=" + self.history])
+            subprocess.check_output(['bash','-c', "wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene_history.gz --output-document=" + self.history + " &>/dev/null" ])
 
-        except subprocess.CalledProcessError as e:
-
-            self.writeError("download.py - getHistory - Error")
-            self.writeError(str(e))
+        except subprocess.CalledProcessError as error:
+            
+            self.logger.warning("Error - download.py - getHistory - Download File")
+            self.logger.warning(sys.exc_info())
+            self.logger.warning(error)
             return
 
         try:
 
             subprocess.check_output(['bash','-c', "gunzip -f " + self.history])
 
-        except subprocess.CalledProcessError as e:
+        except subprocess.CalledProcessError as error:
             
-            self.writeError("download.py - getHistory - Error")
-            self.writeError(str(e))
-            return
+            self.logger.warning("Error - download.py - getHistory - Extract File")
+            self.logger.warning(sys.exc_info())
+            self.logger.warning(error)
 
     def getSwissprot(self):
 
         try:
 
-            subprocess.check_output(['bash','-c', "wget ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.dat.gz --append-output=" + self.logFile + " --output-document=" + self.swissprot])
+            subprocess.check_output(['bash','-c', "wget ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.dat.gz --output-document=" + self.swissprot + " &>/dev/null" ])
 
-        except subprocess.CalledProcessError as e:
-
-            self.writeError("download.py - getSwissprot - Error")
-            self.writeError(str(e))
+        except subprocess.CalledProcessError as error:
+            
+            self.logger.warning("Error - download.py - getSwissprot - Download File")
+            self.logger.warning(sys.exc_info())
+            self.logger.warning(error)
             return
 
         try:
 
-            subprocess.check_output(['bash','-c', "gunzip -f " + self.swissprot + " | egrep \"^ID   | ^AC  | ^DP | ^//"])
+            subprocess.check_output(['bash','-c', "gunzip -f " + self.swissprot + " | egrep \"^ID   | ^AC  | ^DP | ^// \" "])
 
-        except subprocess.CalledProcessError as e:
+        except subprocess.CalledProcessError as error:
             
-            self.writeError("download.py - getSwissprot - Error")
-            self.writeError(str(e))
-            return
+            self.logger.warning("Error - download.py - getSwissprot - Extract File")
+            self.logger.warning(sys.exc_info())
+            self.logger.warning(error)
+
 
     def getTrembl(self):
 
         try:
-            subprocess.check_output(['bash','-c', "wget ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_trembl.dat.gz --append-output=" + self.logFile + " --output-document=" + self.trembl])
+            subprocess.check_output(['bash','-c', "wget ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_trembl.dat.gz --output-document=" + self.trembl + " &>/dev/null"])
 
-        except subprocess.CalledProcessError as e:
-
-            self.writeError("download.py - getTrembl - Error")
-            self.writeError(str(e))
-            return
-
-        try:
-            subprocess.check_output(['bash','-c', "gunzip -f " + self.trembl + " | egrep \"^ID   | ^AC  | ^DP | ^//"])
-
-        except subprocess.CalledProcessError as e:
+        except subprocess.CalledProcessError as error:
             
-            self.writeError("download.py - getTrembl - Error")
-            self.writeError(str(e))
+            self.logger.warning("Error - download.py - getTrembl - Download File")
+            self.logger.warning(sys.exc_info())
+            self.logger.warning(error)
             return
+            
+        try:
+            subprocess.check_output(['bash','-c', "gunzip -f " + self.trembl + " | egrep \"^ID   | ^AC  | ^DP | ^// \" " ])
+
+        except subprocess.CalledProcessError as error:
+            
+            self.logger.warning("Error - download.py - getTrembl - Extract File")
+            self.logger.warning(sys.exc_info())
+            self.logger.warning(error)
 
 fileDownload = Download()
 
-fileDownload.getEnsembl()
-#fileDownload.getUnigene()
+#fileDownload.getEnsembl()
+fileDownload.getUnigene()
 #fileDownload.getAccession()
 #fileDownload.getInfo()
 #fileDownload.getGPL()

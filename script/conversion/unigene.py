@@ -1,9 +1,18 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Apr 19 16:48:42 2017
+Created on Tue Aug 22 11:54:38 2017
 
 @author: clancien
 """
+
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Apr 21 14:20:41 2017
+
+@author: clancien
+"""
+
+
 
 import ConfigParser
 import os
@@ -14,35 +23,28 @@ import logging
 from logging.handlers import RotatingFileHandler
 import sys
 
-class Ensembl():
-
+class Unigene():
+    
     def __init__(self):
-
+        
         config = ConfigParser.ConfigParser()
         config.readfp(open('../../configuration.ini','r'))
-
+        
         self.logFile = config.get('Error', 'logFile')
-        self._ensembl = config.get('Download', 'gene2ensembl')
-        self._gene = config.get('Convert', 'Ensembl_gene')
-        self._transcript = config.get('Convert', 'Ensembl_transcript')
-        self._protein = config.get('Convert', 'Ensembl_protein')
-
+        self.unigene = config.get('Download', 'gene2unigene')
+        self.gene = config.get('Convert', 'UniGene')
+        
         ##Panda read _protein(same for all) as function and not as string so raise error
         ##To bypass this error we create for each file a new variable to store the path as string
-
-        self.filename_ensembl = str(self._ensembl)
-        self.filename_gene = str(self._gene)
-        self.filename_transcript = str(self._transcript)
-        self.filename_protein = str(self._protein)
-
+        
+        self.filename_unigene = str(self.unigene)
+        self.filename_gene = str(self.gene)
+        
         self.size=1000000 #panda will read by chunsize here 1 million line by 1 million line
-
-        # Store column index we need
+        
         self.index_entrez = None
         self.index_gene = None
-        self.index_transcript = None
-        self.index_protein = None
-
+        
         self.dataframe = list
         self.finalDataFrame=None
         
@@ -50,13 +52,12 @@ class Ensembl():
         self.logger=None
         self.formatter=None
         self.file_handler=None
-        
+        #GeneID UniGene_cluster
         
         self.path_exist()
         self.init_log()
         self.create_index()
-
-
+        
     def path_exist(self):
         """ Check if dir exist if not we create the path
 
@@ -64,8 +65,8 @@ class Ensembl():
         string.rsplit('/',1)[0] 
         ==> return dir/subdir/ """
         
-        if not os.path.isdir(self._gene.rsplit('/',1)[0]):
-            os.makedirs(self._gene.rsplit('/', 1)[0])
+        if not os.path.isdir(self.gene.rsplit('/',1)[0]):
+            os.makedirs(self.gene.rsplit('/', 1)[0])
 
     def init_log(self):
         
@@ -87,41 +88,28 @@ class Ensembl():
         self.file_handler.setFormatter(self.formatter)
         self.logger.addHandler(self.file_handler)
         
+        
     def create_index(self):
 
-        with open(self.filename_ensembl , 'r') as infile:
+        with open(self.unigene , 'r') as infile:
 
             header_line = next(infile)
             header_line = header_line.split('\t')
+            
+            self.index_entrez = header_line.index('#GeneID')
+            self.index_gene = header_line.index('UniGene_cluster\n')
 
-            self.index_entrez = header_line.index('GeneID')
-            self.index_gene = header_line.index('Ensembl_gene_identifier')
-            self.index_transcript = header_line.index('Ensembl_rna_identifier')
-            self.index_protein = header_line.index('Ensembl_protein_identifier\n')
-            
-    def getColByIndex(self, index_column):
-        
-        if self.index_gene == index_column:
-            return 'Ensembl_gene'
-            
-        elif self.index_transcript == index_column:
-            return 'Ensembl_transcript'
-        
-        else:
-            return 'Ensembl_protein'
-            
-    def getData(self, index_column):
+    def getData(self):
 
         try:
 
             self.dataFrame=[]
 
-            for df in pandas.read_csv(self.filename_ensembl, header=0, sep="\t", usecols=[self.index_entrez, index_column], chunksize=self.size):
+            for df in pandas.read_csv(self.filename_unigene, header=0, sep="\t", usecols=[self.index_entrez, self.index_gene], chunksize=self.size):
                 #df.to_string()
                 df.columns = ['EGID','BDID']
                 
                 df["EGID"]= df["EGID"].astype(str)
-                df['BDID'] = df['BDID'].str.replace('[.][0-9]+','') #del versionning
 
                 self.dataFrame.append(
                     df[
@@ -133,15 +121,16 @@ class Ensembl():
                 #    self.dataFrame.append(
                 #         df[
                 #               (df['EGID'].str.contains('[0-9]+$', flags=re.IGNORECASE, regex=True, na=False)) & 
-                #               (df['BDID'].str.contains('^[A-Z]', flags=re.IGNORECASE, regex=True, na=False))
+                #               (df['BDID'].str.contains('^[a-zA-Z]{2,3}[.]([0-9]*)$', flags=re.IGNORECASE, regex=True, na=False))
                 #           ]
                 #
         except:
             
-            self.logger.warning("Error - ensembl.py - getData - " + self.getColByIndex(index_column))
-            self.logger.warning(sys.exc_info())
+            self.logger.warning("Error - unigene.py - getData")
+            self.logger.warning(sys.exc_info())           
 
-    def delDoublonInDataframe(self, index_column):
+    
+    def delDoublonInDataframe(self):
 
         try:
 
@@ -149,39 +138,25 @@ class Ensembl():
 
         except:
             
-            self.logger.warning("Error - ensembl.py - delDoublonInDataframe - " + self.getColByIndex(index_column))
+            self.logger.warning("Error - unigene.py - delDoublonInDataframe - UniGene_cluster")
             self.logger.warning(sys.exc_info())
 
-    def writeFile(self, filename):
+    def writeFile(self):
 
         try:
-            self.finalDataFrame.to_csv(filename, header=None, index=None, sep='\t', mode='w')
+            self.finalDataFrame.to_csv(self.filename_gene, header=None, index=None, sep='\t', mode='w')
 
         except:
             
-            self.logger.warning("Error - ensembl.py - writeFile - " + filename)
+            self.logger.warning("Error - unigene.py - writeFile - " + self.filename_gene)
             self.logger.warning(sys.exc_info())
 
 
     def convertToGene(self):
 
-        self.getData(self.index_gene)
-        self.delDoublonInDataframe(self.index_gene)
-        self.writeFile(self.filename_gene)
+        self.getData()
+        self.delDoublonInDataframe()
+        self.writeFile()
+        
 
-    def convertToTranscript(self):
-
-        self.getData(self.index_transcript)
-        self.delDoublonInDataframe(self.index_transcript)
-        self.writeFile(self.filename_transcript)
-
-    def convertToProtein(self):
-
-        self.getData(self.index_protein)
-        self.delDoublonInDataframe(self.index_protein)
-        self.writeFile(self.filename_protein)
-
-ensembl_file= Ensembl()
-ensembl_file.convertToGene()
-ensembl_file.convertToTranscript()
-ensembl_file.convertToProtein()
+Unigene().convertToGene()
