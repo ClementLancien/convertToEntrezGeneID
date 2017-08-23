@@ -50,7 +50,7 @@ class Accession():
         self.filename_GI_transcript = str(self.GI_transcript)
         self.filename_GI_protein = str(self.GI_protein)
         
-        self.size=1000000 #panda will read by chunsize here 1 million line by 1 million line
+        self.size=1000000 #panda will read by chunksize here 1 million line by 1 million line
         
         self.index_entrez = None
         self.index_GenBank_transcript = None
@@ -118,6 +118,8 @@ class Accession():
             self.index_GI_transcript = header_line.index('RNA_nucleotide_gi')
             self.index_GI_protein = header_line.index('protein_gi')
 
+
+
     def getGenBank_transcript(self):
         
         # ~False = true
@@ -125,11 +127,11 @@ class Accession():
             
             self.dataframe=[]
            
-            for df in pandas.read_csv(self.filename_accession,header=0,sep="\t",usecols=[self.index_entrez,self.index_GenBank_transcript],chunksize=self.size):
+            for df in pandas.read_csv(self.filename_accession, header=0, sep="\t", usecols=[self.index_entrez,self.index_GenBank_transcript], dtype='str', chunksize=self.size):
 
                 df.columns = ['EGID','BDID']
-                df['EGID'] = df['EGID'].astype(str)
-                df['BDID'] = df['BDID'].astype(str)
+                #df['EGID'] = df['EGID'].astype(str)
+                #df['BDID'] = df['BDID'].astype(str)
                 df['BDID'] = df['BDID'].str.replace('[.][0-9]+','')#r'[.]([0-9]*)', '')
                
                 
@@ -143,6 +145,7 @@ class Accession():
             
             self.logger.warning("Error - accession.py - GenBank_transcript - loop over file" )
             self.logger.warning(sys.exc_info())
+            return
             
         try:
             
@@ -160,17 +163,17 @@ class Accession():
             
             self.dataframe=[]
             
-            for df in pandas.read_csv(self.filename_accession,header=0,sep="\t",usecols=[self.index_entrez,self.index_GenBank_protein],chunksize=self.size):
+            for df in pandas.read_csv(self.filename_accession, header=0,sep="\t", usecols=[self.index_entrez,self.index_GenBank_protein], dtype='str', chunksize=self.size):
 
                 df.columns = ['EGID','BDID']
-                df['EGID'] = df['EGID'].astype(str)
-                df['BDID'] = df['BDID'].astype(str)
+                #df['EGID'] = df['EGID'].astype(str)
+               # df['BDID'] = df['BDID'].astype(str)
                 df['BDID'] = df['BDID'].str.replace('[.][0-9]+','')#r'[.]([0-9]*)', '')
                 #df =df[df['BDID'].str.contains('^[A-Z]{2}[_][0-9]+$', flags=re.IGNORECASE, regex=False, na=False)]
                 self.dataframe.append(df[
-                                            (df['EGID'].str.match('^[0-9]+$', flags=re.IGNORECASE, regex=True, na=False)) &
+                                            (df['EGID'].str.match('^[0-9]+$', flags=re.IGNORECASE)) &
                                             (df['BDID'] != '-') &
-                                            (~df['BDID'].str.match('^[A-Z]{2}[_][0-9]+$', flags=re.IGNORECASE, regex=False, na=False))
+                                            (~df['BDID'].str.match('^[A-Z]{2}[_][0-9]+$', flags=re.IGNORECASE))
                                             
                                         ])
         
@@ -178,6 +181,7 @@ class Accession():
             
             self.logger.warning("Error - accession.py - GenBank_protein - loop over file" )
             self.logger.warning(sys.exc_info())
+            return
             
         try:
             
@@ -194,15 +198,15 @@ class Accession():
             
             self.dataframe=[]
             
-            for df in pandas.read_csv(self.filename_accession,header=0,sep="\t",usecols=[self.index_entrez,self.index_RefSeq_transcript],chunksize=self.size):
+            for df in pandas.read_csv(self.filename_accession, header=0, sep="\t", usecols=[self.index_entrez,self.index_RefSeq_transcript], dtype='str', chunksize=self.size):
 
                 df.columns = ['EGID','BDID']
-                df['EGID'] = df['EGID'].astype(str)
-                df['BDID'] = df['BDID'].astype(str)
+                #df['EGID'] = df['EGID'].astype(str)
+                #df['BDID'] = df['BDID'].astype(str)
                 df['BDID'] = df['BDID'].str.replace('[.][0-9]+','')
                 self.dataframe.append(df[
-                                            (df['EGID'].str.match('^[0-9]+$', flags=re.IGNORECASE, regex=True, na=False)) &
-                                            (df['BDID'].str.match('^[A-Z]{2}[_][0-9]+$', flags=re.IGNORECASE, regex=True, na=False))
+                                            (df['EGID'].str.match('^[0-9]+$', flags=re.IGNORECASE)) &
+                                            (df['BDID'].str.match('^[A-Z]{2}[_][0-9]+$', flags=re.IGNORECASE))
                                             
                                         ])
         
@@ -210,6 +214,7 @@ class Accession():
             
             self.logger.warning("Error - accession.py - RefSeq_transcript - loop over file" )
             self.logger.warning(sys.exc_info())
+            return
             
         try:
             
@@ -226,15 +231,15 @@ class Accession():
             
             self.dataframe=[]
             
-            for df in pandas.read_csv(self.filename_accession,header=0,sep="\t",usecols=[self.index_entrez,self.index_RefSeq_protein],chunksize=self.size):
+            for df in pandas.read_csv(self.filename_accession, header=0,sep="\t", usecols=[self.index_entrez,self.index_RefSeq_protein], dtype='str', chunksize=self.size):
 
                  df.columns = ['EGID','BDID']
-                 df['EGID'] = df['EGID'].astype(str)
-                 df['BDID'] = df['BDID'].astype(str)
+                 #df['EGID'] = df['EGID'].astype(str)
+                 #df['BDID'] = df['BDID'].astype(str)
                  df['BDID'] = df['BDID'].str.replace('[.][0-9]+','')#r'[.]([0-9]*)', '')
                  self.dataframe.append(df[
-                                             (df['EGID'].str.match('^[0-9]+$', flags=re.IGNORECASE, regex=True, na=False)) &
-                                             (df['BDID'].str.match('^[A-Z]{2}[_][0-9]+$', flags=re.IGNORECASE, regex=True, na=False))
+                                             (df['EGID'].str.match('^[0-9]+$', flags=re.IGNORECASE)) &
+                                             (df['BDID'].str.match('^[A-Z]{2}[_][0-9]+$', flags=re.IGNORECASE))
                                              
                                         ])
         
@@ -242,6 +247,7 @@ class Accession():
             
             self.logger.warning("Error - accession.py - RefSeq_protein - loop over file" )
             self.logger.warning(sys.exc_info())
+            return
             
         try:
             
@@ -258,15 +264,15 @@ class Accession():
             
             self.dataframe=[]
             
-            for df in pandas.read_csv(self.filename_accession,header=0,sep="\t",usecols=[self.index_entrez,self.index_GI_transcript],chunksize=self.size):
+            for df in pandas.read_csv(self.filename_accession, header=0, sep="\t", usecols=[self.index_entrez,self.index_GI_transcript], dtype='str', chunksize=self.size):
                 
                 df.columns = ['EGID','BDID']# ~False = true
-                df['EGID'] = df['EGID'].astype(str)
-                df['BDID'] = df['BDID'].astype(str)
+                #df['EGID'] = df['EGID'].astype(str)
+                #df['BDID'] = df['BDID'].astype(str)
                 df['BDID'] = df['BDID'].str.replace('[.][0-9]+','')
                 self.dataframe.append(df[
-                                            (df['EGID'].str.match('^[0-9]+$', flags=re.IGNORECASE, regex=True, na=False))  &
-                                            (df['BDID'].str.match('^[0-9]+$', flags=re.IGNORECASE, regex=True, na=False))
+                                            (df['EGID'].str.match('^[0-9]+$', flags=re.IGNORECASE))  &
+                                            (df['BDID'].str.match('^[0-9]+$', flags=re.IGNORECASE))
                                             
                                         ])
         
@@ -274,6 +280,7 @@ class Accession():
             
             self.logger.warning("Error - accession.py - GI_transcript - loop over file" )
             self.logger.warning(sys.exc_info())
+            return
             
         try:
             
@@ -290,15 +297,15 @@ class Accession():
             
             self.dataframe=[]
             
-            for df in pandas.read_csv(self.filename_accession,header=0,sep="\t",usecols=[self.index_entrez,self.index_GI_protein],chunksize=self.size):
+            for df in pandas.read_csv(self.filename_accession, header=0, sep="\t", usecols=[self.index_entrez,self.index_GI_protein], dtype='str', chunksize=self.size):
                 
                 df.columns = ['EGID','BDID']
-                df['EGID'] = df['EGID'].astype(str)
-                df['BDID'] = df['BDID'].astype(str)
+                #df['EGID'] = df['EGID'].astype(str)
+                #df['BDID'] = df['BDID'].astype(str)
                 df['BDID'] = df['BDID'].str.replace('[.][0-9]+','')
                 self.dataframe.append(df[
-                                            (df['EGID'].str.match('^[0-9]+$', flags=re.IGNORECASE, regex=True, na=False)) &
-                                            (df['BDID'].str.match('^[0-9]+$', flags=re.IGNORECASE, regex=True, na=False))
+                                            (df['EGID'].str.match('^[0-9]+$', flags=re.IGNORECASE)) &
+                                            (df['BDID'].str.match('^[0-9]+$', flags=re.IGNORECASE))
                                             
                                         ])
         
@@ -306,6 +313,7 @@ class Accession():
             
             self.logger.warning("Error - accession.py - GI_protein - loop over file" )
             self.logger.warning(sys.exc_info())
+            return
             
         try:
             
@@ -323,13 +331,13 @@ class Accession():
 accession = Accession()
 print "getGenBank_transcript"
 accession.getGenBank_transcript()
-#print "getGenBank_protein"
-#accession.getGenBank_protein()
-#print "getRefSeq_transcript"
-#accession.getRefSeq_transcript()
-#print "getRefSeq_protein"
-#accession.getRefSeq_protein()
-#print "getGI_transcript"
-#accession.getGI_transcript()
-#print "getGI_protein"
-#accession.getGI_protein()
+print "getGenBank_protein"
+Accession().getGenBank_protein()
+print "getRefSeq_transcript"
+Accession().getRefSeq_transcript()
+print "getRefSeq_protein"
+Accession().getRefSeq_protein()
+print "getGI_transcript"
+Accession().getGI_transcript()
+print "getGI_protein"
+Accession().getGI_protein()
