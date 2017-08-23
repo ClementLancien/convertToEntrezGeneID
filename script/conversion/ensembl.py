@@ -35,7 +35,7 @@ class Ensembl():
         self.filename_transcript = str(self._transcript)
         self.filename_protein = str(self._protein)
 
-        self.size=1000000 #panda will read by chunsize here 1 million line by 1 million line
+        self.size=1000000 #panda will read by chunksize here 1 million line by 1 million line
 
         # Store column index we need
         self.index_entrez = None
@@ -116,11 +116,11 @@ class Ensembl():
 
             self.dataFrame=[]
 
-            for df in pandas.read_csv(self.filename_ensembl, header=0, sep="\t", usecols=[self.index_entrez, index_column], chunksize=self.size):
+            for df in pandas.read_csv(self.filename_ensembl, header=0, sep="\t", usecols=[self.index_entrez, index_column], dtype='str', chunksize=self.size):
                 #df.to_string()
                 df.columns = ['EGID','BDID']
                 
-                df["EGID"]= df["EGID"].astype(str)
+                #df["EGID"]= df["EGID"].astype(str)
                 df['BDID'] = df['BDID'].str.replace('[.][0-9]+','') #del versionning
 
                 self.dataFrame.append(
