@@ -1,17 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Aug 22 12:22:29 2017
-
-@author: clancien
-"""
-
-# -*- coding: utf-8 -*-
-"""
 Created on Wed Apr 19 16:15:47 2017
 
 @author: clancien
 """
-
 
 import ConfigParser
 import os

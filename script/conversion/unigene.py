@@ -1,23 +1,12 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Aug 22 11:54:38 2017
-
-@author: clancien
-"""
-
-# -*- coding: utf-8 -*-
 """
 Created on Fri Apr 21 14:20:41 2017
 
 @author: clancien
 """
 
-
-
 import ConfigParser
 import os
 import pandas
-import re
 
 import logging
 from logging.handlers import RotatingFileHandler

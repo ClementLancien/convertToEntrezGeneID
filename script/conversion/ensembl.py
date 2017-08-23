@@ -8,7 +8,6 @@ Created on Wed Apr 19 16:48:42 2017
 import ConfigParser
 import os
 import pandas
-import re
 
 import logging
 from logging.handlers import RotatingFileHandler
@@ -161,7 +160,6 @@ class Ensembl():
             
             self.logger.warning("Error - ensembl.py - writeFile - " + filename)
             self.logger.warning(sys.exc_info())
-
 
     def convertToGene(self):
 

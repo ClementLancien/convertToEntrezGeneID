@@ -184,15 +184,15 @@ class Download():
             self.logger.warning(error)
 
     def getGPL(self):
-        
         """This function allows you to connect to the NCBI FTP server"""
         
-
+        a=0
         host = "ftp.ncbi.nlm.nih.gov" # adresse du serveur FTP
         connect = ftplib.FTP(host, 'anonymous', 'anonymous') 
         connect.cwd("/geo/platforms")
         for _dir in connect.nlst():  
-            #print dir
+ 
+
             for subdir in connect.nlst(str(_dir)):
                 if ((str(subdir) + "/annot") in connect.nlst(str(subdir))):
                     response = urllib2.urlopen('ftp://'+host+"/geo/platforms/"+str(subdir) + "/annot/" + (str(subdir.split("/")[1])) + ".annot.gz")
@@ -203,7 +203,9 @@ class Download():
         
                     with open(os.path.join(self.gpl ,(str(subdir.split("/")[1])) +'.annot'), 'w') as outfile:
                         outfile.write(decompressedFile.read())
-
+                else:
+                    print a
+                    a=a+1
         connect.quit()
 
     def getHomoloGene(self):
@@ -314,10 +316,10 @@ class Download():
 fileDownload = Download()
 
 #fileDownload.getEnsembl()
-fileDownload.getUnigene()
+#fileDownload.getUnigene()
 #fileDownload.getAccession()
 #fileDownload.getInfo()
-#fileDownload.getGPL()
+fileDownload.getGPL()
 #fileDownload.getHomoloGene()
 #fileDownload.getVega()
 #fileDownload.getHistory()

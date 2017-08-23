@@ -8,7 +8,6 @@ Created on Tue Aug 22 16:42:44 2017
 import ConfigParser
 import os
 import pandas
-import re
 
 import logging
 from logging.handlers import RotatingFileHandler
