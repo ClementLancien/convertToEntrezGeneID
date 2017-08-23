@@ -40,7 +40,7 @@ class Unigene():
         self.filename_unigene = str(self.unigene)
         self.filename_gene = str(self.gene)
         
-        self.size=1000000 #panda will read by chunsize here 1 million line by 1 million line
+        self.size=1000000 #panda will read by chunksize here 1 million line by 1 million line
         
         self.index_entrez = None
         self.index_gene = None
@@ -105,11 +105,11 @@ class Unigene():
 
             self.dataFrame=[]
 
-            for df in pandas.read_csv(self.filename_unigene, header=0, sep="\t", usecols=[self.index_entrez, self.index_gene], chunksize=self.size):
+            for df in pandas.read_csv(self.filename_unigene, header=0, sep="\t", usecols=[self.index_entrez, self.index_gene], dtype='str', chunksize=self.size):
                 #df.to_string()
                 df.columns = ['EGID','BDID']
                 
-                df["EGID"]= df["EGID"].astype(str)
+                #df["EGID"]= df["EGID"].astype(str)
 
                 self.dataFrame.append(
                     df[
@@ -123,7 +123,7 @@ class Unigene():
                 #               (df['EGID'].str.contains('[0-9]+$', flags=re.IGNORECASE, regex=True, na=False)) & 
                 #               (df['BDID'].str.contains('^[a-zA-Z]{2,3}[.]([0-9]*)$', flags=re.IGNORECASE, regex=True, na=False))
                 #           ]
-                #
+                #better to use str.match()
         except:
             
             self.logger.warning("Error - unigene.py - getData")
