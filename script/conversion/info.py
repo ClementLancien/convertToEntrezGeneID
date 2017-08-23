@@ -23,7 +23,7 @@ class Info():
         
         self.logFile = config.get('Error', 'logFile')
         
-        self.gene2info = config.get('Download', 'gene2accession')
+        self.gene2info = config.get('Download', 'gene2info')
         self.info = config.get('Convert', 'Info')
         
         ##Panda read _protein(same for all) as function and not as string so raise error
@@ -33,7 +33,7 @@ class Info():
         self.filename_info = str(self.info)
         
         
-        self.size=1000000 #panda will read by chunsize here 1 million line by 1 million line
+        self.size=1000000 #panda will read by chunksize here 1 million line by 1 million line
         
         self.index_entrez = None
         self.index_tax_id = None
@@ -59,8 +59,8 @@ class Info():
         string.rsplit('/',1)[0] 
         ==> return dir/subdir/ """
         
-        if not os.path.isdir(self.info.rsplit('/',1)[0]):
-            os.makedirs(self.info.rsplit('/', 1)[0])
+        if not os.path.isdir(self.filename_info.rsplit('/',1)[0]):
+            os.makedirs(self.filename_info.rsplit('/', 1)[0])
 
     def init_log(self):
         
@@ -82,31 +82,53 @@ class Info():
         self.file_handler.setFormatter(self.formatter)
         self.logger.addHandler(self.file_handler)
         
+        self.path_exist()
+        self.create_index()
+
 
     def create_index(self):
 
-        with open(self.filename_accession , 'r') as infile:
+        with open(self.filename_gene2info , 'r') as infile:
 
             header_line = next(infile)
+
             header_line = header_line.split('\t')
-                
+
             self.index_entrez = header_line.index('GeneID')
             self.index_tax_id = header_line.index('#tax_id')
-            self.index_symbol = header_line.index('S')
-            self.index_description = header_line.index('#tax_id')
+            self.index_symbol = header_line.index('Symbol')
+            self.index_description = header_line.index('description')
             
+    def getInfo(self):
+        
+        # ~False = true
+        try:
+            
+            self.dataframe=[]
+           
+            for df in pandas.read_csv(self.filename_gene2info ,header=0, sep="\t", usecols=[self.index_entrez, self.index_tax_id, self.index_symbol, self.index_description], dtype='str', chunksize=self.size):
 
+                df.columns = ['EGID','TAXID', 'SYMBOL', 'DESCRIPTION']
+                #df['EGID'] = df['EGID'].astype(str)
+                #df['TAXID'] = df['TAXID'].astype(str)
+                #df['SYMBOL'] = df['SYMBOL'].astype(str)
+                #df['DESCRIPTION'] = df['DESCRIPTION'].astype(str)
+                
+                self.dataframe.append(df)
+                
+        except:
+            
+            self.logger.warning("Error - info.py - getInfo - loop over file" )
+            self.logger.warning(sys.exc_info())
+            return
+            
+        try:
+            
+            pandas.concat(self.dataframe).drop_duplicates(['EGID','TAXID', 'SYMBOL', 'DESCRIPTION'], keep='first').to_csv(self.filename_info, header=None, index=None, sep='\t', mode='w')
+        
+        except:
+            
+            self.logger.warning("Error - info.py - getInfo - write File")
+            self.logger.warning(sys.exc_info())       
 
-#tax_id GeneID  Symbol  LocusTag        Synonyms        dbXrefs chromosome      map_location    description     type_of_gene    Symbol_from_nomenclature_authority      Full_name_from_nomenclature_authority   Nomenclature_status     Other_designations      Modification_date       Feature_type
-
-def fileInfo():
-    """ tax_ID GeneID Status Symbol"""
-    with open('gene_info/gene_info' , 'r') as infile:
-        with open('gene_info/gene_info_convert', 'w') as newFile:
-            for line in infile:
-                lineList= line.split("\t")
-                newStr = str(lineList[0]) + "\t" + str(lineList[1]) + "\t" + str(lineList[2]) + "\t" + str(lineList[4]) + "\t" + str(lineList[8])
-                newFile.write(newStr)
-t0 = time.time()
-fileInfo()
-print time.time() - t0, "seconds wall time"
+Info().getInfo()
