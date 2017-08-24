@@ -110,8 +110,6 @@ class Accession():
             self.index_GI_transcript = header_line.index('RNA_nucleotide_gi')
             self.index_GI_protein = header_line.index('protein_gi')
 
-
-
     def getGenBank_transcript(self):
         
         # ~False = true
@@ -136,17 +134,20 @@ class Accession():
         except:
             
             self.logger.warning("Error - accession.py - GenBank_transcript - loop over file" )
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
-            return
             
-        try:
+        else:
             
-            pandas.concat(self.dataframe).drop_duplicates(['EGID', 'BDID'], keep='first').to_csv(self.filename_GenBank_transcript, header=None, index=None, sep='\t', mode='w')
+            try:
+            
+                pandas.concat(self.dataframe).drop_duplicates(['EGID', 'BDID'], keep='first').to_csv(self.filename_GenBank_transcript, header=None, index=None, sep='\t', mode='w')
         
-        except:
+            except:
             
-            self.logger.warning("Error - accession.py - GenBank_transcript - write File")
-            self.logger.warning(sys.exc_info())
+                self.logger.warning("Error - accession.py - GenBank_transcript - write File")
+                self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
+                self.logger.warning(sys.exc_info())
             
     def getGenBank_protein(self):
         
@@ -172,17 +173,20 @@ class Accession():
         except:
             
             self.logger.warning("Error - accession.py - GenBank_protein - loop over file" )
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
-            return
             
-        try:
+        else:
             
-            pandas.concat(self.dataframe).drop_duplicates(['EGID', 'BDID'], keep='first').to_csv(self.filename_GenBank_protein, header=None, index=None, sep='\t', mode='w')
+            try:
+            
+                pandas.concat(self.dataframe).drop_duplicates(['EGID', 'BDID'], keep='first').to_csv(self.filename_GenBank_protein, header=None, index=None, sep='\t', mode='w')
         
-        except:
+            except:
             
-            self.logger.warning("Error - accession.py - GenBank_protein - write File")
-            self.logger.warning(sys.exc_info()) 
+                self.logger.warning("Error - accession.py - GenBank_protein - write File")
+                self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
+                self.logger.warning(sys.exc_info()) 
          
     def getRefSeq_transcript(self):
         
@@ -205,17 +209,20 @@ class Accession():
         except:
             
             self.logger.warning("Error - accession.py - RefSeq_transcript - loop over file" )
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
-            return
             
-        try:
+        else: 
             
-            pandas.concat(self.dataframe).drop_duplicates(['EGID', 'BDID'], keep='first').to_csv(self.filename_RefSeq_transcript, header=None, index=None, sep='\t', mode='w')
+            try:
+            
+                pandas.concat(self.dataframe).drop_duplicates(['EGID', 'BDID'], keep='first').to_csv(self.filename_RefSeq_transcript, header=None, index=None, sep='\t', mode='w')
         
-        except:
+            except:
             
-            self.logger.warning("Error - accession.py - RefSeq_transcript - write File")
-            self.logger.warning(sys.exc_info())    
+                self.logger.warning("Error - accession.py - RefSeq_transcript - write File")
+                self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
+                self.logger.warning(sys.exc_info())    
   
     def getRefSeq_protein(self):
         
@@ -238,17 +245,20 @@ class Accession():
         except:
             
             self.logger.warning("Error - accession.py - RefSeq_protein - loop over file" )
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
-            return
             
-        try:
+        else:
             
-            pandas.concat(self.dataframe).drop_duplicates(['EGID', 'BDID'], keep='first').to_csv(self.filename_RefSeq_protein, header=None, index=None, sep='\t', mode='w')
+            try:
+            
+                pandas.concat(self.dataframe).drop_duplicates(['EGID', 'BDID'], keep='first').to_csv(self.filename_RefSeq_protein, header=None, index=None, sep='\t', mode='w')
         
-        except:
+            except:
             
-            self.logger.warning("Error - accession.py - RefSeq_protein - write File")
-            self.logger.warning(sys.exc_info())  
+                self.logger.warning("Error - accession.py - RefSeq_protein - write File")
+                self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
+                self.logger.warning(sys.exc_info())  
 
     def getGI_transcript(self):
         
@@ -267,21 +277,23 @@ class Accession():
                                             (df['BDID'].str.match('^[0-9]+$', flags=re.IGNORECASE))
                                             
                                         ])
-        
         except:
             
             self.logger.warning("Error - accession.py - GI_transcript - loop over file" )
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
-            return
             
-        try:
+        else:
             
-            pandas.concat(self.dataframe).drop_duplicates(['EGID', 'BDID'], keep='first').to_csv(self.filename_GI_transcript, header=None, index=None, sep='\t', mode='w')
+            try:
+            
+                pandas.concat(self.dataframe).drop_duplicates(['EGID', 'BDID'], keep='first').to_csv(self.filename_GI_transcript, header=None, index=None, sep='\t', mode='w')
         
-        except:
+            except:
             
-            self.logger.warning("Error - accession.py - GI_transcript - write File")
-            self.logger.warning(sys.exc_info())  
+                self.logger.warning("Error - accession.py - GI_transcript - write File")
+                self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
+                self.logger.warning(sys.exc_info())  
 
     def getGI_protein(self):
         
@@ -304,17 +316,21 @@ class Accession():
         except:
             
             self.logger.warning("Error - accession.py - GI_protein - loop over file" )
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
-            return
             
-        try:
             
-            pandas.concat(self.dataframe).drop_duplicates(['EGID', 'BDID'], keep='first').to_csv(self.filename_GI_protein, header=None, index=None, sep='\t', mode='w')
+        else:
+            
+            try:
+            
+                pandas.concat(self.dataframe).drop_duplicates(['EGID', 'BDID'], keep='first').to_csv(self.filename_GI_protein, header=None, index=None, sep='\t', mode='w')
         
-        except:
+            except:
             
-            self.logger.warning("Error - accession.py - GI_protein - write File")
-            self.logger.warning(sys.exc_info())  
+                self.logger.warning("Error - accession.py - GI_protein - write File")
+                self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
+                self.logger.warning(sys.exc_info())  
 
 
 

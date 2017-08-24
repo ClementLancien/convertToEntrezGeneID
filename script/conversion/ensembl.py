@@ -21,18 +21,18 @@ class Ensembl():
         config.readfp(open('../../configuration.ini','r'))
 
         self.logFile = config.get('Error', 'logFile')
-        self._ensembl = config.get('Download', 'gene2ensembl')
-        self._gene = config.get('Convert', 'Ensembl_gene')
-        self._transcript = config.get('Convert', 'Ensembl_transcript')
-        self._protein = config.get('Convert', 'Ensembl_protein')
+        self.ensembl = config.get('Download', 'gene2ensembl')
+        self.gene = config.get('Convert', 'Ensembl_gene')
+        self.transcript = config.get('Convert', 'Ensembl_transcript')
+        self.protein = config.get('Convert', 'Ensembl_protein')
 
         ##Panda read _protein(same for all) as function and not as string so raise error
         ##To bypass this error we create for each file a new variable to store the path as string
 
-        self.filename_ensembl = str(self._ensembl)
-        self.filename_gene = str(self._gene)
-        self.filename_transcript = str(self._transcript)
-        self.filename_protein = str(self._protein)
+        self.filename_ensembl = str(self.ensembl)
+        self.filename_gene = str(self.gene)
+        self.filename_transcript = str(self.transcript)
+        self.filename_protein = str(self.protein)
 
         self.size=1000000 #panda will read by chunksize here 1 million line by 1 million line
 
@@ -63,8 +63,8 @@ class Ensembl():
         string.rsplit('/',1)[0] 
         ==> return dir/subdir/ """
         
-        if not os.path.isdir(self._gene.rsplit('/',1)[0]):
-            os.makedirs(self._gene.rsplit('/', 1)[0])
+        if not os.path.isdir(self.gene.rsplit('/',1)[0]):
+            os.makedirs(self.gene.rsplit('/', 1)[0])
 
     def init_log(self):
         
@@ -138,6 +138,7 @@ class Ensembl():
         except:
             
             self.logger.warning("Error - ensembl.py - getData - " + self.getColByIndex(index_column))
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
 
     def delDoublonInDataframe(self, index_column):
@@ -149,6 +150,7 @@ class Ensembl():
         except:
             
             self.logger.warning("Error - ensembl.py - delDoublonInDataframe - " + self.getColByIndex(index_column))
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
 
     def writeFile(self, filename):
@@ -159,6 +161,7 @@ class Ensembl():
         except:
             
             self.logger.warning("Error - ensembl.py - writeFile - " + filename)
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
 
     def convertToGene(self):

@@ -81,10 +81,6 @@ class Info():
         self.file_handler.setFormatter(self.formatter)
         self.logger.addHandler(self.file_handler)
         
-        self.path_exist()
-        self.create_index()
-
-
     def create_index(self):
 
         with open(self.filename_gene2info , 'r') as infile:
@@ -118,16 +114,19 @@ class Info():
         except:
             
             self.logger.warning("Error - info.py - getInfo - loop over file" )
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
-            return
             
-        try:
+        else:
             
-            pandas.concat(self.dataframe).drop_duplicates(['EGID','TAXID', 'SYMBOL', 'DESCRIPTION'], keep='first').to_csv(self.filename_info, header=None, index=None, sep='\t', mode='w')
+            try:
+            
+                pandas.concat(self.dataframe).drop_duplicates(['EGID','TAXID', 'SYMBOL', 'DESCRIPTION'], keep='first').to_csv(self.filename_info, header=None, index=None, sep='\t', mode='w')
         
-        except:
+            except:
             
-            self.logger.warning("Error - info.py - getInfo - write File")
-            self.logger.warning(sys.exc_info())       
+                self.logger.warning("Error - info.py - getInfo - write File")
+                self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
+                self.logger.warning(sys.exc_info())       
 
 Info().getInfo()

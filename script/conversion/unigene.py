@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Created on Fri Apr 21 14:20:41 2017
 
@@ -92,7 +93,7 @@ class Unigene():
 
         try:
 
-            self.dataFrame=[]
+            self.dataframe=[]
 
             for df in pandas.read_csv(self.filename_unigene, header=0, sep="\t", usecols=[self.index_entrez, self.index_gene], dtype='str', chunksize=self.size):
                 #df.to_string()
@@ -100,7 +101,7 @@ class Unigene():
                 
                 #df["EGID"]= df["EGID"].astype(str)
 
-                self.dataFrame.append(
+                self.dataframe.append(
                     df[
                         (df['EGID'] != '-') &
                         (df['BDID'] != '-')
@@ -116,6 +117,7 @@ class Unigene():
         except:
             
             self.logger.warning("Error - unigene.py - getData")
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())           
 
     
@@ -123,11 +125,12 @@ class Unigene():
 
         try:
 
-            self.finalDataFrame = pandas.concat(self.dataFrame).drop_duplicates(['EGID', 'BDID'], keep='first')
+            self.finalDataFrame = pandas.concat(self.dataframe).drop_duplicates(['EGID', 'BDID'], keep='first')
 
         except:
             
             self.logger.warning("Error - unigene.py - delDoublonInDataframe - UniGene_cluster")
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
 
     def writeFile(self):
@@ -137,7 +140,8 @@ class Unigene():
 
         except:
             
-            self.logger.warning("Error - unigene.py - writeFile - " + self.filename_gene)
+            self.logger.warning("Error - unigene.py - writeFile")
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
 
 
