@@ -10,7 +10,7 @@ Table of contents
 =================
 
 1. [What is EntrezGene ?](#what-is-entrezgene)
-2. [Tree Structure Data Folder](#tree-structure-data-folder)
+2. [Tree Structure Data Folder](#tree-structure-data-folder-:evergreen_tree:)
 
 What is EntrezGene ?
 ===================
