@@ -12,8 +12,8 @@ Table of contents
 1. [What is EntrezGene ?](#what-is-entrezgene)
 2. [Tree Structure Data Folder](#tree-structure-data-folder)
 
-What is EntrezGene
-==================
+What is EntrezGene ?
+====================
 
 EntrezGene is a script which allow you to download database file like Ensembl, UniGene, Accession, GeneInfo, GPL (GEO), HomoloGene, Vega, History, SwissProt, trEMBL.
 
