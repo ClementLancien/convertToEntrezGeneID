@@ -5,7 +5,7 @@ Table of contents
 =================
 
 1. [What is EntrezGene?](#what-is-EntrezGene)
-	1. Toto
+2. [Tree Structure Folder](#tree-structure-folder)
 
 What is EntrezGene?
 ===================
@@ -38,5 +38,8 @@ From these files, Entrez Gene extract and create the following files :
 - Entrez_GeneToVega_transcript
 - Entrez_GeneToVega_protein
 
+Tree Structure Folder
+=====================
 
+Some text heres
 
