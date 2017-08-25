@@ -64,7 +64,7 @@ Data File Structure
 ===================
 
 |             Files		|      Entrez Gene ID      |
-|:-----------------------------:|:------------------------:|
+|_-----------------------------:|:------------------------:|
 |Entrez_GeneToGenBank_protein	|    :white_check_mark:    |
 |Entrez_GeneToGenBank_transcript|    :white_check_mark:    |
 |Entrez_GeneToGI_protein	|    :white_check_mark:    |
