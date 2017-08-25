@@ -1,12 +1,14 @@
-# EntrezGene : Download - Extract Column from Data
+EntrezGene : Download - Extract Column from Data
+================================================
 
-## Table of contents
+Table of contents
+=================
 
-1. What is EntrezGene?
+1. [What is EntrezGene?](#what-is-Entrezgene)
 	1. Toto
 
-## What is EntrezGene?
-
+What is EntrezGene?
+===================
 
 EntrezGene is a script which allow you to download database file like Ensembl, UniGene, Accession, GeneInfo, GPL (GEO), 
 HomoloGene, Vega, History, SwissProt, trEMBL.
