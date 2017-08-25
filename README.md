@@ -63,27 +63,27 @@ From these files, Entrez Gene extract and create the following files :
 Data File Structure
 ===================
 
-|             Files		|      Entrez Gene ID      |
-|------------------------------:|:------------------------:|
-|Entrez_GeneToGenBank_protein	|    :white_check_mark:    |
-|Entrez_GeneToGenBank_transcript|    :white_check_mark:    |
-|Entrez_GeneToGI_protein	|    :white_check_mark:    |
-|Entrez_GeneToGI_transcript	|    :white_check_mark:    |
-|Entrez_GeneToRefSeq_protein	|    :white_check_mark:    |
-|Entrez_GeneToRefSeq_transcript	|    :white_check_mark:    |
-|Entrez_GeneToEnsembl_gene	|    :white_check_mark:    |
-|Entrez_GeneToEnsembl_transcript|    :white_check_mark:    |
-|Entrez_GeneToEnsembl_protein	|    :white_check_mark:    |
-|Entrez_GeneToGPL		|    :white_check_mark:    |    
-|Entrez_GeneToHistory		|    :white_check_mark:    |
-|Entrez_GeneToHomoloGene	|    :white_check_mark:    |
-|Entrez_GeneToInfo		|    :white_check_mark:    |
-|Entrez_GeneToSwissProt		|    :white_check_mark:    |
-|Entrez_GeneTotrEMBL		|    :white_check_mark:    |
-|Entrez_GeneToUniGene		|    :white_check_mark:    |
-|Entrez_GeneToVega_gene		|    :white_check_mark:    |
-|Entrez_GeneToVega_transcript	|    :white_check_mark:    |
-|Entrez_GeneToVega_protein	|    :white_check_mark:    |
+|             Files		|      Entrez Gene ID      |      DataBase ID      |
+|:------------------------------|:------------------------:|:---------------------:|
+|Entrez_GeneToGenBank_protein	|    :white_check_mark:    |   :white_check_mark:  |
+|Entrez_GeneToGenBank_transcript|    :white_check_mark:    |   :white_check_mark:  |
+|Entrez_GeneToGI_protein	|    :white_check_mark:    |   :white_check_mark:  |
+|Entrez_GeneToGI_transcript	|    :white_check_mark:    |   :white_check_mark:  |
+|Entrez_GeneToRefSeq_protein	|    :white_check_mark:    |   :white_check_mark:  |
+|Entrez_GeneToRefSeq_transcript	|    :white_check_mark:    |   :white_check_mark:  |
+|Entrez_GeneToEnsembl_gene	|    :white_check_mark:    |   :white_check_mark:  |
+|Entrez_GeneToEnsembl_transcript|    :white_check_mark:    |   :white_check_mark:  |
+|Entrez_GeneToEnsembl_protein	|    :white_check_mark:    |   :white_check_mark:  |
+|Entrez_GeneToGPL		|    :white_check_mark:    |   :white_check_mark:  |
+|Entrez_GeneToHistory		|    :white_check_mark:    |   :white_check_mark:  |
+|Entrez_GeneToHomoloGene	|    :white_check_mark:    |   :white_check_mark:  |
+|Entrez_GeneToInfo		|    :white_check_mark:    |   :white_check_mark:  |
+|Entrez_GeneToSwissProt		|    :white_check_mark:    |   :white_check_mark:  |
+|Entrez_GeneTotrEMBL		|    :white_check_mark:    |   :white_check_mark:  |
+|Entrez_GeneToUniGene		|    :white_check_mark:    |   :white_check_mark:  |
+|Entrez_GeneToVega_gene		|    :white_check_mark:    |   :white_check_mark:  |
+|Entrez_GeneToVega_transcript	|    :white_check_mark:    |   :white_check_mark:  |
+|Entrez_GeneToVega_protein	|    :white_check_mark:    |   :white_check_mark:  |
 
  :white_check_mark:
 
