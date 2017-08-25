@@ -18,7 +18,8 @@ Table of contents
 
 1. [What is EntrezGene?](#what-is-entrezgene?)
 2. [Data File Structure](#data-file-structure)
-2. [Tree Structure Data Folder](#tree-structure-data-folder)
+3. [Tree Structure Data Folder](#tree-structure-data-folder)
+4. [Requirements](#requirements)
 
 What is EntrezGene?
 ====================
@@ -173,5 +174,10 @@ Data
        ├──Entrez_GeneToVega_transcript (.tsv)
        └──Entrez_GeneToVega_protein (.tsv)
 ```
+
+Requirements
+============
+
+Panda==0.17.1
 
 
