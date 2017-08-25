@@ -4,7 +4,7 @@ EntrezGene : Download - Extract Column from Data
 Table of contents
 =================
 
-1. [What is EntrezGene?](#what-is-Entrezgene)
+1. [What is EntrezGene?](#what-is-EntrezGene)
 	1. Toto
 
 What is EntrezGene?
