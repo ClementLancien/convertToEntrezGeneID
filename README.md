@@ -5,7 +5,7 @@ Table of contents
 =================
 
 1. [What is EntrezGene?](#what-is-EntrezGene)
-2. [Tree Structure Folder](#tree-structure-folder)
+2. [Tree Structure Folder](#tree-structure-data-folder)
 
 What is EntrezGene?
 ===================
@@ -43,10 +43,11 @@ Tree Structure Data Folder
 
 
 
-```
-├── accession
+```markdown
+Data
+├──accession
 |   ├──convert
-|   |  └──accession (tsv)
+|   |  └──accession .(tsv)
 |   └──raw
 |      ├──Entrez_GeneToGenBank_protein (.tsv)
 |      ├──Entrez_GeneToGenBank_transcript (.tsv)
@@ -54,7 +55,67 @@ Tree Structure Data Folder
 |      ├──Entrez_GeneToGI_transcript (.tsv)
 |      ├──Entrez_GeneToRefSeq_protein (.tsv)
 |      └──Entrez_GeneToRefSeq_transcript (.tsv)
+|
+├──ensembl
+|   ├──convert
+|   |  └──ensembl (.tsv)
+|   └──raw
+|      ├──Entrez_GeneToEnsembl_gene (.tsv)
+|      ├──Entrez_GeneToEnsembl_protein (.tsv)
+|      └──Entrez_GeneToEnsembl_transcript (.tsv)
+|
+├──gpl
+|   ├──convert
+|   |  └──all gpl files
+|   └──raw
+|      └──Entrez_GeneToGPL (.tsv)
+|
+├──history
+|   ├──convert
+|   |  └──history (.tsv)
+|   └──raw
+|      └──Entrez_GeneToHistory (.tsv)
+|
+├──homologene
+|   ├──convert
+|   |  └──homologene (.tsv)
+|   └──raw
+|      └──Entrez_GeneToHomoloGene (.tsv)
+|
+├──info
+|   ├──convert
+|   |  └──info (.tsv)
+|   └──raw
+|      └──Entrez_GeneToInfo (.tsv)
+|
+├──swissprot
+|   ├──convert
+|   |  └──swissprot
+|   └──raw
+|      └──Entrez_GeneToSwissProt (.tsv)
+|
+├──trembl
+|   ├──convert
+|   |  └──trembl
+|   └──raw
+|      └──Entrez_GeneTotrEMBL (.tsv)
+|
+├──unigene
+|   ├──convert
+|   |  └──unigene (.tsv)
+|   └──raw
+|      └──Entrez_GeneToUniGene (.tsv)
+|
+└──vega
+    ├──convert
+    |  └──vega (.tsv)
+    └──raw
+       ├──Entrez_GeneToVega_gene (.tsv)
+       ├──Entrez_GeneToVega_transcript (.tsv)
+       └──Entrez_GeneToVega_protein (.tsv)
 
+
+Entrez_GeneToHistory
 ```
 
 
