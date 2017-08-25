@@ -38,12 +38,31 @@ From these files, Entrez Gene extract and create the following files :
 - Entrez_GeneToVega_transcript
 - Entrez_GeneToVega_protein
 
-Tree Structure Folder
+Tree Structure Data Folder
 =====================
 
-​```sequence
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
-​```
 
+
+```
+├── accession
+|   ├──convert
+|   |  └──accession (tsv)
+|   └──raw
+|      ├──Entrez_GeneToGenBank_protein (.tsv)
+|      ├──Entrez_GeneToGenBank_transcript (.tsv)
+|      ├──Entrez_GeneToGI_protein (.tsv)
+|      ├──Entrez_GeneToGI_transcript (.tsv)
+|      ├──Entrez_GeneToRefSeq_protein (.tsv)
+|      └──Entrez_GeneToRefSeq_transcript (.tsv)
+
+```
+
+
+```
+├── acession
+├── b.yml
+├── c.yaml
+└── d
+    ├── e.json
+    └── f.json
+```
