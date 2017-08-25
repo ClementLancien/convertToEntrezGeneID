@@ -1,5 +1,7 @@
 EntrezGene : Download - Extract Column from Biological Database files
 ================================================
+
+[comment]: <> (https://rozaxe.github.io/factory/)
 [![Latest Stable Version](https://poser.pugx.org/phpunit/phpunit/version)](https://packagist.org/packages/phpunit/phpunit)
 ![Python 2.7.0](https://img.shields.io/badge/Python-2.7.0-brightgreen.svg)(https://www.python.org/)
 [![Python 2.7.0](https://img.shields.io/badge/Python-2.7.0-brightgreen.svg)](https://www.python.org/)
