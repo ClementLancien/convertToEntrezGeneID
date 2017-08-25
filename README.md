@@ -3,8 +3,10 @@ EntrezGene : Download - Extract Column from Biological Database files
 
 [comment]: <> (https://rozaxe.github.io/factory/)
 [![Latest Stable Version](https://poser.pugx.org/phpunit/phpunit/version)](https://packagist.org/packages/phpunit/phpunit)
-![Python 2.7.0](https://img.shields.io/badge/Python-2.7.0-brightgreen.svg)(https://www.python.org/)
-[![Python 2.7.0](https://img.shields.io/badge/Python-2.7.0-brightgreen.svg)](https://www.python.org/)
+[![Release v0.1.0](https://img.shields.io/badge/Release-v0.1.0-blue.svg)](https://github.com/ClementLancien/convertToEntrezGeneID)
+[![Python v2.7.0](https://img.shields.io/badge/Python-v2.7.0-brightgreen.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 Status
 ======
