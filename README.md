@@ -1,8 +1,8 @@
 EntrezGene : Download - Extract Column from Biological Database files
 ================================================
 [![Latest Stable Version](https://poser.pugx.org/phpunit/phpunit/version)](https://packagist.org/packages/phpunit/phpunit)
-[![travis](https://img.shields.io/travis/tanhauhau/awesome-project.svg)](https://travis-ci.org/tanhauhau/awesome-project)
-[![npm-version](https://img.shields.io/npm/v/awesome-project.svg)](https://www.npmjs.com/package/awesome-project)
+![Python 2.7.0](https://img.shields.io/badge/Python-2.7.0-brightgreen.svg)
+[![Python 2.7.0](https://img.shields.io/badge/Python-2.7.0-brightgreen.svg)]
 
 Status
 ======
