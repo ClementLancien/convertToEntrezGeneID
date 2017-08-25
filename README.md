@@ -1,5 +1,6 @@
 EntrezGene : Download - Extract Column from Biological Database files
 ================================================
+[![Latest Stable Version](https://poser.pugx.org/phpunit/phpunit/version)](https://packagist.org/packages/phpunit/phpunit)
 
 Status
 ======
@@ -10,6 +11,7 @@ Table of contents
 =================
 
 1. [What is EntrezGene?](#what-is-entrezgene?)
+2. [Data File Structure](#data-file-structure)
 2. [Tree Structure Data Folder](#tree-structure-data-folder)
 
 What is EntrezGene?
@@ -85,23 +87,6 @@ Data File Structure
 |Entrez_GeneToVega_transcript	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |   :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
 |Entrez_GeneToVega_protein	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |   :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
 
- :white_check_mark:
-
- :no_entry_sign:
-
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-
-
-
-|Files	|   |   |   |   |   |
-|-------	|---|---|---|---|---|
-|   	|   |   |   |   |   |
-|   	|   |   |   |   |   |
-|   	|   |   |   |   |   |
 
 Tree Structure Data Folder 
 ==========================
