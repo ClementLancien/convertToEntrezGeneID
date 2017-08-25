@@ -60,10 +60,51 @@ From these files, Entrez Gene extract and create the following files :
 
 - Entrez_GeneToVega_protein
 
-  ​
+Data File Structure
+===================
 
-Tree Structure Data Folder :evergreen_tree:
-===========================================
+|             Files		|      Are      |      Entrez Gene ID      |
+|-------------------------------|:-------------:|--------------------------|
+|Entrez_GeneToGenBank_protein	|   centered	|    :white_check_mark:    |
+|Entrez_GeneToGenBank_transcript|   centered	|    :white_check_mark:    |
+|Entrez_GeneToGI_protein	|   centered	|    :white_check_mark:    |
+|Entrez_GeneToGI_transcript	|   centered	|    :white_check_mark:    |
+|Entrez_GeneToRefSeq_protein	|   centered	|    :white_check_mark:    |
+|Entrez_GeneToRefSeq_transcript	|   centered	|    :white_check_mark:    |
+|Entrez_GeneToEnsembl_gene	|   centered	|    :white_check_mark:    |
+|Entrez_GeneToEnsembl_transcript|   centered	|    :white_check_mark:    |
+|Entrez_GeneToEnsembl_protein	|   centered	|    :white_check_mark:    |
+|Entrez_GeneToGPL		|   centered	|    :white_check_mark:    |    
+|Entrez_GeneToHistory		|   centered	|    :white_check_mark:    |
+|Entrez_GeneToHomoloGene	|   centered	|    :white_check_mark:    |
+|Entrez_GeneToInfo		|   centered	|    :white_check_mark:    |
+|Entrez_GeneToSwissProt		|   centered	|    :white_check_mark:    |
+|Entrez_GeneTotrEMBL		|   centered	|    :white_check_mark:    |
+|Entrez_GeneToUniGene		|   centered	|    :white_check_mark:    |
+|Entrez_GeneToVega_gene		|   centered	|    :white_check_mark:    |
+|Entrez_GeneToVega_transcript	|   centered	|    :white_check_mark:    |
+|Entrez_GeneToVega_protein	|   centered	|    :white_check_mark:    |
+
+ :white_check_mark:
+
+ :no_entry_sign:
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+
+
+|Files	|   |   |   |   |   |
+|-------	|---|---|---|---|---|
+|   	|   |   |   |   |   |
+|   	|   |   |   |   |   |
+|   	|   |   |   |   |   |
+
+Tree Structure Data Folder 
+==========================
 
 Path to where files are downloaded and where information from these files are extracted.
 
