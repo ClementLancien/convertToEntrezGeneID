@@ -71,7 +71,7 @@ From these files, Entrez Gene extract and create the following files :
 Data File Structure
 ===================
 
-All file separator is "\\t".
+All files are tab separated.
 
 |             Files		|      Entrez Gene ID      |      DataBase ID      |        Tax ID        |      Description     |       Platform       |       Platform Title       |       Organism       |
 |:------------------------------|:------------------------:|:---------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------------:|:--------------------:|
