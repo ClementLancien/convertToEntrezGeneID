@@ -10,7 +10,7 @@ Table of contents
 =================
 
 1. [What is EntrezGene ?](#what-is-entrezgene-?)
-2. [Tree Structure Data Folder](#tree-structure-data-folder-:evergreen_tree:)
+2. [Tree Structure Data Folder](#tree-structure-data-folder)
 
 What is EntrezGene ?
 ===================
@@ -63,7 +63,7 @@ From these files, Entrez Gene extract and create the following files :
   ​
 
 Tree Structure Data Folder :evergreen_tree:
-=====================
+===========================================
 
 Path to where files are downloaded and where information from these files are extracted.
 
