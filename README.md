@@ -273,6 +273,19 @@ for df in pandas.read_csv(Filename, header=0, sep="\t", usecols=[int ,int], dtyp
                               (~df['BDID'].str.match('^[A-Z]{2}[_][0-9]+$', flags=re.IGNORECASE))
                                             
                            ])
+
+# After we read all the files
+# we concatenate each dataframe then
+# we drop_duplicates : we don not want to have 2 identicals lines (keep = 'first' keep the first occurence) then
+# we write the concatenata dataframe without duplicates in a new file, named here FileToSave
+# in the file we have :
+#	- no header (header=None)
+# 	- no index (index=None)
+# The file is tab separated
+
+pandas.concat(self.dataframe).drop_duplicates(['EGID', 'BDID'], keep='first').to_csv(FileToSave, header=None, index=None, sep='\t', mode='w')
+
+
 ```
 Requirements
 ============
