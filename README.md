@@ -181,6 +181,7 @@ Code Informations
 ```python
 
 dataframe=[]
+
 # We open the file named Filename, which have a header's row at the first line of the file (0). The file is
 # tab separated.
 # dtype = 'str' ==> We told to pandas to read each columns has str
@@ -189,6 +190,7 @@ dataframe=[]
 # Example : if we have a dimension table equals to 10 (square matix) and a chunksize = 5
 # pandas takes the 5 first row in a table then at each loop take the other 5 etc...
 # usecols =[int,int] is used to select the column we want to extract from the files
+
 for df in pandas.read_csv(Filename, header=0, sep="\t", usecols=[int ,int], dtype='str', chunksize=size):
 
 	# rename the column's names
