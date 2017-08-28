@@ -189,7 +189,7 @@ dataframe=[]
 # chunksize=size ==> pandas is going to read the file by chunk. The chunksize can be precise.
 # Example : if we have a dimension table equals to 10 (square matix) and a chunksize = 5
 # pandas takes the 5 first row in a table then at each loop take the other 5 etc...
-# usecols =[int,int] is used to select the column we want to extract from the files
+# usecols =[int,int] is used to select the column by index we want to extract from the files
 
 for df in pandas.read_csv(Filename, header=0, sep="\t", usecols=[int ,int], dtype='str', chunksize=size):
 
