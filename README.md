@@ -206,7 +206,7 @@ for df in pandas.read_csv(Filename, header=0, sep="\t", usecols=[int ,int], dtyp
                    7    1769315_at             2540239.1
 
                    
-                   We want to split line 8 to obtain :
+           We want to remove each versionning :
                    
                               EGID                  BDID
                    0    1769308_at                853878
@@ -220,6 +220,43 @@ for df in pandas.read_csv(Filename, header=0, sep="\t", usecols=[int ,int], dtyp
 	"""
 	df['BDID'] = df['BDID'].str.replace('[.][0-9]+','')
 	
+
+	"""We can have in some file separator inside a column 
+                              EGID                                   BDID
+                   0    1769308_at                                 853878
+                   1    1769309_at                                2539804
+                   2    1769310_at                                2539380
+                   3    1769311_at                                 851398
+                   4    1769312_at                                 856787
+                   5    1769313_at                                 852821
+                   6    1769314_at                                 852092
+                   7    1769315_at                                2540239
+                   8  1769316_s_at  2543353///2541576///2541564///2541343
+                   
+          We want to split line 8 to obtain :
+                   
+                               EGID     BDID
+                   0     1769308_at   853878
+                   1     1769309_at  2539804
+                   2     1769310_at  2539380
+                   3     1769311_at   851398
+                   4     1769312_at   856787
+                   5     1769313_at   852821
+                   6     1769314_at   852092
+                   7     1769315_at  2540239
+                   8   1769316_s_at  2543353
+                   9   1769316_s_at  2541576
+                   10  1769316_s_at  2541564
+                   11  1769316_s_at  2541343
+                  
+                   So : 
+	"""
+	df = df.set_index(df.columns.drop('BDID',2).tolist())\
+                         .BDID.str.split('///', expand=True)\
+                         .stack()\
+                         .reset_index()\
+                         .rename(columns={0:'BDID'})\
+                         .loc[:, df.columns]
 	
 ```
 Requirements
