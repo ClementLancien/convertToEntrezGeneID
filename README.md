@@ -188,7 +188,9 @@ for df in pandas.read_csv(Filename, header=0, sep="\t", usecols=[int ,int], dtyp
 #Example : if we have a dimension table equals to 10 (square matix) and a chunksize = 5
 #pandas takes the 5 first row in a table then at each loop take the other 5 etc...
 #usecols =[int,int] is used to select the column we want to extract from the files
-  
+
+	df.columns = ['EGID','BDID'] 
+	#rename the column's names
 ```
 Requirements
 ============
