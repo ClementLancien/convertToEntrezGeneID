@@ -19,6 +19,7 @@ Table of contents
 1. [What is EntrezGene?](#what-is-entrezgene?)
 2. [Data File Structure](#data-file-structure)
 3. [Tree Structure Data Folder](#tree-structure-data-folder)
+4. [Code informations](#code-informations)
 4. [Requirements](#requirements)
 
 What is EntrezGene?
@@ -174,7 +175,12 @@ Data
        ├──Entrez_GeneToVega_transcript (.tsv)
        └──Entrez_GeneToVega_protein (.tsv)
 ```
+Code Informations
+=================
 
+```python
+for df in pandas.read_csv(self.filename_accession, header=0, sep="\t", usecols=[self.index_entrez,self.index_GenBank_transcript], dtype='str', chunksize=self.size):
+```
 Requirements
 ============
 
