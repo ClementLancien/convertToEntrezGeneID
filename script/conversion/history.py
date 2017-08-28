@@ -5,7 +5,13 @@ Created on Thu Aug 24 16:25:48 2017
 @author: clancien
 """
 
-import ConfigParser
+try:
+	import ConfigParser
+
+except ImportError:
+
+	import configparser as ConfigParser
+
 import os
 import pandas
 
@@ -98,9 +104,11 @@ class History():
         try:
             
             self.dataframe=[]
-            
+            print self.index_entrez
             for df in pandas.read_csv(self.filename_history, header=0, sep="\t", usecols=[self.index_entrez, self.index_history], dtype='str', chunksize=self.size):
                 #df.to_string()
+                print df
+                return 
                 df.columns = ['EGID','BDID']
                 
                 self.dataframe.append(df[

@@ -5,7 +5,13 @@ Created on Thu Aug 24 14:54:46 2017
 @author: clancien
 """
 
-import ConfigParser
+try:
+	import ConfigParser
+
+except ImportError:
+
+	import configparser as ConfigParser
+
 import os
 import pandas
 

@@ -5,7 +5,13 @@ Created on Wed Aug 23 13:32:07 2017
 @author: clancien
 """
 
-import ConfigParser
+try:
+	import ConfigParser
+
+except ImportError:
+
+	import configparser as ConfigParser
+
 import os
 import pandas
 import glob
@@ -90,10 +96,10 @@ class GPL():
         #return "\n".join([u'\t\u02EA '+ "{}".format(path) for path in self.list_path_files[1:]]).encode('utf-8')
         #return "{:^10}".format(*self.list_path_files)
     
-    def afficher(self):
-        print "{} : {} : {}".format(self.platform, self.platform_title, self.platform_organism)
-        print "{} : {}" .format(self.index_entrez,self.index_probe_number)
-        print "\n"
+    #def afficher(self):
+        #print "{} : {} : {}".format(self.platform, self.platform_title, self.platform_organism)
+        #print "{} : {}" .format(self.index_entrez,self.index_probe_number)
+        #print "\n"
 
     def path_exist(self):
         """ Check if dir exist if not we create the path
@@ -143,9 +149,7 @@ class GPL():
             number_range=0
             organism = []
             while header_line.startswith(self.gpl_header_start, 0, 1):
-                #print header_line.startswith(self.header_platform_organism) , " : ",header_line
-                #print header_line.startswith(self.header_platform_title)
-                #print "\n"
+
                 if header_line.startswith(self.header_platform):
                     self.platform=str(header_line.split("= ")[1].split("\n")[0])
                     
@@ -168,64 +172,70 @@ class GPL():
         
 
     def getDataFromOneFile(self, fileToOpen, headerRange):
-        
+
         try :
             self.dataframe =[]
             for df in pandas.read_csv(fileToOpen,skiprows=headerRange, header=0, sep="\t", usecols=[self.index_entrez, self.index_probe_number], dtype='str', chunksize=self.size):
                 
-                df.columns = ['EGID','BDID']
+                df.columns = ['BDID','EGID']
+                
+                #reorder coloumn order BDID, EGID to EGID, BDID
+                df = df[['EGID', 'BDID']]
+                
+                """We can have
                 
                 
-                """We can have 
-                              EGID                                   BDID
-                   0    1769308_at                                 853878
-                   1    1769309_at                                2539804
-                   2    1769310_at                                2539380
-                   3    1769311_at                                 851398
-                   4    1769312_at                                 856787
-                   5    1769313_at                                 852821
-                   6    1769314_at                                 852092
-                   7    1769315_at                                2540239
-                   8  1769316_s_at  2543353///2541576///2541564///2541343
+                
+                                                         EGID           BDID
+                   0                                   853878     1769308_at
+                   1                                  2539804     1769309_at
+                   2                                  2539380     1769310_at                                
+                   3                                   851398     1769311_at
+                   4                                   856787     1769312_at
+                   5                                   852821     1769313_at                                 
+                   6                                   852092     1769314_at 
+                   7                                  2540239     1769315_at
+                   8    2543353///2541576///2541564///2541343   1769316_s_at
                    
                    We want to split line 8 to obtain :
                    
-                               EGID     BDID
-                   0     1769308_at   853878
-                   1     1769309_at  2539804
-                   2     1769310_at  2539380
-                   3     1769311_at   851398
-                   4     1769312_at   856787
-                   5     1769313_at   852821
-                   6     1769314_at   852092
-                   7     1769315_at  2540239
-                   8   1769316_s_at  2543353
-                   9   1769316_s_at  2541576
-                   10  1769316_s_at  2541564
-                   11  1769316_s_at  2541343
+                               EGID         BDID
+                   0         853878     1769308_at   
+                   1        2539804     1769309_at
+                   2        2539380     1769310_at  
+                   3         851398     1769311_at   
+                   4         856787     1769312_at   
+                   5         852821     1769313_at   
+                   6         852092     1769314_at   
+                   7        2540239     1769315_at  
+                   8        2543353   1769316_s_at  
+                   9        2541576   1769316_s_at  
+                   10       2541564   1769316_s_at  
+                   11       2541343   1769316_s_at  
                   
                    So : 
                    
                    
-                   df =df.set_index(df.columns.drop('BDID',2).tolist())\ 
-                       #on supprime la colonne "BDID" dont l'axe est 2 et on la met dans une lsite
+                   df =df.set_index(df.columns.drop('EGID',2).tolist())\ 
+                       #on supprime la colonne "EGID" dont l'axe est 2 et on la met dans une lsite
                    
-                            .BDID.str.split('///', expand=True)\
+                            .EGID.str.split('///', expand=True)\
                             .stack()\
                             .reset_index()\
-                            .rename(columns={0:'BDID'})\
+                            .rename(columns={0:'EGID'})\
                             .loc[:, df.columns]
                   
                 
                 """
                 
-                df = df.set_index(df.columns.drop('BDID',2).tolist())\
-                                 .BDID.str.split('///', expand=True)\
+                df = df.set_index(df.columns.drop('EGID',2).tolist())\
+                                 .EGID.str.split('///', expand=True)\
                                  .stack()\
                                  .reset_index()\
-                                 .rename(columns={0:'BDID'})\
+                                 .rename(columns={0:'EGID'})\
                                  .loc[:, df.columns]
-    
+                print df
+                return
                 df["Platform"]=pandas.Series([self.platform for x in range(len(df.index))])
                 df["Platform_title"]=pandas.Series([self.platform_title for x in range(len(df.index))])  
                 df["Platform_organism"]=pandas.Series([self.platform_organism for x in range(len(df.index))])  
@@ -238,9 +248,6 @@ class GPL():
             self.logger.warning("Error - gpl.py - getDataFromOneFile" )
             self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
-                #self.platform=str
-        #self.platform_title=str
-        #self.platform_organism=str
     
     def writeFile(self):
         

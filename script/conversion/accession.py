@@ -4,8 +4,13 @@ Created on Wed Apr 19 16:15:47 2017
 
 @author: clancien
 """
+try:
+	import ConfigParser
 
-import ConfigParser
+except ImportError:
+
+	import configparser as ConfigParser
+
 import os
 import pandas
 import re
