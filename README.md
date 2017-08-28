@@ -219,6 +219,7 @@ for df in pandas.read_csv(Filename, header=0, sep="\t", usecols=[int ,int], dtyp
                    6    1769314_at                852092
                    7    1769315_at               2540239
 	"""
+
 	df['BDID'] = df['BDID'].str.replace('[.][0-9]+','')
 	
 
@@ -283,7 +284,7 @@ for df in pandas.read_csv(Filename, header=0, sep="\t", usecols=[int ,int], dtyp
 # 	- no index (index=None)
 # The file is tab separated
 
-pandas.concat(self.dataframe).drop_duplicates(['EGID', 'BDID'], keep='first').to_csv(FileToSave, header=None, index=None, sep='\t', mode='w')
+pandas.concat(dataframe).drop_duplicates(['EGID', 'BDID'], keep='first').to_csv(FileToSave, header=None, index=None, sep='\t', mode='w')
 
 
 ```
