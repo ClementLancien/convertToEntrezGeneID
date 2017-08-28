@@ -226,41 +226,45 @@ for df in pandas.read_csv(Filename, header=0, sep="\t", usecols=[int ,int], dtyp
 	df['BDID'] = df['BDID'].str.replace('[.][0-9]+','')
 	
 
-	"""We can have in some file separator inside a column 
-                              EGID                                   BDID
-                   0    1769308_at                                 853878
-                   1    1769309_at                                2539804
-                   2    1769310_at                                2539380
-                   3    1769311_at                                 851398
-                   4    1769312_at                                 856787
-                   5    1769313_at                                 852821
-                   6    1769314_at                                 852092
-                   7    1769315_at                                2540239
-                   8  1769316_s_at  2543353///2541576///2541564///2541343
+	""""
+	   We can have in some file separator inside a column 
+
+                                                         EGID           BDID
+                   0                                   853878     1769308_at
+                   1                                  2539804     1769309_at
+                   2                                  2539380     1769310_at                                
+                   3                                   851398     1769311_at
+                   4                                   856787     1769312_at
+                   5                                   852821     1769313_at                                 
+                   6                                   852092     1769314_at 
+                   7                                  2540239     1769315_at
+                   8    2543353///2541576///2541564///2541343   1769316_s_at
                    
-          We want to split line 8 to obtain :
+                   We want to split line 8 to obtain :
                    
-                               EGID     BDID
-                   0     1769308_at   853878
-                   1     1769309_at  2539804
-                   2     1769310_at  2539380
-                   3     1769311_at   851398
-                   4     1769312_at   856787
-                   5     1769313_at   852821
-                   6     1769314_at   852092
-                   7     1769315_at  2540239
-                   8   1769316_s_at  2543353
-                   9   1769316_s_at  2541576
-                   10  1769316_s_at  2541564
-                   11  1769316_s_at  2541343
+                               EGID         BDID
+                   0         853878     1769308_at   
+                   1        2539804     1769309_at
+                   2        2539380     1769310_at  
+                   3         851398     1769311_at   
+                   4         856787     1769312_at   
+                   5         852821     1769313_at   
+                   6         852092     1769314_at   
+                   7        2540239     1769315_at  
+                   8        2543353   1769316_s_at  
+                   9        2541576   1769316_s_at  
+                   10       2541564   1769316_s_at  
+                   11       2541343   1769316_s_at  
                   
                    So : 
-	"""
-	df = df.set_index(df.columns.drop('BDID',2).tolist())\
-                         .BDID.str.split('///', expand=True)\
+                   
+   	"""
+
+	df = df.set_index(df.columns.drop('EGID',2).tolist())\
+                         .EGID.str.split('///', expand=True)\
                          .stack()\
                          .reset_index()\
-                         .rename(columns={0:'BDID'})\
+                         .rename(columns={0:'EGID'})\
                          .loc[:, df.columns]
 
 	# When df is correctly defined and each separator or versionning has been remove
