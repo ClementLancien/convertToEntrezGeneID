@@ -187,7 +187,7 @@ dataframe=[]
 
 # We open the file named Filename, which have a header's row at the first line of the file (0). The file is
 # tab separated.
-# dtype = 'str' ==> We told to pandas to read each columns has str
+# dtype = 'str' ==> We told to pandas to read each columns as str type
 # Have to be precise, if you precise in the loop. Pandas is going to guess the type of each column (slow)
 # chunksize=size ==> pandas is going to read the file by chunk. The chunksize can be precise.
 # Example : if we have a dimension table equals to 10 (square matix) and a chunksize of 5
@@ -303,5 +303,6 @@ Requirements
 ============
 
 pandas==0.17.1
+
 pymongo==2.7.2
 
