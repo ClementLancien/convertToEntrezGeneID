@@ -16,7 +16,7 @@ Completed
 Table of contents
 =================
 
-1. [What is EntrezGene?](#what-is-entrezgene?)
+1. [What is EntrezGene?](#what-is-entrezgene)
 2. [Data File Structure](#data-file-structure)
 3. [Tree Structure Data Folder](#tree-structure-data-folder)
 4. [Code informations](#code-informations)
