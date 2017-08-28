@@ -96,7 +96,8 @@ class Homologene():
             
             for df in pandas.read_csv(self.filename_homologene, header=0, sep="\t", usecols=[self.index_entrez, self.index_homologene], dtype='str', chunksize=self.size):
                 #df.to_string()
-                df.columns = ['EGID','BDID']
+                df.columns = ['BDID', 'EGID']
+                df = df[['EGID', 'BDID']]
                 
                 #df["EGID"]= df["EGID"].astype(str)
 
