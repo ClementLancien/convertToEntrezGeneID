@@ -188,7 +188,7 @@ dataframe=[]
 # dtype = 'str' ==> We told to pandas to read each columns has str
 # Have to be precise, if you precise in the loop. Pandas is going to guess the type of each column (slow)
 # chunksize=size ==> pandas is going to read the file by chunk. The chunksize can be precise.
-# Example : if we have a dimension table equals to 10 (square matix) and a chunksize = 5
+# Example : if we have a dimension table equals to 10 (square matix) and a chunksize of 5
 # pandas takes the 5 first row in a table then at each loop take the other 5 etc...
 # usecols =[int,int] is used to select the column by index we want to extract from the files
 
