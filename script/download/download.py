@@ -112,6 +112,7 @@ class Download():
         except subprocess.CalledProcessError as error:
             
             self.logger.warning("Error - download.py - getEnsembl - Download File")
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
             return
@@ -123,6 +124,7 @@ class Download():
         except subprocess.CalledProcessError as error:
             
             self.logger.warning("Error - download.py - getAccession - Extract File")
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
 
@@ -135,6 +137,7 @@ class Download():
         except subprocess.CalledProcessError as error:
             
             self.logger.warning("Error - download.py - getUnigene - Download File")
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
 
@@ -147,6 +150,7 @@ class Download():
         except subprocess.CalledProcessError as error:
             
             self.logger.warning("Error - download.py - getAccession - Download File")
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
             return
@@ -158,6 +162,7 @@ class Download():
         except subprocess.CalledProcessError as error:
             
             self.logger.warning("Error - download.py - getAccession - Extract File")
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
 
@@ -170,6 +175,7 @@ class Download():
         except subprocess.CalledProcessError as error:
             
             self.logger.warning("Error - download.py - getInfo - Download File")
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
             return
@@ -180,13 +186,13 @@ class Download():
         except subprocess.CalledProcessError as error:
             
             self.logger.warning("Error - download.py - getInfo - Extract File")
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
 
     def getGPL(self):
         """This function allows you to connect to the NCBI FTP server"""
         
-        a=0
         host = "ftp.ncbi.nlm.nih.gov" # adresse du serveur FTP
         connect = ftplib.FTP(host, 'anonymous', 'anonymous') 
         connect.cwd("/geo/platforms")
@@ -203,9 +209,6 @@ class Download():
         
                     with open(os.path.join(self.gpl ,(str(subdir.split("/")[1])) +'.annot'), 'w') as outfile:
                         outfile.write(decompressedFile.read())
-                else:
-                    print a
-                    a=a+1
         connect.quit()
 
     def getHomoloGene(self):
@@ -218,6 +221,7 @@ class Download():
         except subprocess.CalledProcessError as error:
             
             self.logger.warning("Error - download.py - getHomoloGene - Download File")
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
 
@@ -230,6 +234,7 @@ class Download():
         except subprocess.CalledProcessError as error:
             
             self.logger.warning("Error - download.py - getVega - Download File")
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
             return
@@ -241,6 +246,7 @@ class Download():
         except subprocess.CalledProcessError as error:
             
             self.logger.warning("Error - download.py - getVega - Extract File")
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
 
@@ -254,6 +260,7 @@ class Download():
         except subprocess.CalledProcessError as error:
             
             self.logger.warning("Error - download.py - getHistory - Download File")
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
             return
@@ -265,6 +272,7 @@ class Download():
         except subprocess.CalledProcessError as error:
             
             self.logger.warning("Error - download.py - getHistory - Extract File")
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
 
@@ -277,6 +285,7 @@ class Download():
         except subprocess.CalledProcessError as error:
             
             self.logger.warning("Error - download.py - getSwissprot - Download File")
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
             return
@@ -288,6 +297,7 @@ class Download():
         except subprocess.CalledProcessError as error:
             
             self.logger.warning("Error - download.py - getSwissprot - Extract File")
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
 
@@ -300,6 +310,7 @@ class Download():
         except subprocess.CalledProcessError as error:
             
             self.logger.warning("Error - download.py - getTrembl - Download File")
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
             return
@@ -310,6 +321,7 @@ class Download():
         except subprocess.CalledProcessError as error:
             
             self.logger.warning("Error - download.py - getTrembl - Extract File")
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
 
@@ -319,9 +331,9 @@ fileDownload = Download()
 #fileDownload.getUnigene()
 #fileDownload.getAccession()
 #fileDownload.getInfo()
-fileDownload.getGPL()
+#fileDownload.getGPL()
 #fileDownload.getHomoloGene()
 #fileDownload.getVega()
 #fileDownload.getHistory()
 #fileDownload.getSwissprot()
-#fileDownload.getTrembl()
+fileDownload.getTrembl()
