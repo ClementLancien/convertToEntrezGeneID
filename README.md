@@ -273,8 +273,7 @@ for df in pandas.read_csv(Filename, header=0, sep="\t", usecols=[int ,int], dtyp
 	dataframe.append(df[
                               (df['EGID'].str.match('^[0-9]+$', flags=re.IGNORECASE))  &
                               (df['BDID'] != '-') &
-                              (~df['BDID'].str.match('^[A-Z]{2}[_][0-9]+$', flags=re.IGNORECASE))
-                                            
+                              (~df['BDID'].str.match('^[A-Z]{2}[_][0-9]+$', flags=re.IGNORECASE))           
                            ])
 
 # After we read all the files
