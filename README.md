@@ -261,7 +261,7 @@ for df in pandas.read_csv(Filename, header=0, sep="\t", usecols=[int ,int], dtyp
 
 	# When df is correctly defined and each separator or versionning has been remove
 	# We add df to our list dataframe
-	# We add only the lines in df where df['EGID'] is equal to a regex
+	# We add only the lines in df where df['EGID'] is equal to a regex, same for df['BDID]' and df['BDID'] != '-'
 	# flags=re.IGNORECASE ignore the case sensitivity.
 	# Rennes != rennes with re.IGNORECASE Rennes == rennes
 	# When we do not want that a cell value match a regex we add tild (~) before
