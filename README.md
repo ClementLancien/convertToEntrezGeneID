@@ -179,7 +179,7 @@ Code Informations
 =================
 
 ```python
-for df in pandas.read_csv(Filename, header=0, sep="\t", usecols=[int ,int], dtype='str', chunksize=size):
+
 #We open the file named Filename, which have a header's row at the first line of the file (0). The file is
 #tab separated.
 #dtype = 'str' ==> We told to pandas to read each columns has str
@@ -188,9 +188,39 @@ for df in pandas.read_csv(Filename, header=0, sep="\t", usecols=[int ,int], dtyp
 #Example : if we have a dimension table equals to 10 (square matix) and a chunksize = 5
 #pandas takes the 5 first row in a table then at each loop take the other 5 etc...
 #usecols =[int,int] is used to select the column we want to extract from the files
+for df in pandas.read_csv(Filename, header=0, sep="\t", usecols=[int ,int], dtype='str', chunksize=size):
 
-	df.columns = ['EGID','BDID'] 
 	#rename the column's names
+	df.columns = ['EGID','BDID'] 
+	
+	#In some column the database identifier can been versionning
+	"""We can have 
+                              EGID                  BDID
+                   0    1769308_at              853878.1
+                   1    1769309_at             2539804.1
+                   2    1769310_at             2539380.1
+                   3    1769311_at              851398.1
+                   4    1769312_at              856787.1
+                   5    1769313_at              852821.1
+                   6    1769314_at              852092.1
+                   7    1769315_at             2540239.1
+
+                   
+                   We want to split line 8 to obtain :
+                   
+                              EGID                  BDID
+                   0    1769308_at                853878
+                   1    1769309_at               2539804
+                   2    1769310_at               2539380
+                   3    1769311_at                851398
+                   4    1769312_at                856787
+                   5    1769313_at                852821
+                   6    1769314_at                852092
+                   7    1769315_at               2540239
+	"""
+	df['BDID'] = df['BDID'].str.replace('[.][0-9]+','')
+	
+	
 ```
 Requirements
 ============
