@@ -179,7 +179,16 @@ Code Informations
 =================
 
 ```python
-for df in pandas.read_csv(self.filename_accession, header=0, sep="\t", usecols=[self.index_entrez,self.index_GenBank_transcript], dtype='str', chunksize=self.size):
+for df in pandas.read_csv(Filename, header=0, sep="\t", usecols=[int ,int], dtype='str', chunksize=size):
+#We open the file named Filename, which have a header's row at the first line of the file (0). The file is
+#tab separated.
+#dtype = 'str' ==> We told to pandas to read each columns has str
+#Have to be precise, if you precise in the loop. Pandas is going to guess the type of each column (slow)
+#chunksize=size ==> pandas is going to read the file by chunk. The chunksize can be precise.
+#Example : if we have a dimension table equals to 10 (square matix) and a chunksize = 5
+#pandas takes the 5 first row in a table then at each loop take the other 5 etc...
+#usecols =[int,int] is used to select the column we want to extract from the files
+  
 ```
 Requirements
 ============
