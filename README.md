@@ -180,20 +180,21 @@ Code Informations
 
 ```python
 
-#We open the file named Filename, which have a header's row at the first line of the file (0). The file is
-#tab separated.
-#dtype = 'str' ==> We told to pandas to read each columns has str
-#Have to be precise, if you precise in the loop. Pandas is going to guess the type of each column (slow)
-#chunksize=size ==> pandas is going to read the file by chunk. The chunksize can be precise.
-#Example : if we have a dimension table equals to 10 (square matix) and a chunksize = 5
-#pandas takes the 5 first row in a table then at each loop take the other 5 etc...
-#usecols =[int,int] is used to select the column we want to extract from the files
+dataframe=[]
+# We open the file named Filename, which have a header's row at the first line of the file (0). The file is
+# tab separated.
+# dtype = 'str' ==> We told to pandas to read each columns has str
+# Have to be precise, if you precise in the loop. Pandas is going to guess the type of each column (slow)
+# chunksize=size ==> pandas is going to read the file by chunk. The chunksize can be precise.
+# Example : if we have a dimension table equals to 10 (square matix) and a chunksize = 5
+# pandas takes the 5 first row in a table then at each loop take the other 5 etc...
+# usecols =[int,int] is used to select the column we want to extract from the files
 for df in pandas.read_csv(Filename, header=0, sep="\t", usecols=[int ,int], dtype='str', chunksize=size):
 
-	#rename the column's names
+	# rename the column's names
 	df.columns = ['EGID','BDID'] 
 	
-	#In some column the database identifier can been versionning
+	# In some column the database identifier can been versionning
 	"""We can have 
                               EGID                  BDID
                    0    1769308_at              853878.1
@@ -257,7 +258,21 @@ for df in pandas.read_csv(Filename, header=0, sep="\t", usecols=[int ,int], dtyp
                          .reset_index()\
                          .rename(columns={0:'BDID'})\
                          .loc[:, df.columns]
-	
+
+	# When df is correctly defined and each separator or versionning has been remove
+	# We add df to our list dataframe
+	# We add only the lines in df where df['EGID'] is equal to a regex
+	# flags=re.IGNORECASE ignore the case sensitivity.
+	# Rennes != rennes with re.IGNORECASE Rennes == rennes
+	# When we do not want that a cell value match a regex we add tild (~) before
+	# ~False == True ==> True
+
+	dataframe.append(df[
+                              (df['EGID'].str.match('^[0-9]+$', flags=re.IGNORECASE))  &
+                              (df['BDID'] != '-') &
+                              (~df['BDID'].str.match('^[A-Z]{2}[_][0-9]+$', flags=re.IGNORECASE))
+                                            
+                           ])
 ```
 Requirements
 ============
