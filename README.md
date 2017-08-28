@@ -1,5 +1,7 @@
-EntrezGene : Download - Extract Column from Biological Database files
-================================================
+EntrezGene
+==========
+
+These scripts are used to create the GeneULike DataBase. They download then extract different biological database files to get the identifier of the database associated with unique Entre Gene idenfifier
 
 [comment]: <> (https://rozaxe.github.io/factory/)
 [![Stable v0.1.0](https://img.shields.io/badge/Stable-v0.1.0-blue.svg)](https://github.com/ClementLancien/convertToEntrezGeneID)
