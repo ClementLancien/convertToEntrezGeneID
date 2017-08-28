@@ -8,7 +8,7 @@ EntrezGene
 [![Dependencies pandas](https://img.shields.io/badge/Dependencies-pandas-cc9900.svg)](https://pandas.pydata.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-These scripts are used to create the GeneULike DataBase. They download then extract different biological database files to get the identifier of the database associated with unique Entre Gene idenfifier.
+These scripts are used to create the GeneULike DataBase. They download then extract different biological database files to get the identifier of the database associated with unique Entre Gene identiifier.
 
 Status
 ======
