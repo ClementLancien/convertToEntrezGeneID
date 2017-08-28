@@ -6,7 +6,7 @@ EntrezGene
 [![Release v0.1.0](https://img.shields.io/badge/Release-v0.1.0-blue.svg)](https://github.com/ClementLancien/convertToEntrezGeneID)
 [![Python v>=2.7.0](https://img.shields.io/badge/Python-v>=2.7.0-0077ea.svg)](https://www.python.org/)
 [![Dependencies pandas](https://img.shields.io/badge/Dependencies-pandas-cc9900.svg)](https://pandas.pydata.org/)
-[![Dependencies pymongo](https://img.shields.io/badge/Dependencies-pandas-cc9900.svg)](https://docs.mongodb.com/getting-started/python/insert/)
+[![Dependencies pymongo](https://img.shields.io/badge/Dependencies-pymongo-cc9900.svg)](https://docs.mongodb.com/getting-started/python/insert/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 These scripts are used to create the GeneULike DataBase. They download then extract different biological database files to get the identifier of the database associated with unique Entre Gene identiifier.
