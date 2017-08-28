@@ -2,10 +2,12 @@ EntrezGene
 ==========
 
 [comment]: <> (https://rozaxe.github.io/factory/)
-[![Stable v0.1.0](https://img.shields.io/badge/Stable-v0.1.0-blue.svg)](https://github.com/ClementLancien/convertToEntrezGeneID)
+[![Stable v0.1.0](https://img.shields.io/badge/Stable-v0.1.0-green.svg)](https://github.com/ClementLancien/convertToEntrezGeneID)
 [![Release v0.1.0](https://img.shields.io/badge/Release-v0.1.0-blue.svg)](https://github.com/ClementLancien/convertToEntrezGeneID)
 [![Python v>=2.7.0](https://img.shields.io/badge/Python-v>=2.7.0-brightgreen.svg)](https://www.python.org/)
+[![Dependencies pandas](https://img.shields.io/badge/Python-v>=2.7.0-ffbf00.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 These scripts are used to create the GeneULike DataBase. They download then extract different biological database files to get the identifier of the database associated with unique Entre Gene idenfifier.
 
