@@ -234,8 +234,7 @@ class GPL():
                                  .reset_index()\
                                  .rename(columns={0:'EGID'})\
                                  .loc[:, df.columns]
-                print df
-                return
+                
                 df["Platform"]=pandas.Series([self.platform for x in range(len(df.index))])
                 df["Platform_title"]=pandas.Series([self.platform_title for x in range(len(df.index))])  
                 df["Platform_organism"]=pandas.Series([self.platform_organism for x in range(len(df.index))])  
