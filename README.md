@@ -304,5 +304,3 @@ Requirements
 
 pandas==0.17.1
 
-pymongo==2.7.2
-
