@@ -300,6 +300,6 @@ pandas.concat(dataframe).drop_duplicates(['EGID', 'BDID'], keep='first').to_csv(
 Requirements
 ============
 
-Panda==0.17.1
+pandas==0.17.1
 
 
