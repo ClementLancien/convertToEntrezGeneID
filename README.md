@@ -196,6 +196,9 @@ for df in pandas.read_csv(Filename, header=0, sep="\t", usecols=[int ,int], dtyp
 
 	# rename the column's names
 	df.columns = ['EGID','BDID'] 
+
+	#reorder coloumn order BDID, EGID to EGID, BDID
+        df = df[['EGID', 'BDID']]
 	
 	# In some column the database identifier can been versionning
 	"""We can have 
