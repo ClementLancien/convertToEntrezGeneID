@@ -108,8 +108,10 @@ class Info():
             self.dataframe=[]
            
             for df in pandas.read_csv(self.filename_gene2info ,header=0, sep="\t", usecols=[self.index_entrez, self.index_tax_id, self.index_symbol, self.index_description], dtype='str', chunksize=self.size):
-
-                df.columns = ['EGID','TAXID', 'SYMBOL', 'DESCRIPTION']
+                               
+                df.columns = ['TAXID', 'EGID', 'SYMBOL', 'DESCRIPTION']
+                
+                df = df[['EGID','TAXID', 'SYMBOL', 'DESCRIPTION']]
                 #df['EGID'] = df['EGID'].astype(str)
                 #df['TAXID'] = df['TAXID'].astype(str)
                 #df['SYMBOL'] = df['SYMBOL'].astype(str)
