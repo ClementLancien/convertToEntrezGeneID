@@ -78,27 +78,27 @@ Data File Structure
 
 All files are tab separated.
 
-|             Files		|      Entrez Gene ID      |      DataBase ID      |        Tax ID        |      Description     |       Platform       |       Platform Title       |       Organism       |
-|:------------------------------|:------------------------:|:---------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------------:|:--------------------:|
-|Entrez_GeneToGenBank_protein	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |   :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
-|Entrez_GeneToGenBank_transcript|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |   :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
-|Entrez_GeneToGI_protein	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |   :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
-|Entrez_GeneToGI_transcript	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |   :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
-|Entrez_GeneToRefSeq_protein	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |   :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
-|Entrez_GeneToRefSeq_transcript	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |   :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
-|Entrez_GeneToEnsembl_gene	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |   :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
-|Entrez_GeneToEnsembl_transcript|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |   :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
-|Entrez_GeneToEnsembl_protein	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |   :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
-|Entrez_GeneToGPL		|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |   :no_entry_sign:    |  :white_check_mark:  |     :white_check_mark:     |  :white_check_mark:  |
-|Entrez_GeneToHistory		|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |   :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
-|Entrez_GeneToHomoloGene	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |   :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
-|Entrez_GeneToInfo		|    :white_check_mark:    |   :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
-|Entrez_GeneToSwissProt		|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |   :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
-|Entrez_GeneTotrEMBL		|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |   :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
-|Entrez_GeneToUniGene		|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |   :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
-|Entrez_GeneToVega_gene		|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |   :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
-|Entrez_GeneToVega_transcript	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |   :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
-|Entrez_GeneToVega_protein	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |   :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
+|             Files		|      Entrez Gene ID      |      DataBase ID      |        Tax ID        |        Symbol        |      Description     |	HomoloGene	|       Platform       |       Platform Title       |       Organism       |
+|:------------------------------|:------------------------:|:---------------------:|:--------------------:|:--------------------:|:--------------------:|:---------------------:|:--------------------:|:--------------------------:|:--------------------:|
+|Entrez_GeneToGenBank_protein	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |    :no_entry_sign:   |   :no_entry_sign:    |    :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
+|Entrez_GeneToGenBank_transcript|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |    :no_entry_sign:   |   :no_entry_sign:    |    :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
+|Entrez_GeneToGI_protein	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |    :no_entry_sign:   |   :no_entry_sign:    |    :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
+|Entrez_GeneToGI_transcript	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |    :no_entry_sign:   |   :no_entry_sign:    |    :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
+|Entrez_GeneToRefSeq_protein	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |    :no_entry_sign:   |   :no_entry_sign:    |    :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
+|Entrez_GeneToRefSeq_transcript	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |    :no_entry_sign:   |   :no_entry_sign:    |    :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
+|Entrez_GeneToEnsembl_gene	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |    :no_entry_sign:   |   :no_entry_sign:    |    :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
+|Entrez_GeneToEnsembl_transcript|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |    :no_entry_sign:   |   :no_entry_sign:    |    :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
+|Entrez_GeneToEnsembl_protein	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |    :no_entry_sign:   |   :no_entry_sign:    |    :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
+|Entrez_GeneToGPL		|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |    :no_entry_sign:   |   :no_entry_sign:    |    :no_entry_sign:    |  :white_check_mark:  |     :white_check_mark:     |  :white_check_mark:  |
+|Entrez_GeneToHistory		|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |    :no_entry_sign:	 |   :no_entry_sign:    |    :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
+|Entrez_GeneToHomoloGene	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |    :no_entry_sign:   |   :no_entry_sign:    |    :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
+|Entrez_GeneToInfo		|    :white_check_mark:    |     :no_entry_sign:   |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:   |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
+|Entrez_GeneToSwissProt		|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |    :no_entry_sign:   |   :no_entry_sign:    |    :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
+|Entrez_GeneTotrEMBL		|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |    :no_entry_sign:   |   :no_entry_sign:    |    :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
+|Entrez_GeneToUniGene		|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |    :no_entry_sign:   |   :no_entry_sign:    |    :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
+|Entrez_GeneToVega_gene		|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |    :no_entry_sign:   |   :no_entry_sign:    |    :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
+|Entrez_GeneToVega_transcript	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |    :no_entry_sign:   |   :no_entry_sign:    |    :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
+|Entrez_GeneToVega_protein	|    :white_check_mark:    |   :white_check_mark:  |   :no_entry_sign:    |    :no_entry_sign:   |   :no_entry_sign:    |    :no_entry_sign:    |   :no_entry_sign:    |      :no_entry_sign:       |   :no_entry_sign:    |
 
 
 Tree Structure Data Folder 
