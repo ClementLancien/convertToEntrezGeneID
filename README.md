@@ -184,7 +184,7 @@ Data
 Download Code Informations
 ==========================
 
-```shell
+```bash
 
 wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/filename
 
