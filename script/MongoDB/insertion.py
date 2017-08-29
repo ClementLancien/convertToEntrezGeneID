@@ -42,7 +42,7 @@ class Insertion():
         self.GI_transcript=config.get('Convert','GI_transcript')
         self.GI_protein=config.get('Convert','GI_protein')
 
-        self.Info=config.get('Convert', 'Info')
+        self.Info=config.get('Convert', 'InfoWithHomologene')
 
         self.GPL=config.get('Convert','GPL')
 
@@ -398,7 +398,7 @@ class Insertion():
             
             try:
                 
-                subprocess.check_output(['bash','-c',"mongoimport -d geneulike -c GeneInfo --type tsv --fields EGID.string\(\),TAXID.string\(\),SYMBOL.string\(\),DESCRIPTION.string\(\) --columnsHaveTypes --numInsertionWorkers 8 --file " + self.Info ])
+                subprocess.check_output(['bash','-c',"mongoimport -d geneulike -c GeneInfo --type tsv --fields EGID.string\(\),TAXID.string\(\),SYMBOL.string\(\),DESCRIPTION.string\(\),HOMOLOGENE.string\(\) --columnsHaveTypes --numInsertionWorkers 8 --file " + self.Info ])
             
             except subprocess.CalledProcessError as error:
                 
@@ -675,8 +675,8 @@ insert = Insertion()
 #insert.push_RefSeq_protein()
 #insert.push_GI_transcript()
 #insert.push_GI_protein()
-#insert.push_Info()
-insert.push_GPL()
+insert.push_Info()
+#insert.push_GPL()
 #insert.push_Homologene()
 #insert.push_Vega_gene()
 #insert.push_Vega_transcript()
