@@ -452,7 +452,6 @@ class Insertion():
             self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
                 
-    
     def push_Homologene(self):
         
         if self.file_exist(self.Homologene):
