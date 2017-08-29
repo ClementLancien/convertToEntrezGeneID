@@ -326,6 +326,16 @@ pandas.concat(dataframe).drop_duplicates(['EGID', 'BDID'], keep='first').to_csv(
 MongoDB Code Informations
 =========================
 
+```bash
+mongoimport -d databaseName -c collectionName --type tsv --fields EGID.string\(\),BDID.string\(\) --columnsHaveTypes --numInsertionWorkers 8 --file filename
+```
+
+```python
+
+#subprocess.check_outpu : see Download Code Information
+
+subprocess.check_output(['bash','-c',"mongoimport -d geneulike -c UniProt --type tsv --fields EGID.string\(\),BDID.string\(\) --columnsHaveTypes --numInsertionWorkers 8 --file " + filename ])
+```
 
 
 Requirements
