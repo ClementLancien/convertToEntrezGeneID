@@ -22,8 +22,10 @@ Table of contents
 1. [What is EntrezGene?](#what-is-entrezgene)
 2. [Data File Structure](#data-file-structure)
 3. [Tree Structure Data Folder](#tree-structure-data-folder)
-4. [Code informations](#code-informations)
-4. [Requirements](#requirements)
+4. [Download Code Informations](#downlaod-code-information)
+5. [Conversion Code informations](#conversion-code-informations)
+6. [MongoDB Code Informations](#mongodb-code-informations)
+7. [Requirements](#requirements)
 
 What is EntrezGene?
 ====================
@@ -107,7 +109,7 @@ Tree Structure Data Folder
 Path to where files are downloaded and where information from these files are extracted.
 
 
-```
+```markdown
 Data
 ├──accession
 |   ├──convert
@@ -178,8 +180,24 @@ Data
        ├──Entrez_GeneToVega_transcript (.tsv)
        └──Entrez_GeneToVega_protein (.tsv)
 ```
-Code Informations
-=================
+
+Download Code Informations
+==========================
+
+	wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/filename
+
+```python
+
+# subprocess allows to spawn new processes
+# check_ouput : run command with arguments and return its output as byte string
+# &>/dev/null : stdout to trash (Recycle bin)
+
+subprocess.check_output(['bash','-c', "wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2ensembl.gz --output-document=" + self.ensembl + " &>/dev/null" ])
+
+```
+
+Conversion Code Informations
+============================
 
 ```python
 
@@ -299,6 +317,12 @@ pandas.concat(dataframe).drop_duplicates(['EGID', 'BDID'], keep='first').to_csv(
 
 
 ```
+
+MongoDB Code Informations
+=========================
+
+
+
 Requirements
 ============
 
