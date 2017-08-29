@@ -13,15 +13,12 @@ try:
 	from StringIO import StringIO
 
 except ImportError:
-
     	from io import StringIO
 
 try:
 	from urllib2 import urlopen
     
-
 except ImportError:
-
 	from urllib.request import urlopen
     
 import subprocess
@@ -30,7 +27,6 @@ try:
 	import ConfigParser
 
 except ImportError:
-
 	import configparser as ConfigParser
 
 import logging
