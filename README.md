@@ -195,8 +195,9 @@ wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/filename
 # subprocess allows to spawn new processes
 # check_ouput : run command with arguments and return its output as byte string
 # &>/dev/null : stdout to trash (Recycle bin)
+# --output-document : rename the file download
 
-subprocess.check_output(['bash','-c', "wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2ensembl.gz --output-document=" + self.ensembl + " &>/dev/null" ])
+subprocess.check_output(['bash','-c', "wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2ensembl.gz --output-document=" + filename + " &>/dev/null" ])
 
 ```
 
