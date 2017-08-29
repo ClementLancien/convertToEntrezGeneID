@@ -184,7 +184,11 @@ Data
 Download Code Informations
 ==========================
 
-	wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/filename
+```shell
+
+wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/filename
+
+```
 
 ```python
 
