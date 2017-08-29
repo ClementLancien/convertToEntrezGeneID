@@ -4,7 +4,7 @@ EntrezGene
 [comment]: <> (https://rozaxe.github.io/factory/)
 [![Stable v0.1.0](https://img.shields.io/badge/Stable-v0.1.0-green.svg)](https://github.com/ClementLancien/convertToEntrezGeneID)
 [![Release v0.1.0](https://img.shields.io/badge/Release-v0.1.0-blue.svg)](https://github.com/ClementLancien/convertToEntrezGeneID)
-[![Python v>=2.7.0](https://img.shields.io/badge/Python-v>=2.7.0-0077ea.svg)](https://www.python.org/)
+[![Python v>=2.7.12](https://img.shields.io/badge/Python-v>=2.7.12-0077ea.svg)](https://www.python.org/)
 [![Dependencies pandas](https://img.shields.io/badge/Dependencies-pandas-cc9900.svg)](https://pandas.pydata.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -302,4 +302,6 @@ Requirements
 ============
 
 pandas==0.17.1
+
+pymongo==2.7.2
 
