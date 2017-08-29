@@ -123,8 +123,7 @@ class Accession():
             self.dataframe=[]
            
             for df in pandas.read_csv(self.filename_accession, header=0, sep="\t", usecols=[self.index_entrez,self.index_GenBank_transcript], dtype='str', chunksize=self.size):
-                print df
-                return
+
                 df.columns = ['EGID','BDID']
                 #df['EGID'] = df['EGID'].astype(str)
                 #df['BDID'] = df['BDID'].astype(str)
