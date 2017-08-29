@@ -136,18 +136,19 @@ class Download():
             self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
-            return
-
-        try:
-
-            subprocess.check_output(['bash','-c', "gunzip -f " + self.ensembl])
-
-        except subprocess.CalledProcessError as error:
             
-            self.logger.warning("Error - download.py - getAccession - Extract File")
-            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
-            self.logger.warning(sys.exc_info())
-            self.logger.warning(error)
+        else:
+            
+            try:
+
+                subprocess.check_output(['bash','-c', "gunzip -f " + self.ensembl])
+
+            except subprocess.CalledProcessError as error:
+            
+                self.logger.warning("Error - download.py - getAccession - Extract File")
+                self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
+                self.logger.warning(sys.exc_info())
+                self.logger.warning(error)
 
     def getUnigene(self):
 
@@ -174,18 +175,19 @@ class Download():
             self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
-            return
             
-        try:
+        else:
+            
+            try:
 
-            subprocess.check_output(['bash','-c', "gunzip -f " + self.accession])
+                subprocess.check_output(['bash','-c', "gunzip -f " + self.accession])
             
-        except subprocess.CalledProcessError as error:
+            except subprocess.CalledProcessError as error:
             
-            self.logger.warning("Error - download.py - getAccession - Extract File")
-            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
-            self.logger.warning(sys.exc_info())
-            self.logger.warning(error)
+                self.logger.warning("Error - download.py - getAccession - Extract File")
+                self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
+                self.logger.warning(sys.exc_info())
+                self.logger.warning(error)
 
     def getInfo(self):
 
@@ -199,38 +201,57 @@ class Download():
             self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
-            return
-
-        try:
-            subprocess.check_output(['bash','-c', "gunzip -f " + self.info])
-
-        except subprocess.CalledProcessError as error:
             
-            self.logger.warning("Error - download.py - getInfo - Extract File")
-            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
-            self.logger.warning(sys.exc_info())
-            self.logger.warning(error)
+        else:
+            
+            try:
+                
+                subprocess.check_output(['bash','-c', "gunzip -f " + self.info])
+
+            except subprocess.CalledProcessError as error:
+            
+                self.logger.warning("Error - download.py - getInfo - Extract File")
+                self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
+                self.logger.warning(sys.exc_info())
+                self.logger.warning(error)
 
     def getGPL(self):
         """This function allows you to connect to the NCBI FTP server"""
         
-        host = "ftp.ncbi.nlm.nih.gov" # adresse du serveur FTP
-        connect = ftplib.FTP(host, 'anonymous', 'anonymous') 
-        connect.cwd("/geo/platforms")
-        for _dir in connect.nlst():  
- 
-
-            for subdir in connect.nlst(str(_dir)):
-                if ((str(subdir) + "/annot") in connect.nlst(str(subdir))):
-                    response = urllib2.urlopen('ftp://'+host+"/geo/platforms/"+str(subdir) + "/annot/" + (str(subdir.split("/")[1])) + ".annot.gz")
-                    compressedFile = StringIO.StringIO()
-                    compressedFile.write(response.read())
-                    compressedFile.seek(0)
-                    decompressedFile = gzip.GzipFile(fileobj=compressedFile, mode='rb')
+        try:
+            
+            host = "ftp.ncbi.nlm.nih.gov" # adresse du serveur FTP
+            connect = ftplib.FTP(host, 'anonymous', 'anonymous') 
+            connect.cwd("/geo/platforms")
+            
+        except:
+            
+            self.logger.warning("Error - download.py - getGPL - Connection to NCBI FTP Server ")
+            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
+            self.logger.warning(sys.exc_info())            
         
-                    with open(os.path.join(self.gpl ,(str(subdir.split("/")[1])) +'.annot'), 'w') as outfile:
-                        outfile.write(decompressedFile.read())
-        connect.quit()
+        else:
+            
+            try:
+                
+                for _dir in connect.nlst():  
+                    for subdir in connect.nlst(str(_dir)):
+                        if ((str(subdir) + "/annot") in connect.nlst(str(subdir))):
+                            response = urlopen('ftp://'+host+"/geo/platforms/"+str(subdir) + "/annot/" + (str(subdir.split("/")[1])) + ".annot.gz")
+                            compressedFile = StringIO.StringIO()
+                            compressedFile.write(response.read())
+                            compressedFile.seek(0)
+                            decompressedFile = gzip.GzipFile(fileobj=compressedFile, mode='rb')
+        
+                            with open(os.path.join(self.gpl ,(str(subdir.split("/")[1])) +'.annot'), 'w') as outfile:
+                                outfile.write(decompressedFile.read())
+                connect.quit()
+                
+            except:
+                
+                self.logger.warning("Error - download.py - getGPL - Fail to Loop over the NEST ")
+                self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
+                self.logger.warning(sys.exc_info())  
 
     def getHomoloGene(self):
         """Already in flat file """
@@ -258,18 +279,19 @@ class Download():
             self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
-            return
-
-        try:
-
-            subprocess.check_output(['bash','-c', "gunzip -f " + self.vega + " &>/dev/null" ])
-
-        except subprocess.CalledProcessError as error:
             
-            self.logger.warning("Error - download.py - getVega - Extract File")
-            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
-            self.logger.warning(sys.exc_info())
-            self.logger.warning(error)
+        else:
+            
+            try:
+
+                subprocess.check_output(['bash','-c', "gunzip -f " + self.vega + " &>/dev/null" ])
+
+            except subprocess.CalledProcessError as error:
+            
+                self.logger.warning("Error - download.py - getVega - Extract File")
+                self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
+                self.logger.warning(sys.exc_info())
+                self.logger.warning(error)
 
     def getHistory(self):
         """ gene2gene"""
@@ -284,18 +306,19 @@ class Download():
             self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
-            return
-
-        try:
-
-            subprocess.check_output(['bash','-c', "gunzip -f " + self.history])
-
-        except subprocess.CalledProcessError as error:
             
-            self.logger.warning("Error - download.py - getHistory - Extract File")
-            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
-            self.logger.warning(sys.exc_info())
-            self.logger.warning(error)
+        else:
+            
+            try:
+
+                subprocess.check_output(['bash','-c', "gunzip -f " + self.history])
+
+            except subprocess.CalledProcessError as error:
+            
+                self.logger.warning("Error - download.py - getHistory - Extract File")
+                self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
+                self.logger.warning(sys.exc_info())
+                self.logger.warning(error)
 
     def getSwissprot(self):
 
@@ -309,23 +332,25 @@ class Download():
             self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
-            return
+        
+        else:
 
-        try:
+            try:
+                
+                subprocess.check_output(['bash','-c', "gunzip -f " + self.swissprot + " | egrep \"^ID   | ^AC  | ^DP | ^// \" "])
 
-            subprocess.check_output(['bash','-c', "gunzip -f " + self.swissprot + " | egrep \"^ID   | ^AC  | ^DP | ^// \" "])
-
-        except subprocess.CalledProcessError as error:
+            except subprocess.CalledProcessError as error:
             
-            self.logger.warning("Error - download.py - getSwissprot - Extract File")
-            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
-            self.logger.warning(sys.exc_info())
-            self.logger.warning(error)
+                self.logger.warning("Error - download.py - getSwissprot - Extract File")
+                self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
+                self.logger.warning(sys.exc_info())
+                self.logger.warning(error)
 
 
     def getTrembl(self):
 
         try:
+            
             subprocess.check_output(['bash','-c', "wget ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_trembl.dat.gz --output-document=" + self.trembl + " &>/dev/null"])
 
         except subprocess.CalledProcessError as error:
@@ -334,17 +359,19 @@ class Download():
             self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             self.logger.warning(error)
-            return
             
-        try:
-            subprocess.check_output(['bash','-c', "gunzip -f " + self.trembl + " | egrep \"^ID   | ^AC  | ^DP | ^// \" " ])
+        else:
+            
+            try:
+                
+                subprocess.check_output(['bash','-c', "gunzip -f " + self.trembl + " | egrep \"^ID   | ^AC  | ^DP | ^// \" " ])
 
-        except subprocess.CalledProcessError as error:
+            except subprocess.CalledProcessError as error:
             
-            self.logger.warning("Error - download.py - getTrembl - Extract File")
-            self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
-            self.logger.warning(sys.exc_info())
-            self.logger.warning(error)
+                self.logger.warning("Error - download.py - getTrembl - Extract File")
+                self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
+                self.logger.warning(sys.exc_info())
+                self.logger.warning(error)
 
 fileDownload = Download()
 
