@@ -5,13 +5,64 @@ Created on Wed Apr 19 10:01:06 2017
 @author: clancien
 """
 
-import os # nééd to use to make a path 
+import os
 import ftplib 
 import gzip
-import StringIO
-import urllib2
+
+try:
+	from StringIO import StringIO
+
+except ImportError:
+
+    	from io import StringIO
+
+try:
+	from urllib2 import urlopen
+    
+
+except ImportError:
+
+	from urllib.request import urlopen
+    
 import subprocess
-import ConfigParser
+
+try:
+	import ConfigParser
+
+except ImportError:
+
+	import configparser as ConfigParser
+
+import logging
+from logging.handlers import RotatingFileHandler
+import sysimport os # nééd to use to make a path 
+import ftplib 
+import gzip
+
+try:
+	from StringIO import StringIO
+
+except ImportError:
+
+    	from io import StringIO
+
+try:
+	from urllib2 import urlopen
+    
+
+except ImportError:
+
+	from urllib.request import urlopen
+    
+import subprocess
+
+try:
+	import ConfigParser
+
+except ImportError:
+
+	import configparser as ConfigParser
+
 import logging
 from logging.handlers import RotatingFileHandler
 import sys
