@@ -63,6 +63,8 @@ From these files, Entrez Gene extract and create the following files :
 
 - Entrez_GeneToInfo
 
+- Entrez_GeneToInfo_With_Homologene
+
 - Entrez_GeneToSwissProt
 
 - Entrez_GeneTotrEMBL
@@ -152,6 +154,7 @@ Data
 |   ├──convert
 |   |  └──info (.tsv)
 |   └──raw
+|      ├──Entrez_GeneToInfo_With_Homologene (.tsv)
 |      └──Entrez_GeneToInfo (.tsv)
 |
 ├──swissprot
