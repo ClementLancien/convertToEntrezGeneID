@@ -5,7 +5,7 @@ Created on Wed Apr 19 10:01:06 2017
 @author: clancien
 """
 
-import os # nééd to use to make a path 
+import os
 import ftplib 
 import gzip
 
