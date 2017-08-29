@@ -19,6 +19,8 @@ import logging
 from logging.handlers import RotatingFileHandler
 import sys
 
+__all__ = ['GPL']
+
 class GPL():
     
     def __init__(self):
@@ -260,7 +262,7 @@ class GPL():
             self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             
-    def getGPL(self):
+    def get_GPL(self):
         
         for pathFile in self.list_path_files:
             self.create_index(pathFile)
@@ -269,8 +271,10 @@ class GPL():
             
 
                     
-
-test = GPL()
-test.getGPL()
+#if __name__ == '__main__':
+    
+#    GPL().get_GPL()
+#test = GPL()
+#test.getGPL()
 
 

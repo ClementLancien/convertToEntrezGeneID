@@ -151,11 +151,12 @@ class Unigene():
             self.logger.warning(sys.exc_info())
 
 
-    def convertToGene(self):
+    def get_Gene(self):
 
         self.getData()
         self.delDoublonInDataframe()
         self.writeFile()
         
-
-Unigene().convertToGene()
+if __name__ == '__main__':
+    
+    Unigene().get_Gene()

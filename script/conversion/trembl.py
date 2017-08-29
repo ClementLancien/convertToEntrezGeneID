@@ -19,6 +19,8 @@ import logging
 from logging.handlers import RotatingFileHandler
 import sys
 
+__all__ = ['TREMBL']
+
 class TREMBL():
     
     def __init__(self):
@@ -70,7 +72,7 @@ class TREMBL():
         self.file_handler.setFormatter(self.formatter)
         self.logger.addHandler(self.file_handler)
         
-    def gettrEMBL(self):
+    def get_trEMBL(self):
         
         try:
             
@@ -108,5 +110,6 @@ class TREMBL():
 
 
 
-         
-TREMBL()
+#if __name__ == '__main__': 
+       
+#    TREMBL().get_trEMBL()

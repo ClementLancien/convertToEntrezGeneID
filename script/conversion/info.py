@@ -19,6 +19,9 @@ import logging
 from logging.handlers import RotatingFileHandler
 import sys
 
+__all__ = ['Info']
+
+
 class Info():
     
     def __init__(self):
@@ -100,7 +103,7 @@ class Info():
             self.index_symbol = header_line.index('Symbol')
             self.index_description = header_line.index('description')
             
-    def getInfo(self):
+    def get_Info(self):
         
         # ~False = true
         try:
@@ -137,4 +140,5 @@ class Info():
                 self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
                 self.logger.warning(sys.exc_info())       
 
-Info().getInfo()
+#if __name__ == '__main__':
+#    Info().get_Info()

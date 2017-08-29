@@ -4,6 +4,9 @@ Created on Wed Apr 19 16:15:47 2017
 
 @author: clancien
 """
+
+
+
 try:
 	import ConfigParser
 
@@ -19,7 +22,11 @@ import logging
 from logging.handlers import RotatingFileHandler
 import sys
 
+__all__ = ['Accession']
+            
 class Accession():
+    
+    
     
     def __init__(self):
         
@@ -114,8 +121,9 @@ class Accession():
             self.index_RefSeq_protein = header_line.index('protein_accession.version')
             self.index_GI_transcript = header_line.index('RNA_nucleotide_gi')
             self.index_GI_protein = header_line.index('protein_gi')
-
-    def getGenBank_transcript(self):
+    
+    
+    def get_GenBank_transcript(self):
         
         # ~False = true
         try:
@@ -154,7 +162,7 @@ class Accession():
                 self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
                 self.logger.warning(sys.exc_info())
             
-    def getGenBank_protein(self):
+    def get_GenBank_protein(self):
         
         # ~False = true
         try:
@@ -193,7 +201,7 @@ class Accession():
                 self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
                 self.logger.warning(sys.exc_info()) 
          
-    def getRefSeq_transcript(self):
+    def get_RefSeq_transcript(self):
         
         try:
             
@@ -229,7 +237,7 @@ class Accession():
                 self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
                 self.logger.warning(sys.exc_info())    
   
-    def getRefSeq_protein(self):
+    def get_RefSeq_protein(self):
         
         try:
             
@@ -265,7 +273,7 @@ class Accession():
                 self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
                 self.logger.warning(sys.exc_info())  
 
-    def getGI_transcript(self):
+    def get_GI_transcript(self):
         
         try:
             
@@ -300,7 +308,7 @@ class Accession():
                 self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
                 self.logger.warning(sys.exc_info())  
 
-    def getGI_protein(self):
+    def get_GI_protein(self):
         
         try:
             
@@ -337,20 +345,33 @@ class Accession():
                 self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
                 self.logger.warning(sys.exc_info())  
 
+#get_GenBank_transcript =    Accession().get_GenBank_transcript()
+#get_GenBank_protein =    Accession().get_GenBank_protein()
+#get_RefSeq_transcript =    Accession().get_RefSeq_transcript()
+#get_RefSeq_protein =    Accession().get_RefSeq_protein()
+#get_GI_transcript =    Accession().get_GI_transcript()
+#get_GI_protein =    Accession().get_GI_protein()
 
 
- 
+
+#if __name__ == '__main__':
     
-accession = Accession()
-print "getGenBank_transcript"
-accession.getGenBank_transcript()
-print "getGenBank_protein"
-Accession().getGenBank_protein()
-print "getRefSeq_transcript"
-Accession().getRefSeq_transcript()
-print "getRefSeq_protein"
-Accession().getRefSeq_protein()
-print "getGI_transcript"
-Accession().getGI_transcript()
-print "getGI_protein"
-Accession().getGI_protein()
+#    Accession().get_GenBank_transcript()
+#    Accession().get_GenBank_protein()
+#    Accession().get_RefSeq_transcript()
+#    Accession().get_GI_transcript()
+#    Accession().get_GI_protein()
+        
+#accession = Accession()
+#print "getGenBank_transcript"
+#accession.get_GenBank_transcript()
+#print "getGenBank_protein"
+#Accession().get_GenBank_protein()
+#print "getRefSeq_transcript"
+#Accession().get_RefSeq_transcript()
+#print "getRefSeq_protein"
+#Accession().get_RefSeq_protein()
+#print "getGI_transcript"
+#Accession().get_GI_transcript()
+#print "getGI_protein"
+#Accession().get_GI_protein()

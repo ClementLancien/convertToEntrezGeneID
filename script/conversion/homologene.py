@@ -19,6 +19,9 @@ import logging
 from logging.handlers import RotatingFileHandler
 import sys
 
+__all__ = ['Homologene']
+
+
 class Homologene():
     
     def __init__(self):
@@ -127,10 +130,11 @@ class Homologene():
             self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             
-    def getHomologene(self):
+    def get_Homologene(self):
         
         self.getData()
         self.writeFile()
         
-            
-Homologene().getHomologene()
+#if __name__ == '__main__':
+    
+#    Homologene().get_Homologene()

@@ -19,6 +19,8 @@ import logging
 from logging.handlers import RotatingFileHandler
 import sys
 
+__all__ = ['Ensembl']
+
 class Ensembl():
 
     def __init__(self):
@@ -170,25 +172,32 @@ class Ensembl():
             self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
 
-    def convertToGene(self):
+    def get_Gene(self):
 
         self.getData(self.index_gene)
         self.delDoublonInDataframe(self.index_gene)
         self.writeFile(self.filename_gene)
 
-    def convertToTranscript(self):
+    def get_Transcript(self):
 
         self.getData(self.index_transcript)
         self.delDoublonInDataframe(self.index_transcript)
         self.writeFile(self.filename_transcript)
 
-    def convertToProtein(self):
+    def get_Protein(self):
 
         self.getData(self.index_protein)
         self.delDoublonInDataframe(self.index_protein)
         self.writeFile(self.filename_protein)
 
-ensembl_file= Ensembl()
-ensembl_file.convertToGene()
-ensembl_file.convertToTranscript()
-ensembl_file.convertToProtein()
+
+#if __name__ == '__main__':
+    
+#    Ensembl().get_Gene()
+#    Ensembl().get_Transcript()
+#    Ensembl().get_Protein()
+    
+#ensembl_file= Ensembl()
+#ensembl_file.convertToGene()
+#ensembl_file.convertToTranscript()
+#ensembl_file.convertToProtein()

@@ -19,6 +19,9 @@ import logging
 from logging.handlers import RotatingFileHandler
 import sys
 
+__all__ = ['History']
+
+
 class History():
     
     def __init__(self):
@@ -136,9 +139,11 @@ class History():
             self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
             
-    def getHistory(self):
+    def get_History(self):
         
         self.getData()
         self.writeFile()           
 
-History().getHistory()
+#if __name__ == '__main__':
+
+#    History().get_History()

@@ -20,6 +20,8 @@ import logging
 from logging.handlers import RotatingFileHandler
 import sys
 
+__all__=['Vega']
+
 class Vega():
 
     def __init__(self):
@@ -105,7 +107,7 @@ class Vega():
             self.index_transcript = header_line.index('Vega_rna_identifier')
             self.index_protein = header_line.index('Vega_protein_identifier\n')
                  
-    def getVega_gene(self):
+    def get_Gene(self):
 
         try:
 
@@ -137,7 +139,7 @@ class Vega():
                 self.logger.warning("Error - vega.py - getVega_gene - write File")
                 self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
 
-    def getVega_transcript(self):
+    def get_Transcript(self):
 
         try:
 
@@ -170,7 +172,7 @@ class Vega():
                 self.logger.warning("Error - vega.py - getVega_transcript - write File")
                 self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
 
-    def getVega_protein(self):
+    def get_Protein(self):
 
         try:
 
@@ -202,7 +204,9 @@ class Vega():
                 self.logger.warning("Error - vega.py - getVega_protein - write File")
                 self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
 
-test = Vega()
-test.getVega_gene()
-test.getVega_transcript()
-test.getVega_protein()
+#if __name__ == '__main__':
+    
+#    Vega().get_Gene()
+#    Vega().get_Transcript()
+#    Vega().get_Protein
+

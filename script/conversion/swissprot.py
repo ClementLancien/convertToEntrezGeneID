@@ -19,6 +19,8 @@ import logging
 from logging.handlers import RotatingFileHandler
 import sys
 
+__all__ = ['Swissprot']
+
 class Swissprot():
     
     def __init__(self):
@@ -70,7 +72,7 @@ class Swissprot():
         self.file_handler.setFormatter(self.formatter)
         self.logger.addHandler(self.file_handler)
         
-    def getSwissprot(self):
+    def get_Swissprot(self):
         
         try:
             
@@ -105,5 +107,6 @@ class Swissprot():
             self.logger.warning("Error - swissprot.py - getSwissprot ")
             self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())
-            
-Swissprot().getSwissprot()       
+
+#if __name__ == '__main__':            
+#    Swissprot().get_Swissprot()       
