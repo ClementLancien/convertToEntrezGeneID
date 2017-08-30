@@ -428,7 +428,7 @@ class Insertion():
             
             try:
                 
-                subprocess.check_output(['bash','-c',"mongoimport -d geneulike -c GPL --type tsv --fields EGID.string\(\),BDID.string\(\),TAXID.string\(\),PLATFORM.string\(\),TITLE.string\(\),ORGANISM.string\(\) --columnsHaveTypes --numInsertionWorkers 8 --file " + self.GPL ])
+                subprocess.check_output(['bash','-c',"mongoimport -d geneulike -c GPL --type tsv --fields EGID.string\(\),BDID.string\(\),PLATFORM.string\(\),TITLE.string\(\),ORGANISM.string\(\) --columnsHaveTypes --numInsertionWorkers 8 --file " + self.GPL ])
             
             except subprocess.CalledProcessError as error:
                 
@@ -674,8 +674,8 @@ insert = Insertion()
 #insert.push_RefSeq_protein()
 #insert.push_GI_transcript()
 #insert.push_GI_protein()
-insert.push_Info()
-#insert.push_GPL()
+#insert.push_Info()
+insert.push_GPL()
 #insert.push_Homologene()
 #insert.push_Vega_gene()
 #insert.push_Vega_transcript()
