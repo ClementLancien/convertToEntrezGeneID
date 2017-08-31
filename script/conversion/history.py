@@ -144,6 +144,6 @@ class History():
         self.getData()
         self.writeFile()           
 
-#if __name__ == '__main__':
+if __name__ == '__main__':
 
-#    History().get_History()
+    History().get_History()

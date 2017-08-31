@@ -146,7 +146,7 @@ class InfoWithHomologene():
         self.get_detaframe_homologene()
         self.merge_info_homologene()
         
-#if __name__ == '__main__':        
+if __name__ == '__main__':        
 
-#    InfoWithHomologene().get_Info_With_Homologene()
+    InfoWithHomologene().get_Info_With_Homologene()
               

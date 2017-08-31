@@ -271,10 +271,9 @@ class GPL():
             
 
                     
-#if __name__ == '__main__':
+if __name__ == '__main__':
     
-#    GPL().get_GPL()
-#test = GPL()
-#test.getGPL()
+    GPL().get_GPL()
+
 
 

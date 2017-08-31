@@ -191,13 +191,9 @@ class Ensembl():
         self.writeFile(self.filename_protein)
 
 
-#if __name__ == '__main__':
+if __name__ == '__main__':
     
-#    Ensembl().get_Gene()
-#    Ensembl().get_Transcript()
-#    Ensembl().get_Protein()
+    Ensembl().get_Gene()
+    Ensembl().get_Transcript()
+    Ensembl().get_Protein()
     
-#ensembl_file= Ensembl()
-#ensembl_file.convertToGene()
-#ensembl_file.convertToTranscript()
-#ensembl_file.convertToProtein()

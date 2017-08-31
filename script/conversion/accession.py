@@ -345,22 +345,17 @@ class Accession():
                 self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
                 self.logger.warning(sys.exc_info())  
 
-#get_GenBank_transcript =    Accession().get_GenBank_transcript()
-#get_GenBank_protein =    Accession().get_GenBank_protein()
-#get_RefSeq_transcript =    Accession().get_RefSeq_transcript()
-#get_RefSeq_protein =    Accession().get_RefSeq_protein()
-#get_GI_transcript =    Accession().get_GI_transcript()
-#get_GI_protein =    Accession().get_GI_protein()
 
 
 
-#if __name__ == '__main__':
+if __name__ == '__main__':
     
-#    Accession().get_GenBank_transcript()
-#    Accession().get_GenBank_protein()
-#    Accession().get_RefSeq_transcript()
-#    Accession().get_GI_transcript()
-#    Accession().get_GI_protein()
+    Accession().get_GenBank_transcript()
+    Accession().get_GenBank_protein()
+    Accession().get_RefSeq_transcript()
+    Accession().get_RefSeq_protein()
+    Accession().get_GI_transcript()
+    Accession().get_GI_protein()
         
 #accession = Accession()
 #print "getGenBank_transcript"
@@ -370,7 +365,7 @@ class Accession():
 #print "getRefSeq_transcript"
 #Accession().get_RefSeq_transcript()
 #print "getRefSeq_protein"
-#Accession().get_RefSeq_protein()
+#
 #print "getGI_transcript"
 #Accession().get_GI_transcript()
 #print "getGI_protein"
