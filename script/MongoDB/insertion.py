@@ -664,7 +664,7 @@ class Insertion():
             
 
 
-if __name__ = '__main__':
+if __name__ == '__main__':
     
     Insertion().insert.push_Ensembl_gene()
     Insertion().insert.push_Ensembl_transcript()
