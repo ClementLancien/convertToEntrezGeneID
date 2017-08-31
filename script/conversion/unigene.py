@@ -158,5 +158,4 @@ class Unigene():
         self.writeFile()
         
 if __name__ == '__main__':
-    
     Unigene().get_Gene()
