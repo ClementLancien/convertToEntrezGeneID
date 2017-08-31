@@ -369,15 +369,15 @@ class Download():
                 self.logger.warning(sys.exc_info())
                 self.logger.warning(error)
 
-fileDownload = Download()
-
-#fileDownload.getEnsembl()
-#fileDownload.getUnigene()
-#fileDownload.getAccession()
-#fileDownload.getInfo()
-#fileDownload.getGPL()
-#fileDownload.getHomoloGene()
-#fileDownload.getVega()
-#fileDownload.getHistory()
-#fileDownload.getSwissprot()
-fileDownload.getTrembl()
+if __name__ == '__main__':
+    
+    Download().fileDownload.getEnsembl()
+    Download().fileDownload.getUnigene()
+    Download().fileDownload.getAccession()
+    Download().fileDownload.getInfo()
+    Download().fileDownload.getGPL()
+    Download().fileDownload.getHomoloGene()
+    Download().fileDownload.getVega()
+    Download().fileDownload.getHistory()
+    Download().fileDownload.getSwissprot()
+    Download().fileDownload.getTrembl()
