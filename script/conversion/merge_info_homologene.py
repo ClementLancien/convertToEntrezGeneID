@@ -20,9 +20,6 @@ import logging
 from logging.handlers import RotatingFileHandler
 import sys
 
-__all__ = ['InfoWithHomologene']
-
-
 class InfoWithHomologene():
     
     def __init__(self):

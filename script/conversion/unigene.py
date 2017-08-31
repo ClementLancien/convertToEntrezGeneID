@@ -126,7 +126,6 @@ class Unigene():
             self.logger.warning("Exception at the line : {}".format(sys.exc_info()[-1].tb_lineno))
             self.logger.warning(sys.exc_info())           
 
-    
     def delDoublonInDataframe(self):
 
         try:

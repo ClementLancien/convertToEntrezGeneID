@@ -21,8 +21,6 @@ import re
 import logging
 from logging.handlers import RotatingFileHandler
 import sys
-
-__all__ = ['Accession']
             
 class Accession():
     

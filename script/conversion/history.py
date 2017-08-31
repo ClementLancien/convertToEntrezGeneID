@@ -19,9 +19,6 @@ import logging
 from logging.handlers import RotatingFileHandler
 import sys
 
-__all__ = ['History']
-
-
 class History():
     
     def __init__(self):

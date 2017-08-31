@@ -19,8 +19,6 @@ import logging
 from logging.handlers import RotatingFileHandler
 import sys
 
-__all__ = ['Swissprot']
-
 class Swissprot():
     
     def __init__(self):

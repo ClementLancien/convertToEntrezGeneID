@@ -20,8 +20,6 @@ import logging
 from logging.handlers import RotatingFileHandler
 import sys
 
-__all__=['Vega']
-
 class Vega():
 
     def __init__(self):

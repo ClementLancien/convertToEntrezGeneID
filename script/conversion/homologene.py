@@ -19,9 +19,6 @@ import logging
 from logging.handlers import RotatingFileHandler
 import sys
 
-__all__ = ['Homologene']
-
-
 class Homologene():
     
     def __init__(self):

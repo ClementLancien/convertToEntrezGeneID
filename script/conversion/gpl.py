@@ -19,8 +19,6 @@ import logging
 from logging.handlers import RotatingFileHandler
 import sys
 
-__all__ = ['GPL']
-
 class GPL():
     
     def __init__(self):

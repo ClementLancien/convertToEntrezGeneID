@@ -19,8 +19,6 @@ import logging
 from logging.handlers import RotatingFileHandler
 import sys
 
-__all__ = ['TREMBL']
-
 class TREMBL():
     
     def __init__(self):
