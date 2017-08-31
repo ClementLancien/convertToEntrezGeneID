@@ -212,7 +212,7 @@ class Download():
                 self.logger.warning(error)
 
     def getGPL(self):
-        """This function allows you to connect to the NCBI FTP server"""
+        """This function allows you to connect to the NCBI FTP server."""
         
         try:
             
